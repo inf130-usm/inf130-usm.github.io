@@ -1,0 +1,33 @@
+.header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: hsla(231, 48%, 48%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+    font-family: "Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
+
+.header-container{
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items:center;
+}
+
+.header-logo-container{
+    margin: .2rem;
+    padding: .4rem;
+}
+
+.header-logo{
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: hsla(0, 0%, 100%, 1);
+}
+
+.header-title-container{
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,56 @@
+.unit{
+    overflow-y: auto;
+}
+
+.unit-title{
+    font-size: x-large;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.unit-subtitle{
+    font-size:  medium;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.unit-content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.unit-table{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.unit-image{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.unit-exercise{
+    display:flex;
+}
+
+.unit-exercise-answers{
+    width: 50%;
+}
+
+.unit-excercise-answer{
+    display: block;
+    text-align: left;
+    padding-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+.unit-exercise-image{
+    width: 50%;
+}
+
+.unit-exercise-button{
+    width: 12rem;
+}
