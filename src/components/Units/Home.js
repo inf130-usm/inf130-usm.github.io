@@ -1,10 +1,11 @@
 import React from 'react';
+import './units.css';
 
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='unit'>
             <div>
-                Home
+                En construcción
             </div>
         </div>
     );

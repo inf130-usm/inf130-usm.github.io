@@ -1,5 +1,7 @@
 .unit{
+    width: 81.25%;
     overflow-y: auto;
+    padding-right: 2rem;
 }
 
 .unit-title{

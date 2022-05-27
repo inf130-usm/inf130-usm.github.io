@@ -1,8 +1,10 @@
 import React from 'react';
+import MenuTopicsUnit3 from '../MenuTopics/Topics/MenuTopicsUnit3';
 import './units.css';
 
 const Unit3 = () => {
     return (
+        <>
         <div className='unit'>
             <div className='unit-title'>
                 <label>
@@ -10,6 +12,8 @@ const Unit3 = () => {
                 </label>
             </div>
         </div>
+        <MenuTopicsUnit3/>
+        </>
     );
 }
 
