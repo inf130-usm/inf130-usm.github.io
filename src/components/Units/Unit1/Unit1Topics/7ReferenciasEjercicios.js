@@ -138,7 +138,7 @@ const ReferenciasEjercicios = () => {
                     </div>
                 </div>
                 <p>
-                    3) La ganancia por venta de Camilo es el valor establecido en la celda C1. Ingrese la formula para obtener la ganancia por la venta 1 y luego poder arrastrar hacia la derecha para obtener la ganancia de las otras 2
+                    3) La ganancia por venta de Camilo es el valor establecido en la celda C1. Ingrese la formula para obtener la ganancia por la venta 1 y poder luego arrastrar hacia la derecha para obtener la ganancia de las otras 2
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit3} className="unit-exercise-answers">
