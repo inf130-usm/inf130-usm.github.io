@@ -14,13 +14,13 @@ const Relativas = () => {
                 Como se puede observar en la figura 1, en la celda B2 se está obteniendo la suma de las celdas A1 y B1. Al copiar la celda y pegarla en la celda C2 (figura 2), se puede observar que el valor resultante cambió, así como las referencias. En C2 se está sumando B1 junto a C1.
                 </p>
                 <div className='unit-image'>
-                    <img src={"/images/ReferenciasRelativas-Figura1.jpg"} alt="Referencias Relativas Figura 1"/>
+                    <img src={"./images/ReferenciasRelativas-Figura1.jpg"} alt="Referencias Relativas Figura 1"/>
                     <div className='unit-caption'>
                         <label>Figura 1</label>
                     </div>
                 </div>
                 <div className='unit-image'>
-                    <img src={"/images/ReferenciasRelativas-Figura2.jpg"} alt="Referencias Relativas Figura 2"/>
+                    <img src={"./images/ReferenciasRelativas-Figura2.jpg"} alt="Referencias Relativas Figura 2"/>
                     <div>
                         <label>Figura 2</label>
                     </div>

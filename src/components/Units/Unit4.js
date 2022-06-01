@@ -22,7 +22,7 @@ const Unit4 = () => {
                 el procedimiento Function, el cual tiene una sintaxis similar a Sub.
                 </p>
                 <div className="unit-image">
-                    <img src={"/images/SintaxisFunction.png"} className='unit-image' alt="Sintáxis del procedimiento Function"/>
+                    <img src={"./images/SintaxisFunction.png"} className='unit-image' alt="Sintáxis del procedimiento Function"/>
                 </div>
                 <p>
                 Se inicia con la palabra reservada <b style={{color:'red'}}>Function</b>, continuando se ingresa el <b style={{color:'blue'}}>nombre</b> que se le dará a la función.
@@ -41,13 +41,13 @@ const Unit4 = () => {
                 retorna un valor de tipo Long.
                 </p>
                 <div className="unit-image2">
-                    <img src={"/images/FunctionSuma.png"} className='unit-image' alt="Ejemplo de una Function"/>
+                    <img src={"./images/FunctionSuma.png"} className='unit-image' alt="Ejemplo de una Function"/>
                 </div>
                 <p>
                 Finalizada ya la función, es posible usarla de la misma forma que las funciones predefinidas de Excel
                 </p>
                 <div className="unit-image3">
-                    <img src={"/images/FunctionEjemplo.png"} className='unit-image' alt="Modo de uso de Functions"/>
+                    <img src={"./images/FunctionEjemplo.png"} className='unit-image' alt="Modo de uso de Functions"/>
                 </div>
                 <p>
                 Así como en la hoja de cálculo, también se pueden utilizar la funciones creadas dentro de una subrutina. La lógica
@@ -55,7 +55,7 @@ const Unit4 = () => {
                 al utilizar la función en código.
                 </p>
                 <div className="unit-image2">
-                    <img src={"/images/FunctionEnSub.png"} className='unit-image' alt="Modo de uso de Functions en subrutinas"/>
+                    <img src={"./images/FunctionEnSub.png"} className='unit-image' alt="Modo de uso de Functions en subrutinas"/>
                 </div>
                 <p>
                 Como se puede observar, en la subrutina <i>sumar</i> se está haciendo uso de la función <i>sumaEnteros</i>, para
