@@ -4,9 +4,15 @@ import '../menutopics.css';
 const MenuTopicsUnit1 = () => {
     return (   
         <div className='topics'>
-            <label className='menu-list-title'>
-                Contenidos
-            </label>
+            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                <div style={{flex: 1, height: '1px', marginRight: '5px', backgroundColor: 'black'}} />
+                <div>
+                    <label className='menu-list-title'>
+                        Tópicos
+                    </label>
+                </div>
+                <div style={{flex: 1, height: '1px', marginLeft: '5px', backgroundColor: 'black'}} />
+            </div>
             <ul className='menutopics-list'>
                 <li>
                     <a href="/unidad1/conceptos-basicos" className='menu-list-item'>Conceptos básicos</a>
@@ -24,7 +30,7 @@ const MenuTopicsUnit1 = () => {
                     <a href="/unidad1/formato-condicional" className='menu-list-item'>Formato condicional</a>
                 </li>
                 <li>
-                    <a href="/unidad1/validacion" className='menu-list-item'>Validación de datos</a>
+                    <a href="/unidad1/validacion-datos" className='menu-list-item'>Validación de datos</a>
                 </li>
                 <li>
                     <a href="/unidad1/archivos-csv" className='menu-list-item'>Archivos CSV</a>
@@ -37,6 +43,9 @@ const MenuTopicsUnit1 = () => {
                 </li>
                 <li>
                     <a href="/unidad1/tablas-dinamicas" className='menu-list-item'>Tablas Dinámicas</a>
+                </li>
+                <li>
+                    <a href="/unidad1/ejercicios" className='menu-list-item'>Ejercicios</a>
                 </li>
             </ul>
         </div>

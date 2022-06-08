@@ -7,9 +7,9 @@ import FormControl from '@mui/material/FormControl';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormLabel from '@mui/material/FormLabel';
 import Button from '@mui/material/Button';
-import '../../units.css';
+import '../../../units.css';
 
-const ReferenciasEjercicios = () => {
+const EjReferencias = () => {
     const [Answer1, setAnswer1] = React.useState('');
     const [Answer2, setAnswer2] = React.useState('');
     const [Answer3, setAnswer3] = React.useState('');
@@ -45,7 +45,7 @@ const ReferenciasEjercicios = () => {
         setHelperText1('Por favor, selecciona una opción.');
         setError1(true);
         } else {
-        setHelperText1('Texto explicativo de la solución.');
+        setHelperText1('Explicación de solución correcta en construcción.');
         setError1(true);
         }
     };
@@ -58,7 +58,7 @@ const ReferenciasEjercicios = () => {
         setHelperText2('Por favor, selecciona una opción.');
         setError2(true);
         } else {
-        setHelperText2('Texto explicativo de la solución.');
+        setHelperText2('Explicación de solución correcta en construcción.');
         setError2(true);
         }
     };
@@ -71,15 +71,15 @@ const ReferenciasEjercicios = () => {
         setHelperText3('Por favor, selecciona una opción.');
         setError3(true);
         } else {
-        setHelperText3('Texto explicativo de la solución.');
+        setHelperText3('Explicación de solución correcta en construcción.');
         setError3(true);
         }
     };
     return (
-        <div id='u1-mixtas'>
+        <>
             <div className='unit-subtitle'>
                 <label>
-                    Ejercitación
+                    Referencias
                 </label>
             </div>
             <div className='unit-content'>
@@ -138,12 +138,22 @@ const ReferenciasEjercicios = () => {
                     </div>
                 </div>
                 <p>
-                    3) La ganancia por venta de Camilo es el valor establecido en la celda C1. Ingrese la formula para obtener la ganancia por la venta 1 y poder luego arrastrar hacia la derecha para obtener la ganancia de las otras 2
+                    3) La ganancia por venta de Camilo es el valor establecido en la celda C1. Ingrese la formula para obtener la ganancia por la venta 1 y poder luego arrastrar hacia la derecha para obtener la ganancia de las otras 2.
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit3} className="unit-exercise-answers">
                         <FormControl error={error3} variant="standard">
-                            <Input></Input>
+                            <RadioGroup
+                                aria-labelledby="demo-error-radios"
+                                name="quiz3"
+                                value={Answer3}
+                                onChange={handleRadioChange3}
+                            >
+                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="C" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="D" control={<Radio />} className="unit-excercise-answer" label="" />
+                            </RadioGroup>
                             <Button className='unit-exercise-button' type="submit" variant="outlined">
                             Enviar Respuesta
                             </Button>
@@ -151,12 +161,12 @@ const ReferenciasEjercicios = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"./images/ReferenciasEjercicio3.jpg"} className='unit-image' alt="Referencias Ejercicio 3"/>
+                        <img src={"/images/ReferenciasEjercicio3.jpg"} className='unit-image' alt="Referencias Ejercicio 3"/>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
-export default ReferenciasEjercicios;
+export default EjReferencias;

@@ -37,7 +37,7 @@ const Unit4 = () => {
                 las palabras reservadas <b style={{color:'red'}}>End Function</b>.
                 </p>
                 <p>
-                A continuación se puede observar la creación de una función llamada <i>sumaEnteros</i>, que recibe dos parámetros de tipo Integer y
+                A continuación se puede observar la creación de una función llamada <i>sumaEnteros</i>, que recibe dos parámetros de tipo Integer (num1, num2) y
                 retorna un valor de tipo Long.
                 </p>
                 <div className="unit-image2">
@@ -50,7 +50,7 @@ const Unit4 = () => {
                     <img src={"./images/FunctionEjemplo.png"} className='unit-image' alt="Modo de uso de Functions"/>
                 </div>
                 <p>
-                Así como en la hoja de cálculo, también se pueden utilizar la funciones creadas dentro de una subrutina. La lógica
+                Las referencias estudiadas en la Unidad 1 funcionan perfectamente con las funciones creadas y, así como en la hoja de cálculo, también se pueden utilizar la funciones creadas dentro de una subrutina. La lógica
                 es la misma, se le entregan datos como parámetro y la función entrega un resultado, pero la sintáxis cambia
                 al utilizar la función en código.
                 </p>

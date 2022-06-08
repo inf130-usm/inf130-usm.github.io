@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../units.css';
 
-const ConceptosBasicos = () => {
+const FormatoCondicional = () => {
     return (
-        <div id='u1-conceptosbasicos'>
+        <div id='u1-formatocondicional'>
             <div className='unit-subtitle'>
                 <label>
-                    Conceptos Básicos
+                    Formato Condicional
                 </label>
             </div>
             <div className='unit-content'>
@@ -18,4 +18,4 @@ const ConceptosBasicos = () => {
     );
 }
 
-export default ConceptosBasicos;
+export default FormatoCondicional;

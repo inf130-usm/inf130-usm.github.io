@@ -4,9 +4,15 @@ import './menutopics.css'
 const Menu = () => {
     return (
         <div className='menu'>
-            <label className='menu-list-title'>
-                INF-130
-            </label>
+            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                <div style={{flex: 1, height: '1px', marginRight: '5px', backgroundColor: 'black'}} />
+                <div>
+                    <label className='menu-list-title'>
+                        Unidades
+                    </label>
+                </div>
+                <div style={{flex: 1, height: '1px', marginLeft: '5px', backgroundColor: 'black'}} />
+            </div>
             <ul className='menutopics-list'>
                 <li>
                     <a href="/" className='menu-list-item'>Inicio</a>

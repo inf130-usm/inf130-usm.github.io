@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../units.css';
 
-const ConceptosBasicos = () => {
+const Funciones = () => {
     return (
-        <div id='u1-conceptosbasicos'>
+        <div id='u1-funciones'>
             <div className='unit-subtitle'>
                 <label>
-                    Conceptos Básicos
+                    Funciones
                 </label>
             </div>
             <div className='unit-content'>
@@ -18,4 +18,4 @@ const ConceptosBasicos = () => {
     );
 }
 
-export default ConceptosBasicos;
+export default Funciones;

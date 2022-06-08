@@ -1,13 +1,12 @@
 import React from 'react';
 import '../../units.css';
 
-const ConceptosBasicos = () => {
+const ArchivosCSV = () => {
     return (
-        <div id='u1-conceptosbasicos'>
+        <div id='u1-archivoscsv'>
             <div className='unit-subtitle'>
-                <label>
-                    Conceptos Básicos
-                </label>
+                <label>Archivos .</label>
+                <label style={{textTransform: 'uppercase'}} >CSV</label>
             </div>
             <div className='unit-content'>
                 <p>
@@ -18,4 +17,4 @@ const ConceptosBasicos = () => {
     );
 }
 
-export default ConceptosBasicos;
+export default ArchivosCSV;

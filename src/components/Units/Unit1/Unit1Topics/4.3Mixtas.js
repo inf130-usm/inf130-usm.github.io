@@ -9,6 +9,11 @@ const Mixtas = () => {
                     Referencias Mixtas
                 </label>
             </div>
+            <div className='unit-content'>
+                <p>
+                    Contenido bajo desarrollo...
+                </p>
+            </div>
         </div>
     );
 }

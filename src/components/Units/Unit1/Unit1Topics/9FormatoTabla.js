@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../units.css';
 
-const ConceptosBasicos = () => {
+const FormatoTabla = () => {
     return (
-        <div id='u1-conceptosbasicos'>
+        <div id='u1-formatotabla'>
             <div className='unit-subtitle'>
                 <label>
-                    Conceptos Básicos
+                    Formato Tabla
                 </label>
             </div>
             <div className='unit-content'>
@@ -18,4 +18,4 @@ const ConceptosBasicos = () => {
     );
 }
 
-export default ConceptosBasicos;
+export default FormatoTabla;

@@ -10,4 +10,5 @@
 .contents{
     width: 80%;
     display: flex;
+    padding-left: 3.5rem;
 }
