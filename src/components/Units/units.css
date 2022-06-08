@@ -1,6 +1,23 @@
 .unit{
     width: 81.25%;
     padding-right: 2rem;
+    height: 80vh;
+    overflow: auto;
+    scrollbar-color: #D4AA70 #e4e4e4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: hsla(231, 48%, 48%, 1);
+    border-radius: 100px;
 }
 
 .unit-title{

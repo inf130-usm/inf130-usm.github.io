@@ -33,8 +33,10 @@
 }
 
 .footer{
-    position: relative;
-    height: 4rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 6vh;
     background-color: hsla(231, 48%, 48%, 1);
     color: hsla(0, 0%, 100%, 1);
     font-family: "Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;

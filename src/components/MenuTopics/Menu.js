@@ -3,7 +3,7 @@ import './menutopics.css'
 
 const Menu = () => {
     const url = window.location.pathname;
-
+    
     return (
         <div className='menu'>
             <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
@@ -17,7 +17,7 @@ const Menu = () => {
             </div>
             <ul className='menutopics-list'>
                 <li>
-                    <a href="/" className='menu-list-item'>Inicio</a>
+                    <a href="/" className={url === "/" ? "menu-list-item bold" : "menu-list-item"}>Inicio</a>
                 </li>
                 <li>
                     <a href="/unidad1/conceptos-basicos" className={url.includes("unidad1") ? "menu-list-item bold" : "menu-list-item"}>Unidad 1: Excel</a>
