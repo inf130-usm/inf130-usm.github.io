@@ -1,11 +1,9 @@
 import React from 'react';
-import Input from '@mui/material/Input';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormHelperText from '@mui/material/FormHelperText';
-import FormLabel from '@mui/material/FormLabel';
 import Button from '@mui/material/Button';
 import '../../../units.css';
 
@@ -79,7 +77,7 @@ const EjReferencias = () => {
         <>
             <div className='unit-subtitle'>
                 <label>
-                    Referencias
+                    Ejercicios Referencias
                 </label>
             </div>
             <div className='unit-content'>

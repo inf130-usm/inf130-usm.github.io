@@ -2,6 +2,8 @@ import React from 'react';
 import './menutopics.css'
 
 const Menu = () => {
+    const url = window.location.pathname;
+
     return (
         <div className='menu'>
             <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
@@ -18,16 +20,16 @@ const Menu = () => {
                     <a href="/" className='menu-list-item'>Inicio</a>
                 </li>
                 <li>
-                    <a href="/unidad1/conceptos-basicos" className='menu-list-item'>Unidad 1: Excel</a>
+                    <a href="/unidad1/conceptos-basicos" className={url.includes("unidad1") ? "menu-list-item bold" : "menu-list-item"}>Unidad 1: Excel</a>
                 </li>
                 <li>
-                    <a href="/unidad3" className='menu-list-item'>Unidad 3: Macros</a>
+                    <a href="/unidad3" className={url.includes("unidad3") ? "menu-list-item bold" : "menu-list-item"}>Unidad 3: Macros</a>
                 </li>
                 <li>
-                    <a href="/unidad4" className='menu-list-item'>Unidad 4: Funciones</a>
+                    <a href="/unidad4/teoria" className={url.includes("unidad4") ? "menu-list-item bold" : "menu-list-item"}>Unidad 4: Funciones</a>
                 </li>
                 <li>
-                    <a href="/unidad5" className='menu-list-item'>Unidad 5: Formularios</a>
+                    <a href="/unidad5" className={url.includes("unidad5") ? "menu-list-item bold" : "menu-list-item"}>Unidad 5: Formularios</a>
                 </li>
             </ul>
         </div>

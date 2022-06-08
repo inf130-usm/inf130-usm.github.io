@@ -31,3 +31,11 @@
     padding: 0 1rem;
     font-size: 1.2rem;
 }
+
+.footer{
+    position: relative;
+    height: 4rem;
+    background-color: hsla(231, 48%, 48%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    font-family: "Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
