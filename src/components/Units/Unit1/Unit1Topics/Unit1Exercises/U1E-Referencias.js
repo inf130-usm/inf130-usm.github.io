@@ -107,7 +107,7 @@ const EjReferencias = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"./images/ReferenciasEjercicio1.jpg"} className='unit-image' alt="Referencias Ejercicio 1"/>
+                        <img src={"/images/ReferenciasEjercicio1.jpg"} className='unit-image' alt="Referencias Ejercicio 1"/>
                     </div>
                 </div>
                 <p>
@@ -134,7 +134,7 @@ const EjReferencias = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"./images/ReferenciasEjercicio2.jpg"} className='unit-image' alt="Referencias Ejercicio 2"/>
+                        <img src={"/images/ReferenciasEjercicio2.jpg"} className='unit-image' alt="Referencias Ejercicio 2"/>
                     </div>
                 </div>
                 <p>

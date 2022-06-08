@@ -20,7 +20,7 @@ const Relativas = () => {
                     </div>
                 </div>
                 <div className='unit-image'>
-                    <img src={"./images/ReferenciasRelativas-Figura2.jpg"} alt="Referencias Relativas Figura 2"/>
+                    <img src={"/images/ReferenciasRelativas-Figura2.jpg"} alt="Referencias Relativas Figura 2"/>
                     <div>
                         <label>Figura 2</label>
                     </div>
