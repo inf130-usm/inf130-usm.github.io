@@ -186,7 +186,7 @@ const EjFunciones = () => {
                     </div>
                 </div>
                 <p>
-                    4) La función <i>Multiplo</i> recibe dos parámetros y determina si el primer parámetro es múltiplo del segundo parámetro.
+                    4) La función <i>Multiplo</i> recibe dos parámetros (número enteros) y determina si el primer parámetro es múltiplo del segundo parámetro.
                     Lamentablemente el código correspondiente a los parámetros se perdió. Observando el cuerpo de la función, escriba el nombre
                     de los parámetros, así como sus tipos de dato.
                 </p>
