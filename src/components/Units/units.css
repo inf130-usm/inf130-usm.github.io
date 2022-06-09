@@ -89,7 +89,7 @@
     width: 50%;
 }
 
-.unit-excercise-answer{
+.unit-exercise-answer{
     display: block;
     text-align: left;
     padding-right: .5rem;
@@ -102,6 +102,10 @@
 
 .unit-exercise-button{
     width: 12rem;
+}
+
+.unit-exercise-button-text{
+    margin-top: 1rem !important;
 }
 
 /*--- DETALLES ---*/

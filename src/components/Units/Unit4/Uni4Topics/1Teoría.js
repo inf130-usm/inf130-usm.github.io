@@ -11,7 +11,7 @@ const Teoria = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                Como se estudio en unidades anteriores, en Excel existe una variedad de funciones disponibles para el
+                Como se estudió en unidades anteriores, en Excel existe una variedad de funciones disponibles para el
                 trabajo del usuario, así como <i>=promedio()</i>, <i>=buscarv()</i>, <i>=redondear()</i>, entre otras.
                 </p> 
                 <p>

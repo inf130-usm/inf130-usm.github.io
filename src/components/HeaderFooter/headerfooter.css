@@ -41,3 +41,20 @@
     color: hsla(0, 0%, 100%, 1);
     font-family: "Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
 }
+
+.footer-container{
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.prev-section{
+    text-align: right;
+    
+}
+
+.next-section{
+    text-align: left;
+}
