@@ -21,7 +21,7 @@ const Home = () => {
                 </p>
                 <p>
                     El uso de la plataforma está destinado al estudio, repaso y ejercitación del estudiantado del curso,
-                    por lo que dentro de cada unidad encontraran contenido teórico, ejemplos y ejercicios de la sección.
+                    por lo que dentro de cada unidad encontraran contenido teórico, ejemplos y ejercicios de la sección, así como las UVAs entregadas por AULA.
                 </p>
                 <p>
                     Para una facil navegación los contenidos están dividos por sus Unidades, exceptuando la Unidad 2 del curso,

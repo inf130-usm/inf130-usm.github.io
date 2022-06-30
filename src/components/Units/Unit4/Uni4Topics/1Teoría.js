@@ -1,4 +1,5 @@
 import React from 'react';
+import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
 
 const Teoria = () => {
@@ -34,6 +35,7 @@ const Teoria = () => {
                 celdas del libro, por lo que cualquier dato requerido debe ser entregado como parámetro. Para cerrar la función se utilizan
                 las palabras reservadas <b style={{color:'red'}}>End Function</b>.
                 </p>
+                <YoutubeLink embedId="2YXBPMnvAgg"/>
                 <p>
                 A continuación se puede observar la creación de una función llamada <i>sumaEnteros</i>, que recibe dos parámetros de tipo Integer (num1, num2) y
                 retorna un valor de tipo Long.
@@ -44,8 +46,9 @@ const Teoria = () => {
                 <p>
                 Dentro de la función se crea la variable <i>resultadoSuma</i>, donde se almacena el resultado del procedimiento, por lo que
                 su tipo coincide con el especificado en el encabezado de la función. Posteriormente se realiza el calculo y el resultado
-                es almacenado en una variable de mismo nombre que la función. Esta última variable no es necesario crearla por medio de <i>Dim</i>
+                es almacenado en una variable de mismo nombre que la función. Esta última variable no es necesario crearla por medio de <i>Dim</i>.
                 </p>
+                <YoutubeLink embedId="CdCWa3a2_Ss"/>
                 <p>
                 Finalizada ya la función, es posible usarla de la misma forma que las funciones predefinidas de Excel
                 </p>
@@ -67,8 +70,8 @@ const Teoria = () => {
                 La sintaxis del llamado de la función es igual que en la hoja de calculo, exceptuando que se deben reemplazar los punto y coma (;) por coma (,). También,
                 es necesario almacenar en alguna variable el retorno de la función, para poder trabajar luego con él, esto se realiza dandole como valor a la variable
                 la función. En la subrutina <i>sumar</i>, se le asigna el retorno de la función a la variable <i>resultado</i>.
-
                 </p>
+                <YoutubeLink embedId="Rw68DE49FRg"/>
             </div>
         </div>
     );

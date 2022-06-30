@@ -23,7 +23,7 @@ const Menu = () => {
                     <a href="/unidad1/conceptos-basicos" className={url.includes("unidad1") ? "menu-list-item bold" : "menu-list-item"}>Unidad 1: Excel</a>
                 </li>
                 <li>
-                    <a href="/unidad3" className={url.includes("unidad3") ? "menu-list-item bold" : "menu-list-item"}>Unidad 3: Macros</a>
+                    <a href="/unidad3/conceptos-basicos" className={url.includes("unidad3") ? "menu-list-item bold" : "menu-list-item"}>Unidad 3: Macros</a>
                 </li>
                 <li>
                     <a href="/unidad4/teoria" className={url.includes("unidad4") ? "menu-list-item bold" : "menu-list-item"}>Unidad 4: Funciones</a>
