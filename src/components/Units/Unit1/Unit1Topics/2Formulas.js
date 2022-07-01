@@ -1,7 +1,8 @@
 import React from 'react';
+import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
@@ -9,6 +10,13 @@ import Paper from '@mui/material/Paper';
 import '../../units.css';
 
 const Formulas = () => {
+    const StyledTableCell = styled(TableCell)(({ theme }) => ({
+        [`&.${tableCellClasses.head}`]: {
+          backgroundColor: '#4051B5',
+          color: theme.palette.common.white,
+        },
+      }));
+
     return (
         <div id='u1-formulas'>
             <div className='unit-subtitle'>
@@ -26,12 +34,12 @@ const Formulas = () => {
                 que se pueden usar son los siguientes:
                 </p>
                 <div className='unit-table'>
-                    <TableContainer component={Paper}>
+                    <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <TableCell>Operador</TableCell>
-                                <TableCell>Símbolo</TableCell>
+                                <StyledTableCell>Operador</StyledTableCell>
+                                <StyledTableCell>Símbolo</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
@@ -131,12 +139,12 @@ const Formulas = () => {
                 Para una mayor compresión, se entregarán unos pequeños ejemplos con los resultados que aparecerán en la celda:
                 </p>
                 <div className='unit-table'>
-                    <TableContainer component={Paper}>
+                    <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <TableCell>Formula</TableCell>
-                                <TableCell>Resultado</TableCell>
+                                <StyledTableCell>Formula</StyledTableCell>
+                                <StyledTableCell>Resultado</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>

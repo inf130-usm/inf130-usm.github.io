@@ -17,7 +17,7 @@ const MenuTopicsUnit3 = () => {
             </div>
             <ul className='menutopics-list'>
                 <li>
-                    <a href="/unidad3/conceptos-basicos" className={url.includes("conceptos") ? "menu-list-item bold" : "menu-list-item"}>Conceptos Básicos</a>
+                    <a href="/unidad3/conceptos-basicos" className={url.includes("conceptos") ? "menu-list-item bold" : "menu-list-item"}>Conceptos básicos</a>
                 </li>
                 <li>
                     <a href="/unidad3/subrutinas" className={url.includes("subrutinas") ? "menu-list-item bold" : "menu-list-item"}>Subrutinas</a>
@@ -27,6 +27,15 @@ const MenuTopicsUnit3 = () => {
                 </li>
                 <li>
                     <a href="/unidad3/boxes" className={url.includes("boxes") ? "menu-list-item bold" : "menu-list-item"}>InputBox y MsgBox</a>
+                </li>
+                <li>
+                    <a href="/unidad3/if" className={url.includes("if") ? "menu-list-item bold" : "menu-list-item"}>Estructura condicional</a>
+                </li>
+                <li>
+                    <a href="/unidad3/while" className={url.includes("while") ? "menu-list-item bold" : "menu-list-item"}>Estructura repetitiva</a>
+                </li>
+                <li>
+                    <a href="/unidad3/ejercicios" className={url.includes("ejercicios") ? "menu-list-item bold" : "menu-list-item"}>Ejercicios</a>
                 </li>
             </ul>
         </div>

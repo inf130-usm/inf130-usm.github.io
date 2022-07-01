@@ -4,6 +4,9 @@ import ConceptosBasicos from './Unit3Topics/1ConceptosBasicos';
 import Subrutinas from './Unit3Topics/2Subrutinas';
 import Variables from './Unit3Topics/3Variables';
 import Boxes from './Unit3Topics/4Boxes';
+import If from './Unit3Topics/5If';
+import While from './Unit3Topics/6While';
+import Ejercicios from './Unit3Topics/Unit3Exercises/Ejercicios';
 import MenuTopicsUnit3 from '../../MenuTopics/Topics/MenuTopicsUnit3';
 import '../units.css';
 
@@ -21,6 +24,9 @@ const Unit3 = () => {
                 <Route path="subrutinas" element={<Subrutinas/>} />
                 <Route path="variables" element={<Variables/>} />
                 <Route path="boxes" element={<Boxes/>} />
+                <Route path="if" element={<If/>} />
+                <Route path="while" element={<While/>} />
+                <Route path="ejercicios" element={<Ejercicios/>} />
             </Routes>
         </div>
         <MenuTopicsUnit3/>

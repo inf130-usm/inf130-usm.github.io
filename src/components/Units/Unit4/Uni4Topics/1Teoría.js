@@ -17,7 +17,7 @@ const Teoria = () => {
                 </p> 
                 <p>
                 Estas funciones están construidas con VBA, por lo que manejando este lenguaje es posible crear funciones propias desde cero,
-                con un nombre personalizado y parámetros deseados. Para crearlas se debe trabajar en un módulo (al igual que con las macros)
+                con un nombre personalizado y parámetros deseados. Para crearlas se debe trabajar en un módulo (al igual que con las subrutinas)
                 y se utilizará el procedimiento Function, el cual tiene una sintaxis similar a Sub.
                 </p>
                 <div className="unit-image">
