@@ -10,7 +10,9 @@ const Ejercicios = () => {
                 </label>
             </div>
             <div className='unit-content'>
-                <p></p>
+                <p>
+                    En construcción...
+                </p>
             </div>
         </div>
     );

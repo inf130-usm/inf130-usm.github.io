@@ -20,7 +20,7 @@ const Subrutinas = () => {
                 </div>
                 <p>
                     Se inicia con la sentencia <b style={{color:'red'}}>Sub</b>, la cual abre la subrutina, posteriormente va el nombre que se le desea dar la subrutina,
-                    para poder identificarla. Este nombre tiene ciertas restricciones: no puede tener espacios, ni iniciar con números o simbolos, por lo que es común
+                    para poder identificarla. Este nombre tiene ciertas restricciones: no puede tener espacios, iniciar con números o simbolos, ni ser una palabra reservada de VBA, por lo que es común
                     separar las palabras con guión bajo (_) o con mayúsculas. Luego del nombre se debe abir y cerrar paréntesis. Bajo este encabezado van todas las instrucciones
                     necesarias para crear la macro deseada y, finalmente, se debe escribir <b style={{color:'red'}}>End Sub</b> para cerrar la subrutina.
                 </p>

@@ -29,6 +29,9 @@ const Home = () => {
                     por tópicos, especificados en el menú de la derecha de cada unidad. Al final de cada unidad se puede encontrar
                     un recopilatorio de ejercicios por tópico.
                 </p>
+                <p>
+                    Favor hacer uso de la plataforma por medio de un computador, ésta aun no se encuentra optimizada para dispositivos móviles.
+                </p>
             </div>
             <div className='right-align'>
                 <label><Emoji symbol="📝" label="note"/><b>Contacto:</b></label><br/>
