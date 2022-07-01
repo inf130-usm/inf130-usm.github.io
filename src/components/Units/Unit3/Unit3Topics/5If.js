@@ -13,7 +13,7 @@ const EstructuraCondicional = () => {
             <div className='unit-content'>
                 <p>
                     Durante el desarrollo de un algoritmo, existen situaciones en las que es posible continuar por dos o más caminos diferentes,
-                    ya sea por influencia del usuario o no. Casos como aceptar o no una contraseña y dar una descripción del clima dada la temperatura
+                    ya sea por influencia del usuario o no. Casos como aprobar o reprobar una asignatura y dar una descripción del clima dada la temperatura
                     pueden ser ejemplos de estos casos. Para resolver estas incertidumbres se ocupa la estructura condicional conocida como <b>If</b>.
                 </p>
                 <p>
