@@ -1,5 +1,17 @@
 {
     "p0": "Funciones",
-    "p1": "",
-    "p2": ""
+    "p1": "Dentro de Excel existen formulas ya creadas, las cuales están a libre disposición del usuario y pueden ser usadas mediante un nombre y argumentos, estas son llamadas funciones. Existen funciones de todo tipo como se verá a continuación y para utilizarlas todas respetan la misma sintaxis, explicada en la siguiente imagen.",
+    "p2": "Como las funciones son fórmulas, inician igualmente con un signo igual (=). Luego se debe escribir el nombre de la función y entre parentesis van los argumentos de la función separados por punto y coma (;). Un argumento es un valor que recibe la función para trabajar con él y poder dar un resultado, al igual que las funciones usadas en matemáticas. Si en la descripción de una función, el argumento se encuentra entre paréntesis de corchete ([ ]), quiere decir que es opcional su ingreso. Cabe destacar que a veces es posible utilizar una función como argumento de otra función, en este caso la función argumento no lleva el signo igual (=).",
+    "p3": "Para encontrar las funciones se debe hacer click en el botón 'fx' a la izquierda de la barra de formulas o en la pestaña 'Formulas'. Se desplegará la siguiente ventana donde se podrán encontrar las funciones separadas por categoría, en conjunto a la descripción de cada una y los argumentos que recibe.",
+    "p4": "A continuación, se tratarán brevemente las funciones más usadas de cada categoría.",
+    "p5": "Funciones Matemáticas",
+    "p6": "Dentro del repertorio de funciones matemáticas se pueden encontrar para resolver calculos trigonométricos, estadísticos, financierons y de matemática básica. Los más comunes a utilizar son los siguientes",
+    "p7": "Funciones de Texto",
+    "p8": "Es posible trabajar con texto mediante las funciones, así como obtener ciertas secciones de ellos, compararlos y transformarlos. Es importante mencionar que si el texto del argumento es ingresado textual (y no como referencia), éste debe ir rodeado de comillas (\" \").",
+    "p9": "Funciones de Fecha y Hora",
+    "p10": "También existe la posibilidad de obtener ciertas informaciones de fecha y hora, así como trabajar con ellas.",
+    "p11": "Funciones Lógicas",
+    "p12": "Con la ayuda de ciertas funciones, es posible obtener resultados de conjuntos de comparaciones, como también expresar resultados distintos considerando esas comparaciones. Para realizar estas comparaciones se hace uso de los operadores lógicos vistos en el tópico Formulas y deben ir rodeadas de comillas (\" \"). Para una explicación más detallada revisar los videos adjuntos.",
+    "p13": "Funciones de Búsqueda",
+    "p14": "Existen funciones que permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterior. Para una explicación más detallada de cada función, revise los videos adjuntos."
 }

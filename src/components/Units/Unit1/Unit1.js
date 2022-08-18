@@ -3,12 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import ConceptosBasicos from './Unit1Topics/1ConceptosBasicos';
 import Formulas from './Unit1Topics/2Formulas';
 import Referencias from './Unit1Topics/3Referencias';
-import Funciones from './Unit1Topics/4.1Funciones';
-import Matematicas from './Unit1Topics/4.2Matematicas';
-import Texto from './Unit1Topics/4.3Texto';
-import FechayHora from './Unit1Topics/4.4FechayHora';
-import Condicionales from './Unit1Topics/4.5Condicionales';
-import Busqueda from './Unit1Topics/4.6Busqueda';
+import Funciones from './Unit1Topics/4Funciones';
 import FormatoCondicional from './Unit1Topics/5FormatoCondicional';
 import ValidacionDatos from './Unit1Topics/6ValidacionDatos';
 import ArchivosCSV from './Unit1Topics/7ArchivosCSV';
@@ -32,7 +27,7 @@ const Unit1 = () => {
                 <Route path="conceptos-basicos" element={<ConceptosBasicos/>} />
                 <Route path="formulas" element={<Formulas/>} />
                 <Route path="referencias" element={<Referencias/>} />
-                <Route path="funciones" element={<><Funciones/><Matematicas/><Texto/><FechayHora/><Condicionales/><Busqueda/></>} />
+                <Route path="funciones" element={<Funciones/>} />
                 <Route path="formato-condicional" element={<FormatoCondicional/>} />
                 <Route path="validacion-datos" element={<ValidacionDatos/>} />
                 <Route path="archivos-csv" element={<ArchivosCSV/>} />

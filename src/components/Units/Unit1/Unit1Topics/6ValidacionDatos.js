@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../units.css';
+import YoutubeLink from "../../../YouTubeLink";
 
 const ValidacionDatos = () => {
     return (
@@ -13,6 +14,7 @@ const ValidacionDatos = () => {
                 <p>
                     Contenido bajo desarrollo...
                 </p>
+                <YoutubeLink embedId="aiPhBpMfFBM"/>
             </div>
         </div>
     );

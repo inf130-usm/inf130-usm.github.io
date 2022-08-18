@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../units.css';
+import YoutubeLink from "../../../YouTubeLink";
 
 const Filtros = () => {
     return (
@@ -13,6 +14,11 @@ const Filtros = () => {
                 <p>
                     Contenido bajo desarrollo...
                 </p>
+                <YoutubeLink embedId="RBQIaRFoh44"/>
+                <p></p>
+                <YoutubeLink embedId="SK56MSvvYZk"/>
+                <p></p>
+                <YoutubeLink embedId="CA-gxUXWPhM"/>
             </div>
         </div>
     );

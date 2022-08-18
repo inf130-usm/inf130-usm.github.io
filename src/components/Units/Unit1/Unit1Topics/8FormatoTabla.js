@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../units.css';
+import YoutubeLink from "../../../YouTubeLink";
 
 const FormatoTabla = () => {
     return (
@@ -13,6 +14,7 @@ const FormatoTabla = () => {
                 <p>
                     Contenido bajo desarrollo...
                 </p>
+                <YoutubeLink embedId="C1h8KTqZV9k"/>
             </div>
         </div>
     );
