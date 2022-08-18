@@ -8,6 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import '../../units.css';
+import Content from '../../../../ContentJSON/U1/2Formulas.json';
 
 const Formulas = () => {
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -21,17 +22,12 @@ const Formulas = () => {
         <div id='u1-formulas'>
             <div className='unit-subtitle'>
                 <label>
-                    Formulas
+                    {Content["p0"]}
                 </label>
             </div>
             <div className='unit-content'>
                 <p>
-                En las celdas es posible ingresar cálculos matemáticos y lógicos que se resolverán de forma automática 
-                y constantemente, entregándose el resultado en la misma celda. Para realizar este proceso es requerido 
-                iniciar el valor de la celda con un signo igual “=” y a continuación plasmar la fórmula de la cual se 
-                quiere obtener el resultado. Excel acepta una gran cantidad de operadores matemáticos y lógicos, además, 
-                respeta el orden precedencia de estos y es posible agregar paréntesis a los cálculos. Algunos operadores 
-                que se pueden usar son los siguientes:
+                {Content["p1"]}
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
@@ -136,7 +132,7 @@ const Formulas = () => {
                     </TableContainer>
                 </div>
                 <p>
-                Para una mayor compresión, se entregarán unos pequeños ejemplos con los resultados que aparecerán en la celda:
+                {Content["p2"]}
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>

@@ -128,7 +128,7 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/FuncionesEjercicio1.png"} className='unit-image' alt="Funciones Ejercicio 1"/>
+                        <img src={"/images/U4E1F1.png"} className='unit-image' alt="Funciones Ejercicio 1"/>
                     </div>
                 </div>
                 <p>
@@ -155,7 +155,7 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/FuncionesEjercicio1.png"} className='unit-image' alt="Funciones Ejercicio 2"/>
+                        <img src={"/images/U4E1F1.png"} className='unit-image' alt="Funciones Ejercicio 2"/>
                     </div>
                 </div>
                 <p>
@@ -182,7 +182,7 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/FuncionesEjercicio3.jpg"} className='unit-image' alt="Funciones Ejercicio 3"/>
+                        <img src={"/images/U4E1F3.jpg"} className='unit-image' alt="Funciones Ejercicio 3"/>
                     </div>
                 </div>
                 <p>
@@ -201,7 +201,7 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/FuncionesEjercicio4.jpg"} className='unit-image' alt="Funciones Ejercicio 4"/>
+                        <img src={"/images/U4E1F4.jpg"} className='unit-image' alt="Funciones Ejercicio 4"/>
                     </div>
                 </div>
             </div>

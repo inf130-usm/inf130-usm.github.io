@@ -1,0 +1,13 @@
+{
+    "p0": "Referencias",
+    "p1": "Es común que en las fórmulas se utilicen los valores ingresados en otras celdas. Para evitar escribir estos valores explícitamente y, considerando que estos pueden cambiar en el tiempo, se hace uso de las referencias a celdas. Dentro de una formula se escribe el nombre de la celda a la que se quiere referenciar para que la formula utilice el valor de esa celda, así, si el valor de la celda cambia, la formula utilizará este nuevo valor.",
+    "p2": "Existen 3 formas distintas de referenciar celdas. Explicaremos todas por medio de ejemplos.",
+    "p3": "Referencias Relativas",
+    "p4": "Como se puede observar en la siguiente animación, en la celda B2 se está obteniendo la suma de las celdas A1 y B1. Al copiar la celda y pegarla en la celda C2, se puede observar que el valor resultante cambió, así como las referencias. En C2 se está sumando B1 junto a C1.",
+    "p5": "Esto ocurre porque se están usando referencias relativas, cuyo comportamiento no es referenciar a una celda en específico, sino, una celda a una cierta distancia. Es decir, la referencia a la celda A1 en la fórmula de B2 está siendo referenciada como “una celda a la izquierda y una celda hacia arriba”, por lo que al mover la formula a la celda C3, la referencia se transforma en B1.",
+    "p6": "Referencias Absolutas",
+    "p7": "Para referenciar una celda en específico y que la referencia no se vea alterada, se ocupa el signo pesos ($) antes de la columna y fila, dejando éstas inmutables. De esta forma, si se referencia a A1 y B1 con referencias absolutas en la fórmula de la celda B2, no se modificará la referencia al copiar la formula a la celda C2.",
+    "p8": "Referencias Mixtas",
+    "p9": "Las referencias mixtas consisten en dejar solo la fila o columna inmuteble, asignando el signo pesos ($) tras solo una de éstas. De esta forma, se tendrá una referencia relativa frente a un sentido y una absoluta en el otro. La animación a continuación ejemplifica esta situación.",
+    "p10": "Finalmente, es importante mencionar que si se desea referencia a una celda de otra hoja, se debe escribir el nombre de la hoja, continuando con un signo de exclamación (!) y luego la referencia a la celda. Por lo tanto, la referencia a la celda A1 de la hoja 'Hoja1' es =Hoja1!A2."
+}
