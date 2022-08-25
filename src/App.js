@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import ScrollToTop from './components/ScrollToTop';
 import Header from './components/HeaderFooter/Header';
 import Body from './components/Body/Body';
