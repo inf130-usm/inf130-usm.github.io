@@ -29,13 +29,13 @@ const MenuTopicsUnit1 = () => {
                     <a href="/unidad1/funciones" className={url.includes("funciones") ? "menu-list-item bold" : "menu-list-item"}>Funciones</a>
                 </li>
                 <li>
+                    <a href="/unidad1/busqueda" className={url.includes("busqueda") ? "menu-list-item bold" : "menu-list-item"}>Funciones de Búsqueda</a>
+                </li>
+                <li>
                     <a href="/unidad1/formato-condicional" className={url.includes("condicional") ? "menu-list-item bold" : "menu-list-item"}>Formato condicional</a>
                 </li>
                 <li>
                     <a href="/unidad1/validacion-datos" className={url.includes("validacion") ? "menu-list-item bold" : "menu-list-item"}>Validación de datos</a>
-                </li>
-                <li>
-                    <a href="/unidad1/archivos-csv" className={url.includes("archivos") ? "menu-list-item bold" : "menu-list-item"}>Archivos CSV</a>
                 </li>
                 <li>
                     <a href="/unidad1/formato-tabla" className={url.includes("formato-tabla") ? "menu-list-item bold" : "menu-list-item"}>Formato Tabla</a>

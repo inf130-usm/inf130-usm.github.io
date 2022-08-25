@@ -11,7 +11,5 @@
     "p9": "Funciones de Fecha y Hora",
     "p10": "También existe la posibilidad de obtener ciertas informaciones de fecha y hora, así como trabajar con ellas.",
     "p11": "Funciones Lógicas",
-    "p12": "Con la ayuda de ciertas funciones, es posible obtener resultados de conjuntos de comparaciones, como también expresar resultados distintos considerando esas comparaciones. Para realizar estas comparaciones se hace uso de los operadores lógicos vistos en el tópico Formulas y deben ir rodeadas de comillas (\" \"). Para una explicación más detallada revisar los videos adjuntos.",
-    "p13": "Funciones de Búsqueda",
-    "p14": "Existen funciones que permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterior. Para una explicación más detallada de cada función, revise los videos adjuntos."
+    "p12": "Con la ayuda de ciertas funciones, es posible obtener resultados de conjuntos de comparaciones, como también expresar resultados distintos considerando esas comparaciones. Para realizar estas comparaciones se hace uso de los operadores lógicos vistos en el tópico Formulas y deben ir rodeadas de comillas (\" \"). Para una explicación más detallada revisar los videos adjuntos."
 }
