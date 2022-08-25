@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route,  } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Menu from '../MenuTopics/Menu';
 import Home from '../Units/Home';
 import Unit1 from '../Units/Unit1/Unit1';
