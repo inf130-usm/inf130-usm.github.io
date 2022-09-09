@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../units.css';
 import Content from '../../../../ContentJSON/U1/1ConceptosBasicos.json';
 import YoutubeLink from "../../../YouTubeLink";
+import ReactGA from 'react-ga';
 
 const ConceptosBasicos = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+      }, []);
     return (
         <div id='u1-conceptosbasicos'>
             <div className='unit-subtitle'>
