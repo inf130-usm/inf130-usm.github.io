@@ -30,6 +30,18 @@
     padding-left:20px;
 }
 
+.menu-list-topic{
+    cursor: pointer;
+}
+
 .bold{
     font-weight: bold;
+}
+
+.visible{
+    display: block;
+}
+
+.not-visible{
+    display: none;
 }

@@ -11,7 +11,6 @@ import FormatoTabla from './Unit1Topics/8FormatoTabla';
 import Filtros from './Unit1Topics/9Filtros';
 import TablasDinamicas from './Unit1Topics/10TablasDinamicas';
 import Ejercicios from './Unit1Topics/11Ejercicios';
-import MenuTopicsUnit1 from '../../MenuTopics/Topics/MenuTopicsUnit1';
 import '../units.css';
 
 const Unit1 = () => {
@@ -37,7 +36,6 @@ const Unit1 = () => {
                 <Route path="ejercicios" element={<Ejercicios/>} />
             </Routes>
         </div>
-        <MenuTopicsUnit1/>
         </>
     );
 }

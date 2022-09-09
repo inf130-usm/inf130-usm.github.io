@@ -12,10 +12,6 @@ const ConceptosBasicos = () => {
                 </label>
             </div>
             <div className='unit-content'>
-                {/*
-                Arrastrar y Completar
-                Rango
-                */}
                 <p>
                 {Content["p1"]}
                 </p>

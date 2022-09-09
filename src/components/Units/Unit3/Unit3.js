@@ -7,7 +7,6 @@ import Boxes from './Unit3Topics/4Boxes';
 import If from './Unit3Topics/5If';
 import While from './Unit3Topics/6While';
 import Ejercicios from './Unit3Topics/Unit3Exercises/Ejercicios';
-import MenuTopicsUnit3 from '../../MenuTopics/Topics/MenuTopicsUnit3';
 import '../units.css';
 
 const Unit3 = () => {
@@ -29,7 +28,6 @@ const Unit3 = () => {
                 <Route path="ejercicios" element={<Ejercicios/>} />
             </Routes>
         </div>
-        <MenuTopicsUnit3/>
         </>
     );
 }
