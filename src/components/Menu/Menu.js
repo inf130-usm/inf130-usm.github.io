@@ -11,16 +11,11 @@ const Menu = () => {
 
     useEffect(() => {
         localStorage.setItem('showU1', showU1);
-    }, [showU1]);
-    useEffect(() => {
         localStorage.setItem('showU3', showU3);
-    }, [showU3]);
-    useEffect(() => {
         localStorage.setItem('showU4', showU4);
-    }, [showU4]);
-    useEffect(() => {
         localStorage.setItem('showU5', showU5);
-    }, [showU5]);
+    }, [showU1,showU3,showU4,showU5]);
+
 
     const show1 = () => {
         setShowU1(!showU1);
