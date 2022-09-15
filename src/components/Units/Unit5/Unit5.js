@@ -1,5 +1,7 @@
 import React from 'react';
-import './units.css';
+import { Routes, Route } from "react-router-dom";
+import Teoria from './Unit5Topics/1Teoría';
+import '../units.css';
 
 const Unit5 = () => {
     return (
@@ -10,6 +12,9 @@ const Unit5 = () => {
                     Unidad 5: Formularios
                 </label>
             </div>
+            <Routes>
+                <Route path="teoria" element={<Teoria/>} />
+            </Routes>
         </div>
         </>
     );

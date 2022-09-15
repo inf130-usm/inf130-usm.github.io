@@ -126,10 +126,10 @@ const Menu = () => {
                 </li>
                 <ul className={showU4 ? 'menutopics-list visible' : 'menutopics-list not-visible'}>
                     <li>
-                        <a href="/unidad4/teoria" className={url.includes("teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Teoría</a>
+                        <a href="/unidad4/teoria" className={url.includes("unidad4/teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Teoría</a>
                     </li>
                     <li>
-                        <a href="/unidad4/ejercicios" className={url.includes("ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Ejercicios</a>
+                        <a href="/unidad4/ejercicios" className={url.includes("unidad4/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Ejercicios</a>
                     </li>
                 </ul>
                 <li>
@@ -137,7 +137,7 @@ const Menu = () => {
                 </li>
                 <ul className={showU5 ? 'menutopics-list visible' : 'menutopics-list not-visible'}>
                     <li>
-                        <a href="" className={url.includes("teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>En construcción...</a>
+                        <a href="/unidad5/teoria" className={url.includes("/unidad5/teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Teoría</a>
                     </li>
                 </ul>
             </ul>
