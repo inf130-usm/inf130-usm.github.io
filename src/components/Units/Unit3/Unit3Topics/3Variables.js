@@ -128,7 +128,9 @@ const Variables = () => {
                         <img src={"/images/U3T3F4.jpg"} className='unit-image' alt="Después de ejecutar código"/>
                     </div>
                 </div>
-                <YoutubeLink embedId="cq6ERYFUzBg"/>
+                <YoutubeLink embedId="J0_q4LGl2u4"/>
+                <p></p>
+                <YoutubeLink embedId="TuwXrWUZ0Bs"/>
             </div>
         </div>
     );
