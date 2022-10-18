@@ -10,7 +10,8 @@ import ValidacionDatos from './Unit1Topics/7ValidacionDatos';
 import FormatoTabla from './Unit1Topics/8FormatoTabla';
 import Filtros from './Unit1Topics/9Filtros';
 import TablasDinamicas from './Unit1Topics/10TablasDinamicas';
-import Ejercicios from './Unit1Topics/11Ejercicios';
+import GrabacionMacros from './Unit1Topics/11GrabacionMacros';
+import Ejercicios from './Unit1Topics/12Ejercicios';
 import '../units.css';
 
 const Unit1 = () => {
@@ -33,6 +34,7 @@ const Unit1 = () => {
                 <Route path="formato-tabla" element={<FormatoTabla/>} />
                 <Route path="filtros" element={<Filtros/>} />
                 <Route path="tablas-dinamicas" element={<TablasDinamicas/>} />
+                <Route path="grabacion-macros" element={<GrabacionMacros/>} />
                 <Route path="ejercicios" element={<Ejercicios/>} />
             </Routes>
         </div>

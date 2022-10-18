@@ -92,6 +92,9 @@ const Menu = () => {
                         <a href="/unidad1/tablas-dinamicas" className={url.includes("tablas-dinamicas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Tablas Dinámicas</a>
                     </li>
                     <li>
+                        <a href="/unidad1/grabacion-macros" className={url.includes("grabacion-macros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Grabación de Macros</a>
+                    </li>
+                    <li>
                         <a href="/unidad1/ejercicios" className={url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Ejercicios</a>
                     </li>
                 </ul>

@@ -27,7 +27,7 @@ const Variables = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    En el mundo de la programación, los datos no son estáticos, éstos se pueden modificar, trabajar con ellos e
+                    En el mundo de la programación los datos no son estáticos, éstos se pueden modificar, trabajar con ellos e
                     incluso ser desconocidos ya que el usuario debe proveerlos. Para poder trabajar con los datos es necesario
                     antes almacenarlos dentro de lo conocido como <i>variable</i>.
                 </p>
@@ -79,7 +79,7 @@ const Variables = () => {
                                         {'Boolean'}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Dato que solo puede tener los valores True o False'}
+                                        {'Dato que solo puede tener los valores True (verdadero) o False (falso)'}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
@@ -103,13 +103,13 @@ const Variables = () => {
                 <p>
                     Para crear la variable se usa la palabra reservada Dim, luego el nombre que se le quiere asignar a la variable
                     y finalmente la palabra reservada As, seguida del tipo de dato que almacenará la variable creada.
-                    Para darle un valor a una variable ya creada, se debe ecribir el nombre de la variable, continuada por el
+                    Para darle un valor a una variable ya creada, se debe escribir el nombre de la variable, continuada por el
                     signo igual (=) y el valor que se quiere almacenar (debe coincidir con el tipo de dato definido en la variable).
                 </p>
                 <p>
                     Es posible darle valor a variables sin declararlas antes (creandose en el momento), pero si no se maneja con cuidado
-                    puede generar problemas en el código, por lo que se evitará durante este curso. Para forzar el declarar variable se
-                    utiliza la instrucción <i>Option Explicit</i> al inicio del editor de texto, fuera de la subrutina.
+                    puede generar problemas en el código, por lo que se evitará durante este curso. Para forzar el declarar variables se
+                    utiliza la instrucción <i>Option Explicit</i> al inicio del editor de texto, antes de la subrutina.
                 </p>
                 <p>
                     A continuación se puede apreciar un código de ejemplo trabajando con variables.

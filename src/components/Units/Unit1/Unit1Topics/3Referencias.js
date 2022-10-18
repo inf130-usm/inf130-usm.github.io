@@ -33,53 +33,49 @@ const Referencias = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Formula</StyledTableCell>
-                                <StyledTableCell>Explicación</StyledTableCell>
+                                <StyledTableCell>{Content["p2.1"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2.2"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=A2*C2'}
+                                        {Content["p3.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        <span>
-                                        Se multiplicará el valor que está en la celda A2 con el valor que está en la celda C2
-                                        </span>
+                                        {Content["p3.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=A1*(B1+C1)'}
+                                        {Content["p4.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        <span>
-                                        Primero se sumará el valor de B1 más C1 y posteriormente ese resultado se multiplicará por el valor de A1
-                                        </span>
+                                        {Content["p4.2"]}
                                     </TableCell>
                                 </TableRow>                              
                             </TableBody>
                         </Table>
                     </TableContainer>
                 </div>
-                <p>{Content["p2"]}</p>
-                <p><b>{Content["p3"]}</b></p>
-                <p>{Content["p4"]}</p>
-                <div className='unit-image3'>
-                    <img src={"/images/U1T3F1.gif"} className='unit-image' alt="Referencias Relativas"/>
-                </div>
                 <p>{Content["p5"]}</p>
                 <p><b>{Content["p6"]}</b></p>
                 <p>{Content["p7"]}</p>
                 <div className='unit-image3'>
+                    <img src={"/images/U1T3F1.gif"} className='unit-image' alt="Referencias Relativas"/>
+                </div>
+                <p>{Content["p8"]}</p>
+                <p><b>{Content["p9"]}</b></p>
+                <p>{Content["p10"]}</p>
+                <div className='unit-image3'>
                     <img src={"/images/U1T3F2.gif"} className='unit-image' alt="Referencias Absolutas"/>
                 </div>
-                <p><b>{Content["p8"]}</b></p>
-                <p>{Content["p9"]}</p>
+                <p><b>{Content["p11"]}</b></p>
+                <p>{Content["p12"]}</p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T3F3.gif"} className='unit-image' alt="Referencias Mixtas"/>
                 </div>
-                <p>{Content["p10"]}</p>
+                <p>{Content["p13"]}</p>
                 <YoutubeLink embedId="b4quyEtiM3c"/>
             </div>
         </div>

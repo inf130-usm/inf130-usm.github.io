@@ -34,97 +34,97 @@ const Formulas = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Operador</StyledTableCell>
-                                <StyledTableCell>Símbolo</StyledTableCell>
+                                <StyledTableCell>{Content["p2.1"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2.2"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Suma
+                                        {Content["p3.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'+'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        Resta
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'-'}
+                                        {Content["p3.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Multiplicación
+                                        {Content["p4.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'*'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        División
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'/'}
+                                        {Content["p4.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Exponenciación
+                                        {Content["p5.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'^'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        Igual que
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'='}
+                                        {Content["p5.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Mayor que
+                                        {Content["p6.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'>'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        Mayor o igual que
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'>='}
+                                        {Content["p6.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Menor que
+                                        {Content["p7.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'<'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        Menor o igual que
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'<='}
+                                        {Content["p7.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        Distinto que
+                                        {Content["p8.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'<>'}
+                                        {Content["p8.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p9.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p9.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p11.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p11.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p12.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p12.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p13.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p13.2"]}
                                     </TableCell>
                                 </TableRow>
                             </TableBody>
@@ -132,40 +132,40 @@ const Formulas = () => {
                     </TableContainer>
                 </div>
                 <p>
-                {Content["p2"]}
+                {Content["p14"]}
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Formula</StyledTableCell>
-                                <StyledTableCell>Resultado</StyledTableCell>
+                                <StyledTableCell>{Content["p15.1"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p15.2"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=15+8'}
+                                    {Content["p16.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'23'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=5>3'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'VERDADERO'}
+                                    {Content["p16.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=(-2)^3'}
+                                    {Content["p17.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'-8'}
+                                    {Content["p17.2"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                    {Content["p18.1"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                    {Content["p18.2"]}
                                     </TableCell>
                                 </TableRow>                                
                             </TableBody>

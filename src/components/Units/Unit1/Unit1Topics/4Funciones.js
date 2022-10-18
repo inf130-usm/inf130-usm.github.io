@@ -45,89 +45,89 @@ const Funciones = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Función</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p7"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p8"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {"=ALEATORIO.ENTRE(número1;número2)"}
+                                        {Content["p9"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve un número aleatorio entre los valores número1 y número2 entregados'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=REDONDEAR(número;cantidadDecimales)'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Devuelve el número entregado redondeado a la cantidad de decimales especificados'}
+                                        {Content["p10"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=SUMA(número1;número2;...)'}
+                                        {Content["p11"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve la suma de todos los números entregados. Recibe una cantidad variable de argumentos.'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=SUMAR.SI(rangoNúmeros;criterio;[rangoSuma])'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'A partir del rango de números entregado, verifica elemeno por elemento si cumple el criterio lógico proporcionado, en caso de cumplirlo suma los elemento correspondiente de rangoSuma, si éste no fue proporcionado realiza la suma con rangoNúmeros. Para una explicación más detallada revise los videos adjuntos.'}
+                                        {Content["p12"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=PROMEDIO(número1;número2;...)'}
+                                        {Content["p13"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve el promedio de todos los números entregados. Recibe una cantidad variable de argumentos.'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=MAX(número1;número2;...)'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Devuelve el número mayor de todos los números entregados. Recibe una cantidad variable de argumentos.'}
+                                        {Content["p14"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=MIN(número1;número2;...)'}
+                                        {Content["p15"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve el número menor de todos los números entregados. Recibe una cantidad variable de argumentos.'}
+                                        {Content["p16"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=CONTAR(valor1;valor2;...)'}
+                                        {Content["p17"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve la cantidad de valores numéricos entregados. Usualmente usado referenciando una rango de celdas para saber la cantidad de estas que tienen valores numéricos.'}
+                                        {Content["p18"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p19"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p20"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p21"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p22"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p23"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p24"]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=CONTAR.SI(rango;criterio)'}
+                                        {Content["p25"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'A partir del rango entregado, cuenta la cantidad de celdas que cumplen con el criterio lógico entregado. Para una explicación más detallada revise los videos adjuntos.'}
+                                        {Content["p26"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=CONTARA(valor1;valor2;...)'}
+                                        {Content["p27"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve la cantidad de valores no vacios entregados. Usualmente usado referenciando una rango de celdas para saber la cantidad de estas que no están vacias.'}
+                                        {Content["p28"]}
                                     </TableCell>
                                 </TableRow>                                 
                             </TableBody>
@@ -137,88 +137,88 @@ const Funciones = () => {
                 <YoutubeLink embedId="CBPokSlpL-c"/>
                 <p></p>
                 <YoutubeLink embedId="8rCyl4q2K1g"/>
-                <p><b>{Content["p7"]}</b></p>
-                <p>{Content["p8"]}</p>
+                <p><b>{Content["p29"]}</b></p>
+                <p>{Content["p30"]}</p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Función</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p31"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p32"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {"=CONCAT(texto1;texto2;...)"}
+                                        {Content["p33"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Concatena (une) los textos entregados, formando un solo texto. Recibe una cantidad variable de argumentos.'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=IGUAL(texto1;texto2)'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Compara el texto1 y texto2, entregando VERDADERO si son iguales o FALSO si son distintos.'}
+                                        {Content["p34"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=LARGO(texto)'}
+                                        {Content["p35"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve el largo del texto entregado, la cantidad de carácteres.'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'=MAYUSC(texto)'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Transforma el texto entregado, escribiendolo solo con mayúsculas.'}
+                                        {Content["p36"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=MINUSC(texto)'}
+                                        {Content["p37"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Transforma el texto entregado, escribiendolo solo con minúsculas.'}
+                                        {Content["p38"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=NOMPROPIO(texto)'}
+                                        {Content["p39"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Transforma el texto entregado, escribiendo con mayúscula la primera letra de cada palabra y el resto en minúsculas.'}
+                                        {Content["p40"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p41"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p42"]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p43"]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p44"]}
                                     </TableCell>
                                 </TableRow>   
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=ENCONTRAR(texto1;texto2)'}
+                                        {Content["p45"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Busca el texto1 en el texto2 y entrega la posición en que lo encuentra.'}
+                                        {Content["p46"]}
                                     </TableCell>
                                 </TableRow>  
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=IZQUIERDA(texto;número)'}
+                                        {Content["p47"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Extrae la cantidad de carácteres especificada por número desde texto, iniciando de la izquierda.'}
+                                        {Content["p48"]}
                                     </TableCell>
                                 </TableRow>   
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=DERECHA(texto;número)'}
+                                        {Content["p49"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Extrae la cantidad de carácteres especificada por número desde texto, iniciando de la derecha.'}
+                                        {Content["p50"]}
                                     </TableCell>
                                 </TableRow>           
                             </TableBody>
@@ -226,48 +226,48 @@ const Funciones = () => {
                     </TableContainer>
                 </div>
                 <YoutubeLink embedId="0_JCfpQ07v0"/>
-                <p><b>{Content["p9"]}</b></p>
-                <p>{Content["p10"]}</p>
+                <p><b>{Content["p51"]}</b></p>
+                <p>{Content["p52"]}</p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Función</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p53"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p54"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {"=AHORA()"}
+                                        {Content["p55"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Entrega la fecha actual junto con la hora.'}
+                                        {Content["p56"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=DIAS(fecha1;fecha2)'}
+                                        {Content["p57"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'A partir de la fecha1 y fecha2 entregadas, devuelve la cantidad de días que hay entre ambas.'}
+                                        {Content["p58"]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=FECHA(año;mes;día)'}
+                                        {Content["p59"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve el formato fecha del año, mes y día ingresados, los 3 de forma numérica.'}
+                                        {Content["p60"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=HOY()'}
+                                        {Content["p61"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Entrega la fecha actual'}
+                                        {Content["p62"]}
                                     </TableCell>
                                 </TableRow>        
                             </TableBody>
@@ -275,48 +275,48 @@ const Funciones = () => {
                     </TableContainer>
                 </div>
                 <YoutubeLink embedId="LcFGfkfp2lA"/>
-                <p><b>{Content["p11"]}</b></p>
-                <p>{Content["p12"]}</p>
+                <p><b>{Content["p63"]}</b></p>
+                <p>{Content["p64"]}</p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Función</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p65"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p66"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {"=Y(comparación1;[comparación2];...)"}
+                                        {Content["p67"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Verifica todas las comparaciones entregadas y devuelve VERDADERO en caso que todas sean verdaderas, en cambio, devuelve FALSO.'}
+                                        {Content["p68"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=O(comparación1;[comparación2];...)'}
+                                        {Content["p69"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Verifica todas las comparaciones entregadas y devuelve VERDADERO en caso que alguna sea verdadera, en cambio, devuelve FALSO.'}
+                                        {Content["p70"]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=SI(comparación;siVerdadero;siFalso)'}
+                                        {Content["p71"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Verifica la comparación entregada, si ésta es verdadera devuelve lo especificado en siVerdadero, en cambio, devuelve siFalso.'}
+                                        {Content["p72"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=SI.CONJUNTO(comparación1;siVerdadero1;[comparación2];[siVerdadero2];...)'}
+                                        {Content["p73"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Verifica por orden cada comparación entregada, a la primera que encuentre verdadera, devuelve el siVerdadero correspondiente.'}
+                                        {Content["p74"]}
                                     </TableCell>
                                 </TableRow>    
                             </TableBody>

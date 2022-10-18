@@ -21,43 +21,43 @@ const ConceptosBasicos = () => {
                 <p>
                 {Content["p2"]}
                 </p>
-                <p><b>Entorno de Excel</b></p>
+                <p><b>{Content["p3"]}</b></p>
                 <div className="unit-image2">
                     <img src={"/images/U1T1F2.jpg"} className='unit-image' alt="Entorno de trabajo Excel"/>
                 </div>
                 <p>
-                    <b style={{color:'gray'}}>Pestañas: </b>{Content["p3"]}<br/>
-                    <b style={{color:'black'}}>Celdas: </b>{Content["p4"]}<br/>
-                    <b style={{color:'orange'}}>Barra de formulas: </b>{Content["p5"]}<br/>
-                    <b style={{color:'green'}}>Filas: </b>{Content["p6"]}<br/>
-                    <b style={{color:'purple'}}>Columnas: </b>{Content["p7"]}<br/>
-                    <b style={{color:'royalblue'}}>Propiedades de celda: </b>{Content["p8"]}<br/>
-                    <b style={{color:'red'}}>Hojas: </b>{Content["p9"]}<br/>
+                    <b style={{color:'gray'}}>{Content["p4.1"]}</b>{Content["p4.2"]}<br/>
+                    <b style={{color:'black'}}>{Content["p5.1"]}</b>{Content["p5.2"]}<br/>
+                    <b style={{color:'orange'}}>{Content["p6.1"]}</b>{Content["p6.2"]}<br/>
+                    <b style={{color:'green'}}>{Content["p7.1"]}</b>{Content["p7.2"]}<br/>
+                    <b style={{color:'purple'}}>{Content["p8.1"]}</b>{Content["p8.2"]}<br/>
+                    <b style={{color:'royalblue'}}>{Content["p9.1"]}</b>{Content["p9.2"]}<br/>
+                    <b style={{color:'red'}}>{Content["p10.1"]}</b>{Content["p10.2"]}<br/>
                 </p>
-                <p><b>Rango y arrastrar</b></p>
+                <p><b>{Content["p11"]}</b></p>
                 <p>
-                {Content["p10"]}
+                {Content["p12"]}
                 </p>
                 <p>
-                {Content["p11"]}
+                {Content["p13"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U1T1F3.jpg"} className='unit-image' alt="Cuadro para arrastrar"/>
                 </div>
                 <p>
-                {Content["p12"]}
+                {Content["p14"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U1T1F4.gif"} className='unit-image' alt="Arrastre genérico"/>
                 </div>
                 <p>
-                {Content["p13"]}
+                {Content["p15"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U1T1F5.gif"} className='unit-image' alt="Arrastre de cuenta"/>
                 </div>
                 <p>
-                {Content["p14"]}
+                {Content["p16"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U1T1F6.gif"} className='unit-image' alt="Arrastre de lista"/>

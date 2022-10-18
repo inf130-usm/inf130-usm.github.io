@@ -31,54 +31,58 @@ const Funciones = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Función</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p2.1"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2.2"]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {"=BUSCARV(valorBuscado;matriz;numColumna)"}
+                                    {Content["p3.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'A partir de la matriz entregada, busca la fila en que se encuentra valorBuscado en la primera columna de la matriz, luego devuelve el valor de la misma fila pero de la columa numColumna.'}
+                                    {Content["p3.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=BUSCARH(valorBuscado;matriz;numFila)'}
+                                    {Content["p4.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'A partir de la matriz entregada, busca la columna en que se encuentra valorBuscado en la primera fila de la matriz, luego devuelve el valor de la misma columna pero de la fila numFila.'}
+                                    {Content["p4.2"]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=COINCIDIR(valor;rango;[tipoDeCoincidencia])'}
+                                    {Content["p5.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Busca el valor en el rango entregado y devuelve el número de fila o columna en la que se encuentra. El tipo de coincidencia es para realizar una busqueda exacta o de otro tipo.'}
+                                    {Content["p5.2"]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=INDICE(rango;numFila;[numColumna])'}
+                                    {Content["p6.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Entrega el valor de la celda que se encuentra en el número de fila y columna entregados, considerando el rango o matriz ingresado.'}
+                                    {Content["p6.2"]}
                                     </TableCell>
                                 </TableRow>  
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'=UNICOS(rango)'}
+                                    {Content["p7.1"]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Devuelve los valores únicos de un rango dado.'}
+                                    {Content["p7.2"]}
                                     </TableCell>
                                 </TableRow>   
                             </TableBody>
                         </Table>
                     </TableContainer>
+                </div>
+                <p>{Content["p8"]}</p>
+                <div className='unit-image2'>
+                    <img src={"/images/U1T5F1.gif"} className='unit-image' alt="Función BuscarV"/>
                 </div>
                 <YoutubeLink embedId="fb1WQsDvjkA"/>
                 <p></p>
