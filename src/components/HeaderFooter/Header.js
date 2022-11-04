@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header-container'>
-                <a href='.' className='header-logo-container'>
+                <a href='/' className='header-logo-container'>
                     <svg xmlns="http://www.w3.org/2000/svg" className='header-logo' viewBox="0 0 640 512">
                         <path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 
                                 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 

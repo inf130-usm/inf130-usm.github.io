@@ -10,6 +10,8 @@ import Paper from '@mui/material/Paper';
 import '../../units.css';
 import Content from '../../../../ContentJSON/U1/5FuncionesBusqueda.json';
 import YoutubeLink from "../../../YouTubeLink";
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 
 const Funciones = () => {
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -21,8 +23,17 @@ const Funciones = () => {
 
     return (
         <div id='u1-funciones'>
-            <div className='unit-subtitle'>
-                <label>{Content["p0"]}</label>
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
+                    {Content["p0"]}
+                </label>
+                <a href='/excel-files/U1-FuncionesBusqueda.xlsx' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>{Content["p1"]}</p>

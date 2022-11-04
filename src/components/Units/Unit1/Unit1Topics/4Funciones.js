@@ -22,7 +22,9 @@ const Funciones = () => {
     return (
         <div id='u1-funciones'>
             <div className='unit-subtitle'>
-                <label>{Content["p0"]}</label>
+                <label>
+                    {Content["p0"]}
+                </label>
             </div>
             <div className='unit-content'>
                 <p>{Content["p1"]}</p>

@@ -2,14 +2,23 @@ import React from 'react';
 import '../../units.css';
 import Content from '../../../../ContentJSON/U1/7ValidacionDatos.json';
 import YoutubeLink from "../../../YouTubeLink";
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 
 const ValidacionDatos = () => {
     return (
         <div id='u1-validaciondatos'>
-            <div className='unit-subtitle'>
-                <label>
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
+                <a href='/excel-files/U1-ValidacionDatos.xlsx' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>
