@@ -140,7 +140,10 @@ const Menu = () => {
                 </li>
                 <ul className={showU5 ? 'menutopics-list visible' : 'menutopics-list not-visible'}>
                     <li>
-                        <a href="/unidad5/teoria" className={url.includes("/unidad5/teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Teoría</a>
+                        <a href="/unidad5/conceptos-basicos" className={url.includes("/unidad5/conceptos") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Conceptos Básicos</a>
+                    </li>
+                    <li>
+                        <a href="/unidad5/controles" className={url.includes("/unidad5/controles") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Controles</a>
                     </li>
                 </ul>
             </ul>

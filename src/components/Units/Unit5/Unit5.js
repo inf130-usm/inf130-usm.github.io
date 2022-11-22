@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Teoria from './Unit5Topics/1Teoría';
+import ConceptosBasicos from './Unit5Topics/1ConceptosBasicos';
+import Controles from './Unit5Topics/2Controles';
 import '../units.css';
 
 const Unit5 = () => {
@@ -13,7 +14,8 @@ const Unit5 = () => {
                 </label>
             </div>
             <Routes>
-                <Route path="teoria" element={<Teoria/>} />
+                <Route path="conceptos-basicos" element={<ConceptosBasicos/>} />
+                <Route path="controles" element={<Controles/>} />
             </Routes>
         </div>
         </>

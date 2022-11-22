@@ -1,0 +1,22 @@
+{
+    "p0": "Controles",
+    "p1": "En este tópico se tratarán los controles en profundidad. Cada uno tiene su propio comportamiento y puede ser usado con diferentes objetivos, pero su uso y preparación es similar entre varios con algunas excepciones.",
+    "p2": "Como información preliminar, los datos que despliegan la mayoria de los controles es necesaria tenerla en el mismo Excel, por lo tanto se sugiere tener una hoja enfocada a los datos que tendrán los controles.",
+    "p3": "Para insertar un control de formulario, se debe hacer click en el deseado y luego en la hoja al hacer click y arrastrar se creará el control en el lugar seleccionado, tal cual se crea un forma. Si se desea modificar su tamaño o posición, se debe seleccionar mediante 'ctrl + click izquierdo'.",
+    "p4": "Cuadro combinado",
+    "p5": "El primer control a estudiar es el cuadro combinado. Este cuadro permite desplegar una lista y seleccionar una de las opciones de la lista. Para configurar su funcionamiento es necesario acceder a 'Formato de control' mediante el click derecho. Existen 3 secciones importantes:",
+    "p6": "Rango de entrada: ",
+    "p7": "Estos son los datos que se desplegarán en la lista. Se debe ingresar el rango deseado desde una hoja de excel, si se ingresa un rango con más de una columna, solo se considerará la primera columna del rango.",
+    "p8": "Vincular con la celda: ",
+    "p9": "La celda ingresada en este apartado será la celda que mostrará la opción seleccionada. El resultado en esta celda será la posición en el rango del dato seleccionado. Así, si se selecciona la tercera opción, se mostrará el número 3. Esta celda es importante ya que entrega la información de qué se está seleccionando en el cuadro combinado. En caso de no existir una opción seleccionada, el valor de la celda será 0.",
+    "p10": "Líneas de unión verticales: ",
+    "p11": "El número ingresado determinará el largo de la lista desplegada. Si hay más opciones que el número ingresado se habilitará una barra en el cuadro para realizar un desplazamiento vertical.",
+    "p12": "Cuadro de lista",
+    "p13": "El contro de cuadro tiene el mismo comportamiento y finalidad que el cuadro combinado, con algunos detalles particulares. En lugar de desplegarse la lista, ésta se muestra en su totalidad o mediante un desplazamiento si es necesario.",
+    "p14": "Mediante el formato de control se asignan los componentes de rango de entrada y vincular celda, pero en lugar de las lineas verticales existe el componente de tipo de selección. El tipo simple declara el mismo comportamiento que el cuadro combinado, en cambio, el tipo multiple y extendido permite seleccionar varias opciones de la lista pero no se trabajará con ellas en el curso ya que tienen un comportamiento más complejo.",
+    "p15": "",
+    "p16": "",
+    "p17": "",
+    "p18": "",
+    "p19": ""
+}
