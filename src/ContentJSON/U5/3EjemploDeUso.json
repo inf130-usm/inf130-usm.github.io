@@ -1,0 +1,11 @@
+{
+    "p0": "Ejemplo de Uso",
+    "p1": "Para una mejor comprensión del uso de los controles de formularios, se verá una aplicación de cada uno de ellos mediante el siguiente archivo de ejemplo.",
+    "p2": "Como se puede observar el archivo posee 3 hojas",
+    "p3": "Ingreso: ",
+    "p4": "La primera hoja presenta el formulario a usar. Mediante los controles es posible seleccionar varios aspectos, como vendedor, cantidad, descuento, etc. para realizar la compra de un producto.",
+    "p5": "Registros: ",
+    "p6": "En la segunda hoja se almacenan los registros de cada compra realizada. Los ingresos de la hoja anterior realizados correctamente se irán almacenando en la tabla de esta hoja, agregandose en la última fila.",
+    "p7": "Datos: ",
+    "p8": "La tercera hoja almacena toda la información para que los controles funcionen correctamente, así como las celdas vinculadas para extraer la información de los controles."
+}

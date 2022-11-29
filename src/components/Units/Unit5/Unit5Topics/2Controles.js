@@ -63,6 +63,69 @@ const Controles = () => {
                 <div className='unit-image2'>
                     <img src={"/images/U5T2F3.gif"} className='unit-image' alt="Cuadro de lista"/>
                 </div>
+                <p>
+                    <b>{Content["p15"]}</b>
+                </p>
+                <p>
+                    {Content["p16"]}
+                </p>
+                <p>
+                    <b>{Content["p17"]}</b>{Content["p18"]}
+                </p>
+                <p>
+                    <b>{Content["p19"]}</b>{Content["p20"]}
+                </p>
+                <p>
+                    <b>{Content["p21"]}</b>{Content["p22"]}
+                </p>
+                <p>
+                    <b>{Content["p23"]}</b>{Content["p24"]}
+                </p>
+                <p>
+                    <b>{Content["p25"]}</b>{Content["p26"]}
+                </p>
+                <p>
+                    <b>{Content["p27"]}</b>{Content["p28"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T2F4.gif"} className='unit-image' alt="Control de número"/>
+                </div>
+                <p>
+                    <b>{Content["p29"]}</b>
+                </p>
+                <p>
+                    {Content["p30"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T2F5.gif"} className='unit-image' alt="Botón de opción"/>
+                </div>
+                <p>
+                    {Content["p31"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T2F6.gif"} className='unit-image' alt="Grupo de opción"/>
+                </div>
+                <p>
+                    <b>{Content["p32"]}</b>
+                </p>
+                <p>
+                    {Content["p33"]}
+                </p>
+                <p>
+                    {Content["p34"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T2F7.gif"} className='unit-image' alt="Casilla"/>
+                </div>
+                <p>
+                    <b>{Content["p35"]}</b>
+                </p>
+                <p>
+                    {Content["p36"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T2F8.gif"} className='unit-image' alt="Botón"/>
+                </div>
                 <YoutubeLink embedId=""/>
             </div>
         </div>

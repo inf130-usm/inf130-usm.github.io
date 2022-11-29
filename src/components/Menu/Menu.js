@@ -145,6 +145,9 @@ const Menu = () => {
                     <li>
                         <a href="/unidad5/controles" className={url.includes("/unidad5/controles") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Controles</a>
                     </li>
+                    <li>
+                        <a href="/unidad5/ejemplo-de-uso" className={url.includes("/unidad5/ejemplo-de-uso") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Ejemplo de Uso</a>
+                    </li>
                 </ul>
             </ul>
         </div>
