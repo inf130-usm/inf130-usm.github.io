@@ -39,6 +39,39 @@ const EjemploDeUso = () => {
                 <p>
                     <b>{Content["p7"]}</b>{Content["p8"]}
                 </p>
+                <p>
+                    {Content["p9"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T3F2.gif"} className='unit-image' alt="Uso del ejemplo"/>
+                </div>
+                <p>
+                    {Content["p10"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T3F3.gif"} className='unit-image' alt="Celdas de los controles"/>
+                </div>
+                <p>
+                    {Content["p11"]}
+                </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U5T3F4.jpg"} className='unit-image' alt="Macro ingresar"/>
+                </div>
+                <p>
+                    {Content["p12"]}
+                </p>
+                <p>
+                    {Content["p13"]}
+                </p>
+                <p>
+                    {Content["p14"]}
+                </p>
+                <p>
+                    {Content["p15"]}
+                </p>
+                <p>
+                    {Content["p16"]}
+                </p>
                 <YoutubeLink embedId=""/>
             </div>
         </div>
