@@ -42,8 +42,8 @@ const FormatoCondicional = () => {
                 <p>
                     {Content["p4"]}
                 </p>
-                <div className='unit-image3'>
-                    <img src={"/images/U1T6F4.jpg"} className='unit-image' alt="Ejemplo formato condicional"/>
+                <div className='unit-image2'>
+                    <img src={"/images/U1T6F4.gif"} className='unit-image' alt="Ejemplo formato condicional"/>
                 </div>
                 <p>
                     {Content["p5"]}

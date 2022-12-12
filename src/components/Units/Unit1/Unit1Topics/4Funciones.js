@@ -7,6 +7,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 import '../../units.css';
 import Content from '../../../../ContentJSON/U1/4Funciones.json';
 import YoutubeLink from "../../../YouTubeLink";
@@ -21,10 +23,16 @@ const Funciones = () => {
 
     return (
         <div id='u1-funciones'>
-            <div className='unit-subtitle'>
-                <label>
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
+                <a href='/excel-files/U1-Funciones.xlsx' className="download-file" download>
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>{Content["p1"]}</p>
@@ -33,8 +41,8 @@ const Funciones = () => {
                 </div>
                 <p>{Content["p2"]}</p>
                 <p>{Content["p3"]}</p>
-                <div className='unit-image3'>
-                    <img src={"/images/U1T4F2.jpg"} className='unit-image' alt="Sintaxis Función"/>
+                <div className='unit-image2'>
+                    <img src={"/images/U1T4F2.gif"} className='unit-image' alt="Ejemplo Función"/>
                 </div>
                 <YoutubeLink embedId="T6u7s_5FtmY"/>
                 <p></p>

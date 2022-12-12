@@ -60,6 +60,12 @@ const ValidacionDatos = () => {
                 <p>
                     {Content["p7"]}
                 </p>
+                <div className='unit-image2'>
+                    <img src={"/images/U1T7F7.gif"} className='unit-image' alt="Ejemplo de validacion de datos"/>
+                </div>
+                <p>
+                    {Content["p8"]}
+                </p>
                 <YoutubeLink embedId="aiPhBpMfFBM"/>
             </div>
         </div>

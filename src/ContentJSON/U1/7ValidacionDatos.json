@@ -6,5 +6,6 @@
     "p4": "En el caso de seleccionarse la validación de lista para una celda, junto a ésta aparecerá un botón, del cual se puede desplegar una ventana con la lista de datos que se pueden ingresar. En caso de escribir un dato que no corresponde a la lista, este no se permitirá y se desplegará un mensaje predeterminado.",
     "p5": "Volviendo a la ventana de validación de datos, existen otras dos pestañas para personalizar la validación. Es posible establecer un mensaje de entrada en la celda, lo cual puede ser usado como un mensaje de ayuda y clarificación para el usuario. Se puede ver la ventana y un ejemplo en la imagen siguiente:",
     "p6": "Finalmente, en la tercera pestaña se puede personalizar el mensaje de error en caso de un ingreso erroneo. Se da la posibilidad de modificar el ícono y el título y mensaje de la ventana.",
-    "p7": "La validación de datos es particularmente útil en plantillas donde el usuario debe ingresar cierta información, con la cual se realizarán cálculos o simplemente se trabajará con ella. De esta forma se evitan errores al manejar y restringir que es lo que puede ingresar el usuario."
+    "p7": "El proceso completo puede observarse en el siguiente video:",
+    "p8": "La validación de datos es particularmente útil en plantillas donde el usuario debe ingresar cierta información, con la cual se realizarán cálculos o simplemente se trabajará con ella. De esta forma se evitan errores al manejar y restringir que es lo que puede ingresar el usuario."
 }
