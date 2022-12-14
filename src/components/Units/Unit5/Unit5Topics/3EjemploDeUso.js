@@ -93,7 +93,15 @@ const EjemploDeUso = () => {
                     <i>{Content["p13"][1]}</i>
                     {Content["p13"][2]}
                 </p>
-                <YoutubeLink embedId=""/>
+                <YoutubeLink embedId="BvZ1wjnwgzA"/>
+                <p></p>
+                <YoutubeLink embedId="X5fbuOTOfDI"/>
+                <p></p>
+                <YoutubeLink embedId="toAsZ_OPDGw"/>
+                <p></p>
+                <YoutubeLink embedId="FCyBVSHfiaQ"/>
+                <p></p>
+                <YoutubeLink embedId="RF7heLIEnis"/>
             </div>
         </div>
     );

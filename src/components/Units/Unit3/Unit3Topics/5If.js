@@ -50,6 +50,7 @@ const EstructuraCondicional = () => {
                 <div className="unit-image2">
                     <img src={"/images/U3T5F2.jpg"} className='unit-image' alt="Diagrama If simple"/>
                 </div>
+                <YoutubeLink embedId="SiG-gYZbGac"/>
                 <p><b>{Content["p6"]}</b></p>
                 <p>
                     {Content["p7"][0]}
@@ -69,6 +70,7 @@ const EstructuraCondicional = () => {
                 <div className="unit-image2">
                     <img src={"/images/U3T5F4.jpg"} className='unit-image' alt="Diagrama If doble"/>
                 </div>
+                <YoutubeLink embedId="9tGtxAE7CA0"/>
                 <p>
                     <b>{Content["p9"]}</b>
                 </p>
@@ -98,6 +100,7 @@ const EstructuraCondicional = () => {
                 <div className="unit-image2">
                     <img src={"/images/U3T5F7.jpg"} className='unit-image' alt="Diagrama If multiple"/>
                 </div>
+                <YoutubeLink embedId="CO4iWyA84Yk"/>
                 <p>
                     {Content["p13"]}
                 </p>
@@ -106,8 +109,7 @@ const EstructuraCondicional = () => {
                 </div>
                 <div className="unit-image2">
                     <img src={"/images/U3T5F9.gif"} className='unit-image' alt="Resultado subrutina If"/>
-                </div>
-                <YoutubeLink embedId="ROaEjy2JMrE"/>
+                </div>                
             </div>
         </div>
     );

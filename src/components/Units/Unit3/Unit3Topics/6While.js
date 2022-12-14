@@ -97,7 +97,15 @@ const EstructuraRepetitiva = () => {
                 <div className="unit-image2">
                     <img src={"/images/U3T6F8.gif"} className='unit-image' alt="Ejemplo while 2"/>
                 </div>
-                <YoutubeLink embedId="kZX2firkIKM"/>
+                <YoutubeLink embedId="qPaqaqXjoHA"/>
+                <p></p>
+                <YoutubeLink embedId="VmqziRdxNPA"/>
+                <p></p>
+                <YoutubeLink embedId="vSljDjY2-TI"/>
+                <p></p>
+                <YoutubeLink embedId="2LHQguJHNbU"/>
+                <p></p>
+                <YoutubeLink embedId="Ccfy9-MM9lw"/>
             </div>
         </div>
     );

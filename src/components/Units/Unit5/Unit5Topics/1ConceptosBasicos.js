@@ -122,6 +122,8 @@ const ConceptosBasicos = () => {
                     </TableContainer>
                 </div>
                 <YoutubeLink embedId="uMi96-qyDog"/>
+                <p></p>
+                <YoutubeLink embedId="cZe3QOTACTM"/>
             </div>
         </div>
     );
