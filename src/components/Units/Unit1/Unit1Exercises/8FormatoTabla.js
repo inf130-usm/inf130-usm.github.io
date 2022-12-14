@@ -1,21 +1,21 @@
 import React from 'react';
-import '../../../units.css';
+import '../../units.css';
 
-const Ejercicios = () => {
+const EjFormatoTabla = () => {
     return (
-        <div id='u3-Ejercicios'>
+        <>
             <div className='unit-subtitle'>
                 <label>
-                    Ejercicios
+                    Ejercicios Formato Tabla
                 </label>
             </div>
             <div className='unit-content'>
                 <p>
-                    En construcción...
+                    Contenido en desarrollo...
                 </p>
             </div>
-        </div>
+        </>
     );
 }
 
-export default Ejercicios;
+export default EjFormatoTabla;

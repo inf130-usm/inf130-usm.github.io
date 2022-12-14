@@ -4,23 +4,19 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormHelperText from '@mui/material/FormHelperText';
-import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import '../../../units.css';
+import '../../units.css';
 
-const EjFunciones = () => {
+const EjReferencias = () => {
     const [Answer1, setAnswer1] = React.useState('');
     const [Answer2, setAnswer2] = React.useState('');
     const [Answer3, setAnswer3] = React.useState('');
-    const [Answer4, setAnswer4] = React.useState('');
     const [error1, setError1] = React.useState(false);
     const [error2, setError2] = React.useState(false);
     const [error3, setError3] = React.useState(false);
-    const [error4, setError4] = React.useState(false);
     const [helperText1, setHelperText1] = React.useState(' ');
     const [helperText2, setHelperText2] = React.useState(' ');
     const [helperText3, setHelperText3] = React.useState(' ');
-    const [helperText4, setHelperText4] = React.useState(' ');
 
     const handleRadioChange1 = (event) => {
         setAnswer1(event.target.value);
@@ -37,75 +33,56 @@ const EjFunciones = () => {
         setHelperText3(' ');
         setError3(false);
     };
-    const handleText = (event) => {
-        setAnswer4(event.target.value);
-        setHelperText4(' ');
-        setError4(false);
-    };
 
     const handleSubmit1 = (event) => {
         event.preventDefault();
-        if (Answer1 === 'D') {
-        setHelperText1('¡Bien hecho!');
+        if (Answer1 === 'B') {
+        setHelperText1('¡Correcto!');
         setError1(false);
         } else if (Answer1 === '') {
         setHelperText1('Por favor, selecciona una opción.');
         setError1(true);
         } else {
-        setHelperText1('Prueba con otra alternativa.');
+        setHelperText1('Explicación de solución correcta en construcción.');
         setError1(true);
         }
     };
     const handleSubmit2 = (event) => {
         event.preventDefault();
-        if (Answer2 === 'C') {
-        setHelperText2('¡Bien hecho!');
+        if (Answer2 === 'D') {
+        setHelperText2('¡Correcto!');
         setError2(false);
         } else if (Answer2 === '') {
         setHelperText2('Por favor, selecciona una opción.');
         setError2(true);
         } else {
-        setHelperText2('Prueba con otra alternativa.');
+        setHelperText2('Explicación de solución correcta en construcción.');
         setError2(true);
         }
     };
     const handleSubmit3 = (event) => {
         event.preventDefault();
         if (Answer3 === 'B') {
-        setHelperText3('¡Bien hecho!');
+        setHelperText3('¡Correcto!');
         setError3(false);
         } else if (Answer3 === '') {
         setHelperText3('Por favor, selecciona una opción.');
         setError3(true);
         } else {
-        setHelperText3('Prueba con otra alternativa.');
+        setHelperText3('Explicación de solución correcta en construcción.');
         setError3(true);
         }
     };
-    const handleSubmit4 = (event) => {
-        event.preventDefault();
-        if (Answer4.toLowerCase().trim() === 'num2 as integer, num1 as integer' || Answer4.toLowerCase().trim() === 'num2 as integer,num1 as integer') {
-        setHelperText4('¡Bien hecho!');
-        setError4(false);
-        } else if (Answer4 === '') {
-        setHelperText4('Por favor, escriba una respuesta.');
-        setError4(true);
-        } else {
-        setHelperText4('Prueba con otra respuesta.');
-        setError4(true);
-        }
-    };
-
-    return(
+    return (
         <>
             <div className='unit-subtitle'>
                 <label>
-                    Ejercicios Funciones
+                    Ejercicios Referencias
                 </label>
             </div>
             <div className='unit-content'>
                 <p>
-                    1) Considerando la función <i>Misterio</i> desarrollada en la imagen. ¿Cuál de estas afirmaciones es incorrecta?
+                    1) Considerando la formula ingresada en la celda D2, al seleccionar y arrastrar hacia las celdas inferiores ocurre un error como se ve en la imagen. ¿Por qué ocurre esto?
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit1} className="unit-exercise-answers">
@@ -116,10 +93,10 @@ const EjFunciones = () => {
                                 value={Answer1}
                                 onChange={handleRadioChange1}
                             >
-                            <FormControlLabel value="A" control={<Radio />} className="unit-exercise-answer" label="La variable num3 almacena el retorno de la función" />
-                            <FormControlLabel value="B" control={<Radio />} className="unit-exercise-answer" label="El retorno de la función es de tipo entero" />
-                            <FormControlLabel value="C" control={<Radio />} className="unit-exercise-answer" label="La función recibe un solo parámetro" />
-                            <FormControlLabel value="D" control={<Radio />} className="unit-exercise-answer" label="El parámetro puede ser número decimal" />
+                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="No se utilizó referencias relativas." />
+                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="No se utilizó referencias absolutas." />
+                            <FormControlLabel value="C" control={<Radio />} className="unit-excercise-answer" label="No se puede utilizar seleccionar y arrastrar con formulas creadas." />
+                            <FormControlLabel value="D" control={<Radio />} className="unit-excercise-answer" label="Las celdas inferiores no tienen el formato moneda asignado." />
                             </RadioGroup>
                             <Button className='unit-exercise-button' type="submit" variant="outlined">
                             Enviar Respuesta
@@ -128,11 +105,11 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/U4E1F1.png"} className='unit-image' alt="Funciones Ejercicio 1"/>
+                        <img src={"/images/U1E3F1.jpg"} className='unit-image' alt="Referencias Ejercicio 1"/>
                     </div>
                 </div>
                 <p>
-                    2)  A partir de la misma función <i>Misterio</i>, podemos decir respecto a su funcionamiento:
+                    2) El valor de venta establecido en la columna C, debe ser el costo del producto más el porcentaje de ganancia definido en la celda B1. ¿Cuál fórmula es correcta si queremos escribirla en la celda C4 y arrastrar hacia abajo?
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit2} className="unit-exercise-answers">
@@ -143,10 +120,10 @@ const EjFunciones = () => {
                                 value={Answer2}
                                 onChange={handleRadioChange2}
                             >
-                            <FormControlLabel value="A" control={<Radio />} className="unit-exercise-answer" label="El ciclo while no se ve afectado por el parámetro" />
-                            <FormControlLabel value="B" control={<Radio />} className="unit-exercise-answer" label="La variable num1 solo puede ser números positivos" />
-                            <FormControlLabel value="C" control={<Radio />} className="unit-exercise-answer" label="Entrega la suma de los divisores de num1" />
-                            <FormControlLabel value="D" control={<Radio />} className="unit-exercise-answer" label="Se puede tener como resultado números negativos" />
+                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="=B4+(B4*B1)" />
+                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="=B4+(B4*$B1)" />
+                            <FormControlLabel value="C" control={<Radio />} className="unit-excercise-answer" label="=B4+($B$4*B1)" />
+                            <FormControlLabel value="D" control={<Radio />} className="unit-excercise-answer" label="=B4+(B4*B$1)" />
                             </RadioGroup>
                             <Button className='unit-exercise-button' type="submit" variant="outlined">
                             Enviar Respuesta
@@ -155,11 +132,11 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/U4E1F1.png"} className='unit-image' alt="Funciones Ejercicio 2"/>
+                        <img src={"/images/U1E3F2.jpg"} className='unit-image' alt="Referencias Ejercicio 2"/>
                     </div>
                 </div>
                 <p>
-                    3) En la función <i>EsMayor</i> se perdieron ciertos fragmentos, las palabras necesarias para que la función esté correcta son:
+                    3) La ganancia por venta de Camilo es el valor establecido en la celda C1. Ingrese la formula para obtener la ganancia por la venta 1 y poder luego arrastrar hacia la derecha para obtener la ganancia de las otras 2.
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit3} className="unit-exercise-answers">
@@ -170,10 +147,10 @@ const EjFunciones = () => {
                                 value={Answer3}
                                 onChange={handleRadioChange3}
                             >
-                            <FormControlLabel value="A" control={<Radio />} className="unit-exercise-answer" label="String - Integer - EsMayor" />
-                            <FormControlLabel value="B" control={<Radio />} className="unit-exercise-answer" label="Integer - String - EsMayor" />
-                            <FormControlLabel value="C" control={<Radio />} className="unit-exercise-answer" label="Integer - String - num1" />
-                            <FormControlLabel value="D" control={<Radio />} className="unit-exercise-answer" label="String - String - num2" />
+                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="C" control={<Radio />} className="unit-excercise-answer" label="" />
+                            <FormControlLabel value="D" control={<Radio />} className="unit-excercise-answer" label="" />
                             </RadioGroup>
                             <Button className='unit-exercise-button' type="submit" variant="outlined">
                             Enviar Respuesta
@@ -182,26 +159,7 @@ const EjFunciones = () => {
                         </FormControl>
                     </form>
                     <div className="unit-exercise-image">
-                        <img src={"/images/U4E1F3.jpg"} className='unit-image' alt="Funciones Ejercicio 3"/>
-                    </div>
-                </div>
-                <p>
-                    4) La función <i>Multiplo</i> recibe dos parámetros (número enteros) y determina si el primer parámetro es múltiplo del segundo parámetro.
-                    Lamentablemente el código correspondiente a los parámetros se perdió. Observando el cuerpo de la función, escriba el nombre
-                    de los parámetros, así como sus tipos de dato.
-                </p>
-                <div className='unit-exercise'>
-                    <form onSubmit={handleSubmit4} className="unit-exercise-answers">
-                        <FormControl error={error4} variant="standard">
-                            <TextField className='unit-exercise-textanswer' label="Respuesta" variant="standard" value={Answer4} onChange={handleText}/>
-                            <Button className='unit-exercise-button-text' type="submit" variant="outlined">
-                            Enviar Respuesta
-                            </Button>
-                            <FormHelperText>{helperText4}</FormHelperText>
-                        </FormControl>
-                    </form>
-                    <div className="unit-exercise-image">
-                        <img src={"/images/U4E1F4.jpg"} className='unit-image' alt="Funciones Ejercicio 4"/>
+                        <img src={"/images/U1E3F3.jpg"} className='unit-image' alt="Referencias Ejercicio 3"/>
                     </div>
                 </div>
             </div>
@@ -209,4 +167,4 @@ const EjFunciones = () => {
     );
 }
 
-export default EjFunciones;
+export default EjReferencias;

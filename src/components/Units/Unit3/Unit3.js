@@ -6,7 +6,7 @@ import Variables from './Unit3Topics/3Variables';
 import Boxes from './Unit3Topics/4Boxes';
 import If from './Unit3Topics/5If';
 import While from './Unit3Topics/6While';
-import Ejercicios from './Unit3Topics/Unit3Exercises/Ejercicios';
+import Ejercicios from './Unit3Exercises/Ejercicios';
 import '../units.css';
 
 const Unit3 = () => {

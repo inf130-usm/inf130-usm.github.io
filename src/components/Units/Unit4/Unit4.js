@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Teoria from './Uni4Topics/1Teoría';
-import Ejercicios from './Uni4Topics/2Ejercicios';
+import Ejercicios from './Unit4Exercises/Ejercicios';
 import '../units.css';
 
 const Unit4 = () => {

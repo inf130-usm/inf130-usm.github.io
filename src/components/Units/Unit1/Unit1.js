@@ -11,7 +11,7 @@ import FormatoTabla from './Unit1Topics/8FormatoTabla';
 import Filtros from './Unit1Topics/9Filtros';
 import TablasDinamicas from './Unit1Topics/10TablasDinamicas';
 import GrabacionMacros from './Unit1Topics/11GrabacionMacros';
-import Ejercicios from './Unit1Topics/12Ejercicios';
+import Ejercicios from './Unit1Exercises/Ejercicios';
 import '../units.css';
 
 const Unit1 = () => {
