@@ -1,18 +1,15 @@
 {
     "p0": "Conceptos Básicos",
-    "p1": "En la última unidad del curso se trabajará con los formularios en Excel, como crearlos y controlarlos para solicitar, modificar y mostrar datos pertinentes. Para englobar este módulo se trabajará con los controles de formularios en la pestaña Programador.",
+    "p1": ["En la última unidad del curso se trabajará con los ","formularios"," en Excel, como crearlos y controlarlos para solicitar, modificar y mostrar datos pertinentes. Para englobar este módulo se trabajará con los controles de formularios en la pestaña Programador."],
     "p2": "Como se puede observar existen dos tipos de controles",
-    "p3.1": "Controles de formularios: ",
-    "p3.2": "Estos son los controles más básicos, son compatibles con las versiones antiguas de Excel y permiten ejecutar macros al realizar ciertas operaciones. Al tener un diseño visual (botón, checkbox, scrollbars) son más faciles de usar por el usuario para ejecutar tareas mediante macros.",
-    "p4.1": "Controles ActiveX: ",
-    "p4.2": "Son los mismos controles anteriores pero tienen la característica de personalización de apariencia. Es posible modificar su diseño, fuente, entre otros, a gusto personal. Lamentablemente no son compatibles con las versiones de Excel en Mac, por lo que no serán trabajados durante el curso.",
+    "p3": ["Controles de formularios: ","Estos son los controles más básicos, son compatibles con las versiones antiguas de Excel y permiten ejecutar macros al realizar ciertas operaciones. Al tener un diseño visual (botón, checkbox, scrollbars) son más faciles de usar por el usuario para ejecutar tareas mediante macros."],
+    "p4": ["Controles ActiveX: ","Son los mismos controles anteriores pero tienen la característica de personalización de apariencia. Es posible modificar su diseño, fuente, entre otros, a gusto personal. Lamentablemente no son compatibles con las versiones de Excel en Mac, por lo que no serán trabajados durante el curso."],
     "p5": "Algunos de los controles que se usarán en el curso son los siguientes y se ahondará sobre ellos en el siguiente tópico:",
-    "p6.1": "Control",
-    "p6.2": "Ejemplo",
-    "p7": "Botón",
-    "p8": "Cuadro combinado",
-    "p9": "Control de número",
-    "p10": "Cuadro de lista",
-    "p11": "Casilla / Checkbox",
-    "p12": "Botón de opción"
+    "p6": [["Control", "Ejemplo"],
+          "Botón",
+          "Cuadro combinado",
+          "Control de número",
+          "Cuadro de lista",
+          "Casilla / Checkbox",
+          "Botón de opción"]
 }

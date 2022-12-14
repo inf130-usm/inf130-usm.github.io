@@ -19,24 +19,50 @@ const ConceptosBasicos = () => {
                     <img src={"/images/U1T1F1.jpg"} className='unit-image' alt="Nuevo archivo de Excel"/>
                 </div>
                 <p>
-                {Content["p2"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
                 </p>
                 <p><b>{Content["p3"]}</b></p>
                 <div className="unit-image2">
                     <img src={"/images/U1T1F2.jpg"} className='unit-image' alt="Entorno de trabajo Excel"/>
                 </div>
                 <p>
-                    <b style={{color:'gray'}}>{Content["p4.1"]}</b>{Content["p4.2"]}<br/>
-                    <b style={{color:'black'}}>{Content["p5.1"]}</b>{Content["p5.2"]}<br/>
-                    <b style={{color:'orange'}}>{Content["p6.1"]}</b>{Content["p6.2"]}<br/>
-                    <b style={{color:'green'}}>{Content["p7.1"]}</b>{Content["p7.2"]}<br/>
-                    <b style={{color:'purple'}}>{Content["p8.1"]}</b>{Content["p8.2"]}<br/>
-                    <b style={{color:'royalblue'}}>{Content["p9.1"]}</b>{Content["p9.2"]}<br/>
-                    <b style={{color:'red'}}>{Content["p10.1"]}</b>{Content["p10.2"]}<br/>
+                    <b style={{color:'gray'}}>{Content["p4"][0]}</b>
+                    {Content["p4"][1]}
+                    <i>{Content["p4"][2]}</i>
+                    {Content["p4"][3]}
+                    <i>{Content["p4"][4]}</i>
+                    {Content["p4"][5]}
+                    <br/>
+                    <b style={{color:'black'}}>{Content["p5"][0]}</b>
+                    {Content["p5"][1]}
+                    <br/>
+                    <b style={{color:'orange'}}>{Content["p6"][0]}</b>
+                    {Content["p6"][1]}
+                    <i>{Content["p6"][2]}</i>
+                    {Content["p6"][3]}
+                    <br/>
+                    <b style={{color:'green'}}>{Content["p7"][0]}</b>
+                    {Content["p7"][1]}
+                    <br/>
+                    <b style={{color:'purple'}}>{Content["p8"][0]}</b>
+                    {Content["p8"][1]}
+                    <br/>
+                    <b style={{color:'royalblue'}}>{Content["p9"][0]}</b>
+                    {Content["p9"][1]}
+                    <br/>
+                    <b style={{color:'red'}}>{Content["p10"][0]}</b>
+                    {Content["p10"][1]}
+                    <i>{Content["p10"][2]}</i>
+                    {Content["p10"][3]}
+                    <br/>
                 </p>
                 <p><b>{Content["p11"]}</b></p>
                 <p>
-                {Content["p12"]}
+                    {Content["p12"][0]}
+                    <i>{Content["p12"][1]}</i>
+                    {Content["p12"][2]}
                 </p>
                 <p>
                 {Content["p13"]}

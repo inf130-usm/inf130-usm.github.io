@@ -22,12 +22,14 @@ const FormatoTabla = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    {Content["p1"]}
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <p>
-                    {Content["p2.1"]}
-                    <i>{Content["p2.2"]}</i>
-                    {Content["p2.3"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T8F1.gif"} className='unit-image' alt="Formato Tabla"/>
@@ -45,9 +47,9 @@ const FormatoTabla = () => {
                     <img src={"/images/U1T8F3.gif"} className='unit-image' alt="Columna Calculada"/>
                 </div>
                 <p>
-                    {Content["p5.1"]}
-                    <i>{Content["p5.2"]}</i>
-                    {Content["p5.3"]}
+                    {Content["p5"][0]}
+                    <i>{Content["p5"][1]}</i>
+                    {Content["p5"][2]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T8F4.gif"} className='unit-image' alt="Fila Total"/>

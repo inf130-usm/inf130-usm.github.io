@@ -22,10 +22,14 @@ const TablasDinamicas = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    {Content["p1"]}
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <p>
-                    {Content["p2"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T10F1.jpg"} className='unit-image' alt="Tablas Dinámicas"/>
@@ -52,32 +56,38 @@ const TablasDinamicas = () => {
                     {Content["p6"]}
                 </p>
                 <p>
-                    <b>{Content["p7"]}</b>{Content["p8"]}
+                    <b>{Content["p7"][0]}</b>
+                    {Content["p7"][1]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T10F5.gif"} className='unit-image' alt="Campo filas"/>
                 </div>
                 <p>
-                    <b>{Content["p9"]}</b>{Content["p10"]}
+                    <b>{Content["p8"][0]}</b>
+                    {Content["p8"][1]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T10F6.gif"} className='unit-image' alt="Campo valores"/>
                     <img src={"/images/U1T10F7.gif"} className='unit-image' alt="Configuración campo valor"/>
                 </div>
                 <p>
-                    <b>{Content["p11"]}</b>{Content["p12"]}
+                    <b>{Content["p9"][0]}</b>
+                    {Content["p9"][1]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T10F8.gif"} className='unit-image' alt="Campo columnas"/>
                 </div>
                 <p>
-                    <b>{Content["p13"]}</b>{Content["p14"]}
+                    <b>{Content["p10"][0]}</b>
+                    {Content["p10"][1]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T10F9.gif"} className='unit-image' alt="Campo filtros"/>
                 </div>
                 <p>
-                    {Content["p15"]}
+                    {Content["p11"][0]}
+                    <i>{Content["p11"][1]}</i>
+                    {Content["p11"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T10F10.gif"} className='unit-image' alt="Gráficos dinámicos"/>

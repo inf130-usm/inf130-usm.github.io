@@ -28,7 +28,9 @@ const ConceptosBasicos = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    {Content["p1"]}
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U5T1F1.jpg"} className='unit-image' alt="Controles de formulario"/>
@@ -37,10 +39,10 @@ const ConceptosBasicos = () => {
                     {Content["p2"]}
                 </p>
                 <p>
-                    <b>{Content["p3.1"]}</b>{Content["p3.2"]}
+                    <b>{Content["p3"][0]}</b>{Content["p3"][1]}
                 </p>
                 <p>
-                    <b>{Content["p4.1"]}</b>{Content["p4.2"]}
+                    <b>{Content["p4"][0]}</b>{Content["p4"][1]}
                 </p>
                 <p>
                     {Content["p5"]}
@@ -50,14 +52,14 @@ const ConceptosBasicos = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p6.1"]}</StyledTableCell>
-                                <StyledTableCell style={{"text-align":"center"}}>{Content["p6.2"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p6"][0][0]}</StyledTableCell>
+                                <StyledTableCell style={{"text-align":"center"}}>{Content["p6"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p7"]}
+                                        {Content["p6"][1]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image3'>
@@ -67,7 +69,7 @@ const ConceptosBasicos = () => {
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p8"]}
+                                        {Content["p6"][2]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image3'>
@@ -77,7 +79,7 @@ const ConceptosBasicos = () => {
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p9"]}
+                                        {Content["p6"][3]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image3'>
@@ -87,7 +89,7 @@ const ConceptosBasicos = () => {
                                 </TableRow>  
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p10"]}
+                                        {Content["p6"][4]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image3'>
@@ -97,7 +99,7 @@ const ConceptosBasicos = () => {
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p11"]}
+                                        {Content["p6"][5]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image4'>
@@ -107,7 +109,7 @@ const ConceptosBasicos = () => {
                                 </TableRow>   
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p12"]}
+                                        {Content["p6"][6]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         <div className='unit-image4'>

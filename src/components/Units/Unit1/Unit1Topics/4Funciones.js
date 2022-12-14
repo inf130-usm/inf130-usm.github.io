@@ -35,109 +35,131 @@ const Funciones = () => {
                 </a>
             </div>
             <div className='unit-content'>
-                <p>{Content["p1"]}</p>
+                <p>
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
+                </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T4F1.jpg"} className='unit-image' alt="Sintaxis Función"/>
                 </div>
-                <p>{Content["p2"]}</p>
-                <p>{Content["p3"]}</p>
+                <p>
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
+                    <i>{Content["p2"][3]}</i>
+                    {Content["p2"][4]}
+                </p>
+                <p>
+                    {Content["p3"][0]}
+                    <i>{Content["p3"][1]}</i>
+                    {Content["p3"][2]}
+                    <i>{Content["p3"][3]}</i>
+                    {Content["p3"][4]}
+                </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T4F2.gif"} className='unit-image' alt="Ejemplo Función"/>
                 </div>
                 <YoutubeLink embedId="T6u7s_5FtmY"/>
                 <p></p>
                 <YoutubeLink embedId="GBCU2uaACII"/>
-                <p>{Content["p4"]}</p>
-                <p><b>{Content["p5"]}</b></p>
-                <p>{Content["p6"]}</p>
+                <p>
+                    {Content["p4"]}
+                </p>
+                <p>
+                    <b>{Content["p5"]}</b>
+                </p>
+                <p>
+                    {Content["p6"]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p7"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p8"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p7"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p7"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p9"]}
+                                        {Content["p7"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p10"]}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p11"]}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p12"]}
+                                        {Content["p7"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p13"]}
+                                        {Content["p7"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p14"]}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p15"]}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p16"]}
+                                        {Content["p7"][2][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p17"]}
+                                        {Content["p7"][3][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p18"]}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p19"]}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p20"]}
+                                        {Content["p7"][3][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p21"]}
+                                        {Content["p7"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p22"]}
+                                        {Content["p7"][4][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p23"]}
+                                        {Content["p7"][5][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p24"]}
+                                        {Content["p7"][5][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][6][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][6][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][7][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][7][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][8][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p7"][8][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p25"]}
+                                        {Content["p7"][9][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p26"]}
+                                        {Content["p7"][9][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p27"]}
+                                        {Content["p7"][10][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p28"]}
+                                        {Content["p7"][10][1]}
                                     </TableCell>
                                 </TableRow>                                 
                             </TableBody>
@@ -147,88 +169,92 @@ const Funciones = () => {
                 <YoutubeLink embedId="CBPokSlpL-c"/>
                 <p></p>
                 <YoutubeLink embedId="8rCyl4q2K1g"/>
-                <p><b>{Content["p29"]}</b></p>
-                <p>{Content["p30"]}</p>
+                <p>
+                    <b>{Content["p8"]}</b>
+                </p>
+                <p>
+                    {Content["p9"]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p31"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p32"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p10"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p10"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p33"]}
+                                        {Content["p10"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p34"]}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p35"]}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p36"]}
+                                        {Content["p10"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p37"]}
+                                        {Content["p10"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p38"]}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p39"]}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {Content["p40"]}
+                                        {Content["p10"][2][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p41"]}
+                                        {Content["p10"][3][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p42"]}
+                                        {Content["p10"][3][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p43"]}
+                                        {Content["p10"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p44"]}
+                                        {Content["p10"][4][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10"][5][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10"][5][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10"][6][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p10"][6][1]}
                                     </TableCell>
                                 </TableRow>   
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p45"]}
+                                        {Content["p10"][7][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p46"]}
+                                        {Content["p10"][7][1]}
                                     </TableCell>
                                 </TableRow>  
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p47"]}
+                                        {Content["p10"][8][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p48"]}
+                                        {Content["p10"][8][1]}
                                     </TableCell>
                                 </TableRow>   
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p49"]}
+                                        {Content["p10"][9][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p50"]}
+                                        {Content["p10"][9][1]}
                                     </TableCell>
                                 </TableRow>           
                             </TableBody>
@@ -236,48 +262,52 @@ const Funciones = () => {
                     </TableContainer>
                 </div>
                 <YoutubeLink embedId="0_JCfpQ07v0"/>
-                <p><b>{Content["p51"]}</b></p>
-                <p>{Content["p52"]}</p>
+                <p>
+                    <b>{Content["p11"]}</b>
+                </p>
+                <p>
+                    {Content["p12"]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p53"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p54"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p13"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p13"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p55"]}
+                                        {Content["p13"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p56"]}
+                                        {Content["p13"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p57"]}
+                                        {Content["p13"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p58"]}
+                                        {Content["p13"][2][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p59"]}
+                                        {Content["p13"][3][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p60"]}
+                                        {Content["p13"][3][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p61"]}
+                                        {Content["p13"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p62"]}
+                                        {Content["p13"][4][1]}
                                     </TableCell>
                                 </TableRow>        
                             </TableBody>
@@ -285,48 +315,54 @@ const Funciones = () => {
                     </TableContainer>
                 </div>
                 <YoutubeLink embedId="LcFGfkfp2lA"/>
-                <p><b>{Content["p63"]}</b></p>
-                <p>{Content["p64"]}</p>
+                <p>
+                    <b>{Content["p14"]}</b>
+                </p>
+                <p>
+                    {Content["p15"][0]}
+                    <i>{Content["p15"][1]}</i>
+                    {Content["p15"][2]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p65"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p66"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p16"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p16"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p67"]}
+                                        {Content["p16"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p68"]}
+                                        {Content["p16"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p69"]}
+                                        {Content["p16"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p70"]}
+                                        {Content["p16"][2][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p71"]}
+                                        {Content["p16"][3][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p72"]}
+                                        {Content["p16"][3][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p73"]}
+                                        {Content["p16"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p74"]}
+                                        {Content["p16"][4][1]}
                                     </TableCell>
                                 </TableRow>    
                             </TableBody>

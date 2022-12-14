@@ -36,62 +36,70 @@ const Funciones = () => {
                 </a>
             </div>
             <div className='unit-content'>
-                <p>{Content["p1"]}</p>
+                <p>
+                    {Content["p1"]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p2.1"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p2.2"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p3.1"]}
+                                        {Content["p2"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                    {Content["p3.2"]}
+                                        {Content["p2"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p4.1"]}
+                                        {Content["p2"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                    {Content["p4.2"]}
+                                        {Content["p2"][2][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p5.1"]}
+                                        {Content["p2"][3][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                    {Content["p5.2"]}
+                                        {Content["p2"][3][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p6.1"]}
+                                        {Content["p2"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                    {Content["p6.2"]}
+                                        {Content["p2"][4][1]}
                                     </TableCell>
                                 </TableRow>  
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                    {Content["p7.1"]}
+                                        {Content["p2"][5][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                    {Content["p7.2"]}
+                                        {Content["p2"][5][1]}
                                     </TableCell>
                                 </TableRow>   
                             </TableBody>
                         </Table>
                     </TableContainer>
                 </div>
-                <p>{Content["p8"]}</p>
+                <p>
+                    {Content["p3"][0]}
+                    <i>{Content["p3"][1]}</i>
+                    {Content["p3"][2]}
+                    <i>{Content["p3"][3]}</i>
+                    {Content["p3"][4]}
+                </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T5F1.gif"} className='unit-image' alt="Función BuscarV"/>
                 </div>

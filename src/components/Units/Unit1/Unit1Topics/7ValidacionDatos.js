@@ -22,10 +22,16 @@ const ValidacionDatos = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    {Content["p1"]}
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <p>
-                    {Content["p2"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
+                    <i>{Content["p2"][3]}</i>
+                    {Content["p2"][4]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T7F1.jpg"} className='unit-image' alt="Validación de datos"/>

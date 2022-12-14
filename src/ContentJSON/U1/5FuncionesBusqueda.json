@@ -1,17 +1,11 @@
 {
     "p0": "Funciones de Búsqueda",
-    "p1": "Dentro los tipos de funciones, las usadas para búsqueda son de gran utilidad y serán usadas extensamente dentro de este curso (por eso tienen su propia sección). Éstas permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterios. Para una explicación más detallada de cada función, revise los videos adjuntos.",
-    "p2.1": "Función",
-    "p2.2": "Descripción",
-    "p3.1": "=BUSCARV(valorBuscado;matriz;numColumna)",
-    "p3.2": "A partir de la matriz entregada, busca la fila en que se encuentra valorBuscado en la primera columna de la matriz, luego devuelve el valor de la misma fila pero de la columa numColumna.",
-    "p4.1": "=BUSCARH(valorBuscado;matriz;numFila)",
-    "p4.2": "A partir de la matriz entregada, busca la columna en que se encuentra valorBuscado en la primera fila de la matriz, luego devuelve el valor de la misma columna pero de la fila numFila.",
-    "p5.1": "=COINCIDIR(valor;rango;[tipoDeCoincidencia])",
-    "p5.2": "Busca el valor en el rango entregado y devuelve el número de fila o columna en la que se encuentra. El tipo de coincidencia es para realizar una busqueda exacta o de otro tipo.",
-    "p6.1": "=INDICE(rango;numFila;[numColumna])",
-    "p6.2": "Entrega el valor de la celda que se encuentra en el número de fila y columna entregados, considerando el rango o matriz ingresado.",
-    "p7.1": "=UNICOS(rango)",
-    "p7.2": "Devuelve los valores únicos de un rango dado.",
-    "p8": "A continuación, se presentará un ejemplo de la función BUSCARV(), donde se buscará el valor unitario de un producto a partir de una tabla. Cabe destacar que la lista mostrada en la celda B3 se explicará en el tópico 'Validación de datos'."
+    "p1": "Dentro de los tipos de funciones, las usadas para búsqueda son de gran utilidad y serán usadas extensamente dentro de este curso (por eso tienen su propia sección). Éstas permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterios. Para una explicación más detallada de cada función, revise los videos adjuntos.",
+    "p2": [["Función","Descripción"],
+           ["=BUSCARV(valorBuscado;matriz;numColumna)","A partir de la matriz entregada, busca la fila en que se encuentra valorBuscado en la primera columna de la matriz, luego devuelve el valor de la misma fila pero de la columa numColumna."],
+           ["=BUSCARH(valorBuscado;matriz;numFila)","A partir de la matriz entregada, busca la columna en que se encuentra valorBuscado en la primera fila de la matriz, luego devuelve el valor de la misma columna pero de la fila numFila."],
+           ["=COINCIDIR(valor;rango;[tipoDeCoincidencia])","Busca el valor en el rango entregado y devuelve el número de fila o columna en la que se encuentra. El tipo de coincidencia es para realizar una busqueda exacta o de otro tipo."],
+           ["=INDICE(rango;numFila;[numColumna])","Entrega el valor de la celda que se encuentra en el número de fila y columna entregados, considerando el rango o matriz ingresado."],
+           ["=UNICOS(rango)","Devuelve los valores únicos de un rango dado."]],
+    "p3": ["A continuación, se presentará un ejemplo de la función ","BUSCARV()",", donde se buscará el valor unitario de un producto a partir de una tabla. Cabe destacar que la lista mostrada en la celda B3 se explicará en el tópico ","Validación de datos","."]
 }

@@ -27,55 +27,79 @@ const Referencias = () => {
                 </label>
             </div>
             <div className='unit-content'>
-                <p>{Content["p1"]}</p>
+                <p>
+                    {Content["p1"]}
+                </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>{Content["p2.1"]}</StyledTableCell>
-                                <StyledTableCell>{Content["p2.2"]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p2"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p3.1"]}
+                                        {Content["p2"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p3.2"]}
+                                        {Content["p2"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {Content["p4.1"]}
+                                        {Content["p2"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {Content["p4.2"]}
+                                        {Content["p2"][2][1]}
                                     </TableCell>
                                 </TableRow>                              
                             </TableBody>
                         </Table>
                     </TableContainer>
                 </div>
-                <p>{Content["p5"]}</p>
-                <p><b>{Content["p6"]}</b></p>
-                <p>{Content["p7"]}</p>
+                <p>
+                    {Content["p3"]}
+                </p>
+                <p>
+                    <b>{Content["p4"]}</b>
+                </p>
+                <p>
+                    {Content["p5"]}
+                </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T3F1.gif"} className='unit-image' alt="Referencias Relativas"/>
                 </div>
-                <p>{Content["p8"]}</p>
-                <p><b>{Content["p9"]}</b></p>
-                <p>{Content["p10"]}</p>
+                <p>
+                    {Content["p6"][0]}
+                    <i>{Content["p6"][1]}</i>
+                    {Content["p6"][2]}
+                </p>
+                <p>
+                    <b>{Content["p7"]}</b>
+                </p>
+                <p>
+                    {Content["p8"]}
+                </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T3F2.gif"} className='unit-image' alt="Referencias Absolutas"/>
                 </div>
-                <p><b>{Content["p11"]}</b></p>
-                <p>{Content["p12"]}</p>
+                <p>
+                    <b>{Content["p9"]}</b>
+                </p>
+                <p>
+                    {Content["p10"]}
+                </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T3F3.gif"} className='unit-image' alt="Referencias Mixtas"/>
                 </div>
-                <p>{Content["p13"]}</p>
+                <p>
+                    {Content["p11"][0]}
+                    <i>{Content["p11"][1]}</i>
+                    {Content["p11"][2]}
+                </p>
                 <YoutubeLink embedId="b4quyEtiM3c"/>
             </div>
         </div>

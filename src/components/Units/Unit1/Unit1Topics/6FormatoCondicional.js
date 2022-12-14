@@ -22,19 +22,31 @@ const FormatoCondicional = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    {Content["p1"]}
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
+                    <i>{Content["p1"][3]}</i>
+                    {Content["p1"][4]}
+                    <i>{Content["p1"][5]}</i>
+                    {Content["p1"][6]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T6F1.jpg"} className='unit-image' alt="Pestaña formato condicional"/>
                 </div>
                 <p>
-                    {Content["p2"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
+                    <i>{Content["p2"][3]}</i>
+                    {Content["p2"][4]}
                 </p>
                 <div className='unit-image3'>
                     <img src={"/images/U1T6F2.jpg"} className='unit-image' alt="Barras de color"/>
                 </div>
                 <p>
-                    {Content["p3"]}
+                    {Content["p3"][0]}
+                    <i>{Content["p3"][1]}</i>
+                    {Content["p3"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T6F3.jpg"} className='unit-image' alt="Más reglas"/>
@@ -46,7 +58,11 @@ const FormatoCondicional = () => {
                     <img src={"/images/U1T6F4.gif"} className='unit-image' alt="Ejemplo formato condicional"/>
                 </div>
                 <p>
-                    {Content["p5"]}
+                    {Content["p5"][0]}
+                    <i>{Content["p5"][1]}</i>
+                    {Content["p5"][2]}
+                    <i>{Content["p5"][3]}</i>
+                    {Content["p5"][4]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T6F5.jpg"} className='unit-image' alt="Administrar reglas"/>
