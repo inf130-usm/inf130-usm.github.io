@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Teoria from './Uni4Topics/1Teoría';
+import Teoria from './Unit4Topics/1Teoría';
 import Ejercicios from './Unit4Exercises/Ejercicios';
 import '../units.css';
 
