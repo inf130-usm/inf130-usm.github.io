@@ -1,5 +1,8 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
+import Content from '../../../../ContentJSON/U3/4Boxes.json';
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell, { tableCellClasses } from '@mui/material/TableCell';
@@ -20,20 +23,25 @@ const Boxes = () => {
 
     return (
         <div id='u3-boxes'>
-            <div className='unit-subtitle'>
-                <label>
-                    InputBox y MsgBox
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
+                    {Content["p0"]}
                 </label>
+                <a href='/excel-files/U3-Boxes.xlsm' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>
-                    A veces es necesario mostrar información al usuario o incluso solicitarle a éste información que no se encuentra en la planilla de Excel.
-                    Para enfrentar esta situación existen dos instrucciones en VBA, que permiten la entrada y salida de datos del algoritmo.
+                    {Content["p1"]}
                 </p>
-                <p><b>MessageBox</b></p>
+                <p><b>{Content["p2"]}</b></p>
                 <p>
-                    La instrucción MsgBox permite desplegar en pantalla una pequeña ventana con información para el usuario.
-                    Este comando posee varios parámetros pero se ocupará más que nada solo el primero.
+                    {Content["p3"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T4F1.jpg"} className='unit-image' alt="Sintaxis MsgBox"/>
@@ -43,43 +51,43 @@ const Boxes = () => {
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Parámetro</StyledTableCell>
-                                <StyledTableCell>Tipo</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p4"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p4"][0][1]}</StyledTableCell>
+                                <StyledTableCell>{Content["p4"][0][2]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Mensaje'}
+                                        {Content["p4"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Texto'}
+                                        {Content["p4"][1][1]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Obligatorio. Mensaje que se desplegará en la ventana'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'Botones'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Numérico'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Opcional. Número para espeficiar que botones se mostrarán en la ventana. 0 es solo Aceptar, 1 es Aceptar y Cancelar'}
+                                        {Content["p4"][1][2]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Título'}
+                                        {Content["p4"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Texto'}
+                                        {Content["p4"][2][1]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Opcional. Título de la ventana desplegada'}
+                                        {Content["p4"][2][2]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p4"][3][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p4"][3][1]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p4"][3][2]}
                                     </TableCell>
                                 </TableRow>                         
                             </TableBody>
@@ -87,73 +95,73 @@ const Boxes = () => {
                     </TableContainer>
                 </div>
                 <p>
-                    Si no se especifican los parámetros opcionales, se establecerán unos por defectos. Por lo tanto, una instrucción de MsgBox de forma 
+                    {Content["p5"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T4F2.jpg"} className='unit-image' alt="Instruccion MsgBox"/>
                 </div>
                 <p>
-                    <b style={{color:'red'}}><u>Importante</u></b>: En algunas versiones MsgBox no es necesario que lleve paréntesis.
-                </p>
-                <p>
-                    Tendrá como resultado el despliegue de la siguiente ventana.
+                    {Content["p6"]}
                 </p>
                 <div className="unit-image3">
-                    <img src={"/images/U3T4F3.jpg"} className='unit-image' alt="Ventana MsgBox"/>
+                    <img src={"/images/U3T4F3.gif"} className='unit-image' alt="Ventana MsgBox"/>
                 </div>
-                <p><b>InputBox</b></p>
                 <p>
-                    La instrucción despliega el mismo tipo de ventana que MsgBox, pero ésta posee un cuadro para que el usuario escriba y así poder almacenar la información entregada.
-                    La sintaxis es la siguiente
+                    <b style={{color:'red'}}><u>{Content["p7"][0]}</u></b>
+                    {Content["p7"][1]}
+                </p>
+                <p><b>{Content["p8"]}</b></p>
+                <p>
+                    {Content["p9"]}
                 </p>
                 <div className="unit-image2">
                     <img src={"/images/U3T4F4.jpg"} className='unit-image' alt="Sintaxis InputBox"/>
                 </div>
                 <p>
-                    La instrucción debe ir en conjunto a una variable, donde se guardará la información que entregue el usuario.
+                    {Content["p10"]}
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Parámetro</StyledTableCell>
-                                <StyledTableCell>Tipo</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p11"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p11"][0][1]}</StyledTableCell>
+                                <StyledTableCell>{Content["p11"][0][2]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Mensaje'}
+                                        {Content["p11"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Texto'}
+                                        {Content["p11"][1][1]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Obligatorio. Mensaje que se desplegará en la ventana.'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'Título'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Texto'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Opcional. Título de la ventana desplegada.'}
+                                        {Content["p11"][1][2]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Predeterminado'}
+                                        {Content["p11"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Texto'}
+                                        {Content["p11"][2][1]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Opcional. Mensaje que se guardará si el cuadro de texto se entrega vacío.'}
+                                        {Content["p11"][2][2]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p11"][3][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p11"][3][1]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                        {Content["p11"][3][2]}
                                     </TableCell>
                                 </TableRow>                    
                             </TableBody>
@@ -161,13 +169,13 @@ const Boxes = () => {
                     </TableContainer>
                 </div>
                 <p>
-                    Así, la instrucción con su correspondiente resultado son:
+                    {Content["p12"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T4F5.jpg"} className='unit-image' alt="Instruccion InputBox"/>
                 </div>
                 <div className="unit-image3">
-                    <img src={"/images/U3T4F6.jpg"} className='unit-image' alt="Ventana InputBox"/>
+                    <img src={"/images/U3T4F6.gif"} className='unit-image' alt="Ventana InputBox"/>
                 </div>
                 <YoutubeLink embedId="k1aopK081gE"/>
             </div>

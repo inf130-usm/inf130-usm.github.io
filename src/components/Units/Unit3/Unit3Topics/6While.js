@@ -1,33 +1,41 @@
 import React from 'react';
+import Content from '../../../../ContentJSON/U3/6While.json';
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
 
 const EstructuraRepetitiva = () => {
     return (
         <div id='u3-Estructurarepetitiva'>
-            <div className='unit-subtitle'>
-                <label>
-                    Estructura While
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
+                    {Content["p0"]}
                 </label>
+                <a href='/excel-files/U3-While.xlsm' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>
-                    Las estructuras condicionales no sirven para todos los casos. En la situación del inicio de sesión de una plataforma,
-                    el usuario debe ingresar su contraseña, para verificar si ésta es correcta podría utilizarse una estructura If,
-                    pero si el usuario se equivoca debemos pedir la contraseña nuevamente, ¿Y si se equivoca nuevamente? ¿Cuántas veces
-                    se debe repetir el ingreso de contraseña? Para casos ciclicos y repetitivos, existen las estructuras repetitivas conocidas
-                    como <b>While</b>.
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <p>
-                    Su comportamiento es similar a la estructura If, dada una cierta condición lógica, la evalúa y si es verdadera ejecuta
-                    las instrucciones dentro de la estructura. Lo distintivo del ciclo While es que al terminar de ejecutar las instrucciones,
-                    evalúa nuevamente la condición lógica y si esta continúa siendo verdadera, vuelve a ejecutar las instrucciones y así una y otra vez.
-                    Se llamará <i>iteración</i> a cada una de las pasadas o ejecuciones de las instrucciones realizadas por el ciclo.
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
                 </p>
                 <p>
-                    Existen tres sintaxis posible para la estructura While, las dos primeras presentadas a continuación son equivalentes.
-                    Estas estructuras evaluan la condición y luego intentan ejecutar las instrucciones internas, por lo que es posible que
-                    en algunos casos las instrucciones nunca vayan a ejecutarse.
+                    {Content["p3"]}
+                </p>
+                <p>
+                    {Content["p4"]}
                 </p>
                 <div className='flex space-between'>
                     <div className="unit-image3">
@@ -38,47 +46,57 @@ const EstructuraRepetitiva = () => {
                     </div>
                 </div>
                 <p>
-                    Una representación gráfica puede ser:
+                    {Content["p5"]}
                 </p>
                 <div className="unit-image2">
                     <img src={"/images/U3T6F3.jpg"} className='unit-image' alt="Diagrama while"/>
                 </div>
                 <p>
-                    La tercera sintaxis posible es la siguiente:
+                    {Content["p6"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T6F4.jpg"} className='unit-image' alt="Sintaxis do loop while"/>
                 </div>
                 <p>
-                    En este caso en primer lugar se ejecutan las instrucciones dentro de la estructura y luego se evalúa la condición
-                    que podría resultar en la repetición de la ejecución o no. Por lo tanto, con esta estructura las instrucciones se ejecutan
-                    al menos una vez, al contrario de las estructuras anteriores.
+                    {Content["p7"]}
                 </p>
                 <p>
-                    En las 3 estructuras la condición funciona del mismo modo y trabaja igual que la estructura If, pero en la estructura While
-                    hay que tener 2 consideraciones <b style={{color:'red'}}><u>importantes</u></b>:
+                    {Content["p8"][0]}
+                    <b style={{color:'red'}}><u>{Content["p8"][1]}</u></b>
+                    {Content["p8"][2]}
                 </p>
                 <ul>
-                    <li>En la comparación de la condición lógica debe haber al menos una variable.</li>
-                    <li>Entre las instrucciones de la estructura, debe modificarse al menos una de las variables de la condición lógica, para así evitar un ciclo infinito</li>
+                    <li>{Content["p9"]}</li>
+                    <li>{Content["p10"]}</li>
                 </ul>
                 <p>
-                    Si lo que se está evaluando en la condición lógica nunca es modificado, la condición nunca tendrá la oportunidad de ser falsa,
-                    por lo que el ciclo While nunca se detendría.
+                    {Content["p11"]}
                 </p>
                 <p>
-                    De este modo, se puede ver el siguiente ejemplo, como se utiliza un ciclo While para escribir el número correspondiente a su fila en las primeras 10 celdas de la columna A. 
+                    {Content["p12"]}
                 </p>
                 <div className="unit-image3">
-                    <img src={"/images/U3T6F5.jpg"} className='unit-image' alt="Ejemplo ciclo while"/>
+                    <img src={"/images/U3T6F5.jpg"} className='unit-image' alt="Código ejemplo while 1"/>
                 </div>
-                <div className="unit-image3">
-                    <img src={"/images/U3T6F6.jpg"} className='unit-image' alt="Ejemplo ciclo while"/>
+                <div className="unit-image2">
+                    <img src={"/images/U3T6F6.gif"} className='unit-image' alt="Ejemplo while 1"/>
                 </div>
                 <p>
-                    Como se puede observar se estableció la variable <i>fila</i> en la condición y como última instrucción del ciclo se incrementa
-                    el valor de la variable <i>fila</i> en 1. Llegando así, luego de la décima iteración (vuelta), al final del ciclo While.
+                    {Content["p13"][0]}
+                    <i>{Content["p13"][1]}</i>
+                    {Content["p13"][2]}
+                    <i>{Content["p13"][3]}</i>
+                    {Content["p13"][4]}
                 </p>
+                <p> 
+                    {Content["p14"]}
+                </p>
+                <div className="unit-image3">
+                    <img src={"/images/U3T6F7.jpg"} className='unit-image' alt="Código ejemplo while 2"/>
+                </div>
+                <div className="unit-image2">
+                    <img src={"/images/U3T6F8.gif"} className='unit-image' alt="Ejemplo while 2"/>
+                </div>
                 <YoutubeLink embedId="kZX2firkIKM"/>
             </div>
         </div>

@@ -1,0 +1,21 @@
+{
+    "p0": "Variables",
+    "p1": "A veces es necesario mostrar información al usuario o incluso solicitarle a éste información que no se encuentra en la planilla de Excel. Para enfrentar esta situación existen dos instrucciones en VBA, que permiten la entrada y salida de datos del algoritmo.",
+    "p2": "MessageBox",
+    "p3": "La instrucción MsgBox permite desplegar en pantalla una pequeña ventana con información para el usuario. Este comando posee varios parámetros pero se ocupará más que nada solo el primero.",
+    "p4": [["Parámetro","Tipo","Descripción"],
+          ["Mensaje","Texto","Obligatorio. Mensaje que se desplegará en la ventana"],
+          ["Botones","Numérico","Opcional. Número para espeficiar que botones se mostrarán en la ventana. 0 es solo Aceptar, 1 es Aceptar y Cancelar. Existen más opciones que se pueden encontrar en la página de soporte de Microsoft."],
+          ["Título","Texto","Opcional. Título de la ventana desplegada"]],
+    "p5": "Si no se especifican los parámetros opcionales, se establecerán unos por defectos. Por lo tanto, una instrucción de MsgBox de forma",
+    "p6": "Tendrá como resultado el despliegue de la siguiente ventana.",
+    "p7": ["Importante:"," En algunas versiones MsgBox no es necesario que lleve paréntesis."],
+    "p8": "InputBox",
+    "p9": "La instrucción despliega el mismo tipo de ventana que MsgBox, pero ésta posee un cuadro para que el usuario escriba y así poder almacenar la información entregada. La sintaxis es la siguiente",
+    "p10": "La instrucción debe ir en conjunto a una variable, donde se guardará la información que entregue el usuario.",
+    "p11": [["Parámetro","Tipo","Descripción"],
+           ["Mensaje","Texto","Obligatorio. Mensaje que se desplegará en la ventana."],
+           ["Título","Texto","Opcional. Título de la ventana desplegada."],
+           ["Predeterminado","Texto","Opcional. Mensaje que se guardará si el cuadro de texto se entrega vacío."]],
+    "p12": "Así, la instrucción con su correspondiente resultado son:"
+}

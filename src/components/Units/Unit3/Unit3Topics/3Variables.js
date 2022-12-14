@@ -1,5 +1,8 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
+import Content from '../../../../ContentJSON/U3/3Variables.json';
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell, { tableCellClasses } from '@mui/material/TableCell';
@@ -20,74 +23,78 @@ const Variables = () => {
 
     return (
         <div id='u3-Variables'>
-            <div className='unit-subtitle'>
-                <label>
-                    Variables
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
+                    {Content["p0"]}
                 </label>
+                <a href='/excel-files/U3-Variables.xlsm' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>
-                    En el mundo de la programación los datos no son estáticos, éstos se pueden modificar, trabajar con ellos e
-                    incluso ser desconocidos ya que el usuario debe proveerlos. Para poder trabajar con los datos es necesario
-                    antes almacenarlos dentro de lo conocido como <i>variable</i>.
+                    {Content["p1"][0]}
+                    <i>{Content["p1"][1]}</i>
+                    {Content["p1"][2]}
                 </p>
                 <p>
-                    Una variable es un espacio de memoría que puede almacenar un dato, se le representa como una caja cuyo interior
-                    posee el dato que almacena la variable. Para poder crear una variable son necesario dos aspectos: un nombre
-                    y su tipo de dato. El nombre de la variable respeta las mismas reglas que el nombre de la subrutina. Por otro lado,
-                    el tipo de dato es exactamente eso, la clase de dato que puede almacenar la variable.
+                    {Content["p2"]}
                 </p>
                 <p>
-                    Existe una gran cantidad de tipo de datos dentro de la programación, algunos de ellos son:
+                    {Content["p3"]}
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
                             <TableRow>
-                                <StyledTableCell>Tipo de Dato</StyledTableCell>
-                                <StyledTableCell>Descripción</StyledTableCell>
+                                <StyledTableCell>{Content["p4"][0][0]}</StyledTableCell>
+                                <StyledTableCell>{Content["p4"][0][1]}</StyledTableCell>
                             </TableRow>
                             </TableHead>
                             <TableBody>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Integer'}
+                                    {Content["p4"][1][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Números enteros, positivos y negativos'}
-                                    </TableCell>
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell component="th" scope="row">
-                                        {'Double'}
-                                    </TableCell>
-                                    <TableCell component="th" scope="row">
-                                        {'Número decimales, positivos y negativos'}
+                                    {Content["p4"][1][1]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'String'}
+                                    {Content["p4"][2][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Texto, debe escribirse entre comillas ("")'}
+                                    {Content["p4"][2][1]}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell component="th" scope="row">
+                                    {Content["p4"][3][0]}
+                                    </TableCell>
+                                    <TableCell component="th" scope="row">
+                                    {Content["p4"][3][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Boolean'}
+                                    {Content["p4"][4][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Dato que solo puede tener los valores True (verdadero) o False (falso)'}
+                                    {Content["p4"][4][1]}
                                     </TableCell>
                                 </TableRow> 
                                 <TableRow>
                                     <TableCell component="th" scope="row">
-                                        {'Variant'}
+                                    {Content["p4"][5][0]}
                                     </TableCell>
                                     <TableCell component="th" scope="row">
-                                        {'Cualquier tipo'}
+                                    {Content["p4"][5][1]}
                                     </TableCell>
                                 </TableRow>                          
                             </TableBody>
@@ -95,38 +102,42 @@ const Variables = () => {
                     </TableContainer>
                 </div>
                 <p>
-                    Declarar y darle valor a las variables tiene una sintáxis especifica
+                    {Content["p5"]}
                 </p>
                 <div className="unit-image2">
                     <img src={"/images/U3T3F1.jpg"} className='unit-image' alt="Variables"/>
                 </div>
                 <p>
-                    Para crear la variable se usa la palabra reservada Dim, luego el nombre que se le quiere asignar a la variable
-                    y finalmente la palabra reservada As, seguida del tipo de dato que almacenará la variable creada.
-                    Para darle un valor a una variable ya creada, se debe escribir el nombre de la variable, continuada por el
-                    signo igual (=) y el valor que se quiere almacenar (debe coincidir con el tipo de dato definido en la variable).
+                    {Content["p6"][0]}
+                    <b style={{color:'blue'}}>{Content["p6"][1]}</b>
+                    {Content["p6"][2]}
+                    <b style={{color:'green'}}>{Content["p6"][3]}</b>
+                    {Content["p6"][4]}
+                    <b style={{color:'red'}}>{Content["p6"][5]}</b>
+                    {Content["p6"][6]}
+                    <b style={{color:'orange'}}>{Content["p6"][7]}</b>
+                    {Content["p6"][8]}
+                    <b style={{color:'green'}}>{Content["p6"][9]}</b>
+                    {Content["p6"][10]}
+                    <b style={{color:'purple'}}>{Content["p6"][11]}</b>
+                    {Content["p6"][12]}
                 </p>
                 <p>
-                    Es posible darle valor a variables sin declararlas antes (creandose en el momento), pero si no se maneja con cuidado
-                    puede generar problemas en el código, por lo que se evitará durante este curso. Para forzar el declarar variables se
-                    utiliza la instrucción <i>Option Explicit</i> al inicio del editor de texto, antes de la subrutina.
+                    {Content["p7"][0]}
+                    <i>{Content["p7"][1]}</i>
+                    {Content["p7"][2]}
                 </p>
                 <p>
-                    A continuación se puede apreciar un código de ejemplo trabajando con variables.
+                    {Content["p8"]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T3F2.jpg"} className='unit-image' alt="Codigo variables"/>
                 </div>
                 <p>
-                    En la imagen de la izquierda puede verse la hoja antes de la ejecución de la macro y a la derecha el resultado al ejecutarla.
+                    {Content["p9"]}
                 </p>
-                <div className='flex space-between'>
-                    <div className="unit-image3">
-                        <img src={"/images/U3T3F3.jpg"} className='unit-image' alt="Antes de ejecutar código"/>
-                    </div>
-                    <div className="unit-image3">
-                        <img src={"/images/U3T3F4.jpg"} className='unit-image' alt="Después de ejecutar código"/>
-                    </div>
+                <div className="unit-image2">
+                    <img src={"/images/U3T3F3.gif"} className='unit-image' alt="Ejecución de subrutina"/>
                 </div>
                 <YoutubeLink embedId="J0_q4LGl2u4"/>
                 <p></p>

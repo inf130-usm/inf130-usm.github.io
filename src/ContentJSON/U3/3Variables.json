@@ -1,0 +1,17 @@
+{
+    "p0": "Variables",
+    "p1": ["En el mundo de la programación los datos no son estáticos, éstos se pueden modificar, trabajar con ellos e incluso ser desconocidos ya que el usuario debe proveerlos. Para poder trabajar con los datos es necesario antes almacenarlos dentro de lo conocido como ","variable","."],
+    "p2": "Una variable es un espacio de memoría que puede almacenar un dato, se le representa como una caja cuyo interior posee el dato que almacena la variable. Para poder crear una variable son necesario dos aspectos: un nombre y su tipo de dato. El nombre de la variable respeta las mismas reglas que el nombre de la subrutina. Por otro lado, el tipo de dato es exactamente eso, la clase de dato que puede almacenar la variable.",
+    "p3": "Existe una gran cantidad de tipos de dato dentro de la programación, algunos de ellos son:",
+    "p4": [["Tipo de Dato","Descripción"],
+          ["Integer","Números enteros, positivos y negativos"],
+          ["Double","Número decimales, positivos y negativos"],
+          ["String","Texto, debe escribirse entre comillas (\"\")"],
+          ["Boolean","Dato que solo puede tener los valores True (verdadero) o False (falso)"],
+          ["Variant","Cualquier tipo"]],
+    "p5": "Declarar y darle valor a las variables tiene una sintáxis especifica",
+    "p6": ["Para crear la variable se usa la palabra reservada ","Dim",", luego el ","nombre"," que se le quiere asignar a la variable y finalmente la palabra reservada ","As",", seguida del ","tipo de dato"," que almacenará la variable creada. Para darle un valor a una variable ya creada, se debe escribir el ","nombre de la variable",", continuada por el signo igual (=) y el ","valor"," que se quiere almacenar (debe coincidir con el tipo de dato definido en la variable)."],
+    "p7": ["Es posible darle valor a variables sin declararlas antes (creandose en el momento), pero si no se maneja con cuidado puede generar problemas en el código, por lo que se evitará durante este curso. Para forzar el declarar variables se utiliza la instrucción ","Option Explicit"," al inicio del editor de texto, antes de la subrutina."],
+    "p8": "A continuación se puede apreciar un código de ejemplo trabajando con variables.",
+    "p9": "En el siguiente video puede verse la ejecución de la subrutina."
+}

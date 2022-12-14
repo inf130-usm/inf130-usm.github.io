@@ -1,4 +1,6 @@
 import React from 'react';
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IconContext } from "react-icons";
 import Content from '../../../../ContentJSON/U4/1Teoria.json';
 import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
@@ -6,10 +8,17 @@ import '../../units.css';
 const Teoria = () => {
     return (
         <div id='u4-teoria'>
-            <div className='unit-subtitle'>
-                <label>
+            <div className='unit-subtitle flex space-between'>
+                <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
+                <a href='/excel-files/U4-Teoria.xlsm' className="download-file" download>
+                    
+                    <IconContext.Provider value={{ className: 'excel-icon' }}>
+                        <RiFileExcel2Fill/>
+                    </IconContext.Provider> 
+                    &nbsp;Descargar archivo
+                </a>
             </div>
             <div className='unit-content'>
                 <p>
@@ -57,7 +66,7 @@ const Teoria = () => {
                 {Content["p6"]}
                 </p>
                 <div className="unit-image3">
-                    <img src={"/images/U4T1F3.png"} className='unit-image' alt="Modo de uso de Functions"/>
+                    <img src={"/images/U4T1F3.gif"} className='unit-image' alt="Modo de uso de Functions"/>
                 </div>
                 <p>
                 {Content["p7"]}

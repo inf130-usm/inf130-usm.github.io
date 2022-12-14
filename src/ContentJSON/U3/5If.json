@@ -1,0 +1,16 @@
+{
+    "p0": "Estructura If",
+    "p1": ["Durante el desarrollo de un algoritmo, existen situaciones en las que es posible continuar por dos o más caminos diferentes, ya sea por influencia del usuario o no. Casos como aprobar o reprobar una asignatura y dar una descripción del clima dada la temperatura pueden ser ejemplos de estos casos. Para resolver estas incertidumbres se ocupa la estructura condicional conocida como ","If","."],
+    "p2": ["La estructura ","If"," evalúa una condición lógica y a partir del resultado ejecuta caminos distintos en el código. Es el equivalente en código de la formula ","=SI()"," vista en la ","Unidad 1",". Existen 3 tipos de estructuras:"],
+    "p3": "Simple",
+    "p4": "La estructura simple solo considera un camino alterno. Si la condición a evaluar es verdadera, ejecutará todas las instrucciones escritas hasta el final de la estructura, si no, continuará con el camino normal, ignorándolas. La sintaxis es la siguiente:",
+    "p5": "Se puede representar gráficamente como",
+    "p6": "Doble",
+    "p7": ["La estructura doble puede tomar dos caminos diferentes: Si la condición es verdadera optará por las instrucciones luego del ","Then",". En cambio, si la condición es falsa, ignorará las instrucciones del ","Then"," y ejecutará las que están después del ","Else","."],
+    "p8": "Gráficamente sería",
+    "p9": "Múltiple",
+    "p10": ["Es posible anidar estructuras condicionales, estableciendo una estructura ", "If", " dentro del ","Then"," o ","Else"," de otra, a esto se le llama ","If anidado",". En lugar de escribir las instrucciones dentro de la estructura, se escribirá la sentencia de otra estructura condicional, de esta forma se pueden tener más de dos caminos a elegir, considerando los resultados de todas las condiciones lógicas."],
+    "p11": "Un ejemplo de If anidado puede ser",
+    "p12": "Que para simplicidad es posible escribirlo como: ",
+    "p13": "Como ejemplo se desarrolla una subrutina para evaluar el estado final de un estudiante a partir de su promedio final. Con el código generado, se pueden observar los resultados distintos dados cada promedio final."
+}
