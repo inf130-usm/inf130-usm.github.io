@@ -12,6 +12,7 @@ import Filtros from './Unit1Topics/9Filtros';
 import TablasDinamicas from './Unit1Topics/10TablasDinamicas';
 import GrabacionMacros from './Unit1Topics/11GrabacionMacros';
 import Ejercicios from './Unit1Exercises/Ejercicios';
+import Page404 from '../../../page404';
 import '../units.css';
 
 const Unit1 = () => {
@@ -36,6 +37,7 @@ const Unit1 = () => {
                 <Route path="tablas-dinamicas" element={<TablasDinamicas/>} />
                 <Route path="grabacion-macros" element={<GrabacionMacros/>} />
                 <Route path="ejercicios" element={<Ejercicios/>} />
+                <Route path="*" element={<Page404/>} />
             </Routes>
         </div>
         </>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Teoria from './Unit4Topics/1Teoría';
 import Ejercicios from './Unit4Exercises/Ejercicios';
+import Page404 from '../../../page404';
 import '../units.css';
 
 const Unit4 = () => {
@@ -16,6 +17,7 @@ const Unit4 = () => {
             <Routes>
                 <Route path="teoria" element={<Teoria/>} />
                 <Route path="ejercicios" element={<Ejercicios/>} />
+                <Route path="*" element={<Page404/>} />
             </Routes>
         </div>
         </>
