@@ -1,13 +1,14 @@
 {
     "p0": "Grabación de macros",
-    "p1": "",
-    "p2": "",
-    "p3": "",
-    "p4": "",
-    "p5": "",
-    "p6": "",
-    "p7": "",
-    "p8": "",
-    "p9": "",
-    "p10": ""
+    "p1": "Durante los tópicos pasado se vieron gran cantidad de herramientas para trabajar en Excel, las cuales permitian calcular resultados, facilitar análisis, entre otros. Con volumenes de datos pequeños, utilizar estas herramientas a mano y una por una no es una tarea compleja, pero mientras los volumenes van aumentando es cada vez más tedioso y complejo realizar calculos y proceso a mano.",
+    "p2": ["Para facilitar la tarea, es posible automatizar procesos repetitivos mediante las ","Macros",". Éstas son instrucciones que se ejecutan de manera secuencial y permiten que ciertas tareas y procesos se ejecuten de manera automática. Las macros están escritas en un lenguaje de programación llamado ","Visual Basic for Applications"," (VBA) y existen dos formas de crearlas."],
+    "p3": ["Primero, es posible redactar las instrucciones en el lenguaje de programación mencionado para realizar las tareas requeridas. Este método se verá en la unidad siguiente donde se aprenderá sobre el lenguaje ","VBA",". El segundo método será el estudiado en éste tópico y consiste en ","grabar las macros"," al realizar el proceso requerido."],
+    "p4": ["Antes de comenzar es necesario activar la pestaña de Programador (o Desarrollador, dependiendo la versión de Excel). Para esto se debe acceder a la pestaña ","Archivo",", luego ","Opciones"," y, finalmente, ","Personalizar cinta de opciones",", donde se debe activar la pestaña Programador."],
+    "p5": ["Con la pestaña disponible es posible encontrar la herramienta ","Grabar macro"," en el grupo código. Al hacer click en ella se desplegará una ventana donde se podrá dar un nombre a la macro, así como una descripción."],
+    "p6": ["En cuanto se haga click en el botón Aceptar, Excel comenzará a grabar todas las acciones que realicemos. Para detener el proceso se debe dar click en ","Detener grabación","."],
+    "p7": ["Con la macro ya grabada es posible acceder a la herramienta ","Macros",", donde se encuentran todas las macros grabadas. Al seleccionar una y ejecutarla, se realizarán todas las instrucciones que fueron grabadas."],
+    "p8": ["Dentro de la ventana de la herramienta ","Macros"," es posible también modificar las macros ya grabadas. Esto desplegará ventana de ","Visual Basic"," (herramienta a la izquierda de ","Macros","), que contiene el editor de texto donde se creó el código de la macro grabada."],
+    "p9": "Revisar, leer e intentar modificar el código generado al grabar macros es muy útil para empezar a entender y aprender sobre el lenguaje VBA, el cual se profundizará en la siguiente unidad.",
+    "p10": ["MUY IMPORTANTE:"," Los libros de excel que poseen macros deben guardarse formato ","Libro de Excel habilitado para macros (*.xslm)",". Si se guardan en el formato clásico ","Libro de Excel (*.xlsx)",", la macro no se guardará y se perderá para siempre."],
+    "p11": ["Importante:"," Los cambios efectuados por medio de macros no podrán ser eliminados mediante la herramienta ", "Deshacer", " (Ctrl + Z)."]
 }

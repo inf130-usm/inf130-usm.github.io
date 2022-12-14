@@ -6,6 +6,7 @@ import Unit1 from '../Units/Unit1/Unit1';
 import Unit3 from '../Units/Unit3/Unit3';
 import Unit4 from '../Units/Unit4/Unit4';
 import Unit5 from '../Units/Unit5/Unit5';
+import Page404 from '../../page404';
 import "./body.css";
 
 const Body = () => {
@@ -19,6 +20,7 @@ const Body = () => {
                     <Route path="/unidad3/*" element={<Unit3/>} />
                     <Route path="/unidad4/*" element={<Unit4/>} />
                     <Route path="/unidad5/*" element={<Unit5/>} />
+                    <Route path="*" element={<Page404/>} />
                 </Routes>
             </div>
         </div>
