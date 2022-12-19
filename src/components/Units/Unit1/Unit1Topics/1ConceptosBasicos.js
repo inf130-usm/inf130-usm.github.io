@@ -34,29 +34,34 @@ const ConceptosBasicos = () => {
                     {Content["p4"][3]}
                     <i>{Content["p4"][4]}</i>
                     {Content["p4"][5]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'black'}}>{Content["p5"][0]}</b>
                     {Content["p5"][1]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'orange'}}>{Content["p6"][0]}</b>
                     {Content["p6"][1]}
                     <i>{Content["p6"][2]}</i>
                     {Content["p6"][3]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'green'}}>{Content["p7"][0]}</b>
                     {Content["p7"][1]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'purple'}}>{Content["p8"][0]}</b>
                     {Content["p8"][1]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'royalblue'}}>{Content["p9"][0]}</b>
                     {Content["p9"][1]}
-                    <br/>
+                </p>
+                <p>
                     <b style={{color:'red'}}>{Content["p10"][0]}</b>
                     {Content["p10"][1]}
                     <i>{Content["p10"][2]}</i>
                     {Content["p10"][3]}
-                    <br/>
                 </p>
                 <p><b>{Content["p11"]}</b></p>
                 <p>

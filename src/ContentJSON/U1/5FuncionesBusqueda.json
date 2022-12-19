@@ -1,9 +1,9 @@
 {
     "p0": "Funciones de Búsqueda",
-    "p1": "Dentro de los tipos de funciones, las usadas para búsqueda son de gran utilidad y serán usadas extensamente dentro de este curso (por eso tienen su propia sección). Éstas permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterios. Para una explicación más detallada de cada función, revise los videos adjuntos.",
+    "p1": "Dentro de los tipos de funciones, aquellas que permiten la búsqueda de datos serán de gran utilidad, y serán extensamente utilizadas dentro de este curso, por eso tienen su propia sección. Estas funciones permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterios. Para una explicación más detallada de cada función, revise los videos adjuntos.",
     "p2": [["Función","Descripción"],
-           ["=BUSCARV(valorBuscado;matriz;numColumna)","A partir de la matriz entregada, busca la fila en que se encuentra valorBuscado en la primera columna de la matriz, luego devuelve el valor de la misma fila pero de la columa numColumna."],
-           ["=BUSCARH(valorBuscado;matriz;numFila)","A partir de la matriz entregada, busca la columna en que se encuentra valorBuscado en la primera fila de la matriz, luego devuelve el valor de la misma columna pero de la fila numFila."],
+           ["=BUSCARV(valorBuscado;matriz;numColumna)","Dada una matriz, la función busca el valorBuscado dentro de la primera columna. Cuando lo encuentra, devuelve el valor intersectado por la fila en que se encuentra valorBuscado y la columna numColumna de la matriz."],
+           ["=BUSCARH(valorBuscado;matriz;numFila)","Dada una matriz, la función busca el valorBuscado dentro de la primera fila. Cuando lo encuentra, devuelve el valor intersectado por la columna en que se encuentra valorBuscado y la fila numFila de la matriz."],
            ["=COINCIDIR(valor;rango;[tipoDeCoincidencia])","Busca el valor en el rango entregado y devuelve el número de fila o columna en la que se encuentra. El tipo de coincidencia es para realizar una busqueda exacta o de otro tipo."],
            ["=INDICE(rango;numFila;[numColumna])","Entrega el valor de la celda que se encuentra en el número de fila y columna entregados, considerando el rango o matriz ingresado."],
            ["=UNICOS(rango)","Devuelve los valores únicos de un rango dado."]],

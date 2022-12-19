@@ -1,11 +1,12 @@
 {
-    "p0": "¡Bienvenidos y bienvenidas!",
-    "p1": "Dentro de la siguiente plataforma podrás encontrar los contenidos correspondientes al curso INF130-Programación y Tratamiento de Datos para la Gestión.",
-    "p2": "El uso de la plataforma está destinado al estudio, repaso y ejercitación del estudiantado del curso, por lo que dentro de cada unidad encontraras contenido teórico, ejemplos y ejercicios de la sección, así como las UVAs entregadas por AULA.",
-    "p3": "Para una facil navegación los contenidos están dividos por sus Unidades (exceptuando la Unidad 2) a los cuales se puede acceder desde el menú de la izquierda. Al clickear cada unidad del menú, se desplegará el contenido dividido por tópicos. Al final de cada unidad se puede encontrar un recopilatorio de ejercicios por tópico.",
-    "p4": "Favor hacer uso de la plataforma por medio de un computador, ya que ésta aun no se encuentra optimizada para dispositivos móviles.",
-    "p5": "Contacto:",
-    "p6": "Pedro Arriagada Noack",
-    "p7": "pedro.arriagadan@sansano.usm.cl"
+    "p0": "Estimad@ estudiante:",
+    "p1": "¡Bienvenid@! En esta plataforma podrás encontrar los contenidos correspondientes al curso INF130 - Programación y Tratamiento de Datos para la Gestión.",
+    "p2": "El objetivo de esta plataforma web es que la utilices para repasar, estudiar y ejercitar los contenidos del curso. Por lo tanto, encontrarás tanto contenido teórico como ejemplos y ejercicios. También podrás encontrar las UVAs entregadas por Aula Virtual.",
+    "p3": "Para facilitar la navegación, se organizaron los contenidos en unidades, las cuales pueden ser accedidas desde el menú de la izquierda (excepto por la unidad 2). Al hacer clic en cada unidad, se desplegará el contenido respectivo dividido en tópicos. Además, al final de cada unidad se encontrará una recopilación de ejercicios relacionados con los contenidos estudiados.",
+    "p4": "Para una visualización óptima de la plataforma, se ruega el acceso por medio de un computador, ya que aún no se encuentra optimizada para dispositivos móviles.",
+    "p5": "Si encuentras algún error, por favor, escríbeme un mail para solucionarlo a la brevedad.",
+    "p6": "Contacto:",
+    "p7": "Pedro Arriagada Noack",
+    "p8": "pedro.arriagadan@sansano.usm.cl"
 
 }

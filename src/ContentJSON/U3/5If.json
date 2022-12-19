@@ -1,7 +1,7 @@
 {
     "p0": "Estructura If",
     "p1": ["Durante el desarrollo de un algoritmo, existen situaciones en las que es posible continuar por dos o más caminos diferentes, ya sea por influencia del usuario o no. Casos como aprobar o reprobar una asignatura y dar una descripción del clima dada la temperatura pueden ser ejemplos de estos casos. Para resolver estas incertidumbres se ocupa la estructura condicional conocida como ","If","."],
-    "p2": ["La estructura ","If"," evalúa una condición lógica y a partir del resultado ejecuta caminos distintos en el código. Es el equivalente en código de la formula ","=SI()"," vista en la ","Unidad 1",". Existen 3 tipos de estructuras:"],
+    "p2": ["La estructura ","If"," evalúa una condición lógica y a partir del resultado ejecuta caminos distintos en el código. Es el equivalente en código de la fórmula ","=SI()"," vista en la ","Unidad 1",". Existen 3 tipos de estructuras:"],
     "p3": "Simple",
     "p4": "La estructura simple solo considera un camino alterno. Si la condición a evaluar es verdadera, ejecutará todas las instrucciones escritas hasta el final de la estructura, si no, continuará con el camino normal, ignorándolas. La sintaxis es la siguiente:",
     "p5": "Se puede representar gráficamente como",

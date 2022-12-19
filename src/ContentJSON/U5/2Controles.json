@@ -1,7 +1,7 @@
 {
     "p0": "Controles",
     "p1": "En este tópico se tratarán los controles en profundidad. Cada uno tiene su propio comportamiento y puede ser usado con diferentes objetivos, pero su uso y preparación es similar entre varios.",
-    "p2": "Como información preliminar, los datos que despliegan la mayoria de los controles es necesario tenerlos en el mismo Excel, por lo tanto se sugiere tener una hoja enfocada a los datos que tendrán los controles.",
+    "p2": "Como información preliminar, es necesario tener los datos que despliegan la mayoria de los controles en el mismo Excel, por lo tanto se sugiere tener una hoja enfocada a los datos que tendrán los controles.",
     "p3": ["Para insertar un ","control de formulario"," se debe hacer click en el deseado y luego en la hoja al hacer click y arrastrar se creará el control en el lugar seleccionado, tal cual se crea un forma. Si se desea modificar su tamaño o posición, se debe seleccionar mediante ","ctrl + click izquierdo"," ya que con un click simple se activará el control."],
     "p4": "Cuadro combinado",
     "p5": ["El primer control a estudiar es el ","cuadro combinado",". Este cuadro permite desplegar una lista y seleccionar una de las opciones ésta. Para configurar su funcionamiento es necesario acceder al ","formato de control"," mediante el click derecho. Existen 3 secciones importantes:"],

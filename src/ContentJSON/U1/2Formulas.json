@@ -1,6 +1,6 @@
 {
-    "p0": "Formulas",
-    "p1": ["En las celdas es posible ingresar cálculos matemáticos y lógicos que se resolverán de forma automática y constantemente, entregándose el resultado en la misma celda. Para realizar este proceso es requerido iniciar el valor de la celda con un signo igual (=) y a continuación plasmar la ","fórmula"," de la cual se quiere obtener el resultado. Excel acepta una gran cantidad de operadores matemáticos y lógicos, además, respeta el orden precedencia de estos y es posible agregar paréntesis a los cálculos. Algunos operadores que se pueden usar son los siguientes:"],
+    "p0": "Fórmulas",
+    "p1": ["En las celdas es posible ingresar cálculos matemáticos y lógicos que se resolverán de forma automática y constantemente, entregándose el resultado en la misma celda. Para realizar este proceso es requerido iniciar el valor de la celda con un signo igual (=) y a continuación ingresar la ","fórmula"," de la cual se quiere obtener el resultado. Excel acepta una gran cantidad de operadores matemáticos y lógicos. Además, respeta el orden precedencia de éstos y da la posibilidad de agregar paréntesis a los cálculos. Algunos operadores que se pueden usar son los siguientes:"],
     "p2": [["Operador","Símbolo"],
            ["Suma","+"],
            ["Resta","-"],
