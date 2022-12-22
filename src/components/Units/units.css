@@ -109,14 +109,47 @@
     margin-top: 1rem !important;
 }
 
+.login-container{
+    background-color: hsla(231, 48%, 48%, 0.25);
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.login-content{
+    margin: 10px 5px;
+}
+
+.login-input{
+    margin-bottom: 5px;
+}
+
+.login-button{
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+}
+
 /*--- DETALLES ---*/
 
 .flex{
     display: flex;
 }
 
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
 .space-between{
     justify-content: space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .vertical-center{
@@ -126,6 +159,10 @@
 
 .right-align{
     text-align: right;
+}
+
+.white{
+    color: white;
 }
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Emoji from '../Emoji';
+//import Login from '../Login/Login.js';
 import './units.css';
 import Content from '../../ContentJSON/Home.json';
 
@@ -20,9 +21,12 @@ const Home = () => {
                 <p>{Content["p4"]}</p>
                 <p>{Content["p5"]} <Emoji symbol="✨" label="sparkles"/></p>
             </div>
-            <div className='right-align'>
-                <label><Emoji symbol="📝" label="note"/><b>{Content["p6"]}</b></label><br/>
-                <label>{Content["p7"]}<br/>{Content["p8"]}</label>
+            <div className="right-align">
+                <div>
+                    <label><Emoji symbol="📝" label="note"/><b>{Content["p6"]}</b></label><br/>
+                    <label>{Content["p7"]}<br/>{Content["p8"]}</label>
+                </div>
+                {/*<Login/>*/}
             </div>
         </div>
     );

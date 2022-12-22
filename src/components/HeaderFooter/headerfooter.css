@@ -39,11 +39,11 @@
     font-size: 1.2rem;
 }
 
-.endSesion-button-container{
-    margin-right: 3.5rem;
+.log-button-container{
+    margin-right: 5.5rem;
 }
 
-.endSesion-button{
+.log-button{
     font-size: 14px !important;
     text-transform: capitalize !important;
 }
@@ -72,4 +72,12 @@
 
 .next-section{
     text-align: left;
+}
+
+.visible{
+    display: block;
+}
+
+.not-visible{
+    display: none;
 }

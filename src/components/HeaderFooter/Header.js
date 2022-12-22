@@ -33,16 +33,27 @@ const Header = () => {
                         <span>INF-130 Programación y tratamiento de datos para la gestión</span>
                     </div>
                 </div>
-                <div className='endSesion-button-container'>
-                    <ThemeProvider theme={theme}>
-                        <Button
-                            className='endSesion-button'
-                            variant="outlined"
-                            color="white"
-                            size="small">
-                                Cerrar Sesión
-                        </Button>
-                    </ThemeProvider>
+                <div className='log-button-container'>
+                    <div className='not-visible'>
+                    <Button
+                        className='log-button'
+                        variant="contained"
+                        color="success"
+                        size="small">
+                            Iniciar Sesión
+                    </Button>
+                    </div>
+                    <div className='not-visible'>
+                        <ThemeProvider theme={theme}>
+                            <Button
+                                className='log-button'
+                                variant="contained"
+                                color="error"
+                                size="small">
+                                    Cerrar Sesión
+                            </Button>
+                        </ThemeProvider>
+                    </div>
                 </div>
             </div>
         </div>
