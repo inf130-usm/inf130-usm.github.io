@@ -1,16 +1,26 @@
 .menu{
     width: 18%;
+    padding-top: 3vh;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: hsla(231, 48%, 48%, 1);
+    border-radius: 100px;
 }
 
 .topics{
     margin-left: 1rem;
     width: 20%;
-}
-
-.menutopics-list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .menu-list-title{
@@ -20,7 +30,7 @@
 .menu-list-item{
     text-decoration: none;
     display: block;
-    margin-top: .625em;
+    margin-top: .625em !important;
     overflow: hidden;
     text-overflow: ellipsis;
     color: black;

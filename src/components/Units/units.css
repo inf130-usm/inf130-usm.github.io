@@ -1,9 +1,6 @@
 .unit{
-    width: 85%;
     padding-right: 2rem;
-    height: 80vh;
     overflow: auto;
-    scrollbar-color: #D4AA70 #e4e4e4;
 }
 
 ::-webkit-scrollbar {

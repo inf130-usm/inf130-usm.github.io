@@ -1,6 +1,7 @@
 .header{
     position: sticky;
     top: 0px;
+    height: 7vh;
     width: 100%;
     background-color: hsla(231, 48%, 48%, 1);
     color: hsla(0, 0%, 100%, 1);
@@ -9,9 +10,15 @@
 }
 
 .header-container{
-    max-width: 75rem;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.header-title{
     display: flex;
     align-items:center;
 }
@@ -32,10 +39,18 @@
     font-size: 1.2rem;
 }
 
+.endSesion-button-container{
+    margin-right: 3.5rem;
+}
+
+.endSesion-button{
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
 .footer{
     position: fixed;
     width: 100%;
-    bottom: 0;
     height: 6vh;
     background-color: hsla(231, 48%, 48%, 1);
     color: hsla(0, 0%, 100%, 1);
