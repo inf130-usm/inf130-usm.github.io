@@ -1,5 +1,5 @@
 {
-    "p0": "Formato Tabla",
+    "p0": "Formato tabla",
     "p1": ["Para una mejor representación y estructura, es posible darle a un rango de celdas lo que se llama ","Formato Tabla",", otorgando características y propiedades adecuadas de una tabla de datos a tal rango."],
     "p2": ["En la pestaña ","Inicio"," es posible encontrar esta opción. Luego de seleccionar el rango deseado, se puede elegir un diseño a gusto para aplicar, tal como se ve a continuación."],
     "p3": "Entre las características mencionadas se puede apreciar la modificación del rango de la tabla. Al hacer click en el triángulo de la esquina inferior derecha de la tabla creada y arrastrar a la derecha o abajo, es posible agregar columnas o filas. Con este proceso los formatos a las celdas se aplican automáticamente y, si es posible para Excel, se genera el título de la columna como se muestra en el siguiente ejemplo:",

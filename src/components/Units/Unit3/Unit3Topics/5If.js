@@ -39,7 +39,9 @@ const EstructuraCondicional = () => {
                     <b>{Content["p3"]}</b>
                 </p>
                 <p>
-                    {Content["p4"]}
+                    {Content["p4"][0]}
+                    <i>{Content["p4"][1]}</i>
+                    {Content["p4"][2]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T5F1.jpg"} className='unit-image' alt="Sintaxis If simple"/>
@@ -60,6 +62,8 @@ const EstructuraCondicional = () => {
                     {Content["p7"][4]}
                     <i>{Content["p7"][5]}</i>
                     {Content["p7"][6]}
+                    <i>{Content["p7"][7]}</i>
+                    {Content["p7"][8]}
                 </p>
                 <div className="unit-image3">
                     <img src={"/images/U3T5F3.jpg"} className='unit-image' alt="Sintaxis If doble"/>

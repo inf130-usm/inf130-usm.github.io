@@ -34,7 +34,9 @@ const Filtros = () => {
                     <img src={"/images/U1T9F1.jpg"} className='unit-image' alt="Filtros"/>
                 </div>
                 <p>
-                    {Content["p2"]}
+                    {Content["p2"][0]}
+                    <i>{Content["p2"][1]}</i>
+                    {Content["p2"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T9F2.gif"} className='unit-image' alt="Filtros"/>
@@ -71,13 +73,17 @@ const Filtros = () => {
                     <img src={"/images/U1T9F6.gif"} className='unit-image' alt="Filtros"/>
                 </div>
                 <p>
-                    {Content["p8"]}
+                    {Content["p8"][0]}
+                    <b>{Content["p8"][1]}</b>
+                    {Content["p8"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T9F7.gif"} className='unit-image' alt="Filtros"/>
                 </div>
                 <p>
-                    {Content["p9"]}
+                    {Content["p9"][0]}
+                    <b>{Content["p9"][1]}</b>
+                    {Content["p9"][2]}
                 </p>
                 <div className='unit-image2'>
                     <img src={"/images/U1T9F8.gif"} className='unit-image' alt="Filtros"/>

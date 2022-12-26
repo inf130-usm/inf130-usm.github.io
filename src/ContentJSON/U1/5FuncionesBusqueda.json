@@ -1,5 +1,5 @@
 {
-    "p0": "Funciones de Búsqueda",
+    "p0": "Funciones de búsqueda",
     "p1": "Dentro de los tipos de funciones, aquellas que permiten la búsqueda de datos serán de gran utilidad, y serán extensamente utilizadas dentro de este curso, por eso tienen su propia sección. Estas funciones permiten buscar datos a partir de tablas o matrices, considerando ciertos argumentos y criterios. Para una explicación más detallada de cada función, revise los videos adjuntos.",
     "p2": [["Función","Descripción"],
            ["=BUSCARV(valorBuscado;matriz;numColumna)","Dada una matriz, la función busca el valorBuscado dentro de la primera columna. Cuando lo encuentra, devuelve el valor intersectado por la fila en que se encuentra valorBuscado y la columna numColumna de la matriz."],

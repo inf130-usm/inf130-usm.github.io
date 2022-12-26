@@ -1,5 +1,5 @@
 {
-    "p0": "Formato Condicional",
+    "p0": "Formato condicional",
     "p1": ["En la pestaña ","Inicio"," se encuentran distintas opciones que permiten dar formato a las celdas, tales como modificar sus bordes, el color de fondo e incluso la tipografía. Adicionalmente, es posible dar un formato a las celdas a partir de ciertas condiciones. Para lograrlo, se utiliza la sección ","Formato Condicional"," ubicada en la pestaña de ","Inicio","."],
     "p2": ["En esta sección existen varias reglas predefinidas con sus formatos ya establecidos, así como en el grupo ","Escalas de color"," hay una gran variedad de colores a utilizar. Es importante mencionar que estos formatos tienen su condición preestablecida, pero no siempre se trabajará con ella y se necesitarán algunas modificaciones. Para modificar tales condiciones, tenemos que hacer uso del botón ","Más reglas..."," de cada grupo."],
     "p3": ["Al ingresar a ","Más reglas..."," se puede apreciar la siguiente ventana. Aquí se da la opción de alterar las condiciones y parámetros del formato a generar. Es posible modificar el tipo de regla, así como qué color usar de fondo, con qué rangos y el tipo de dato con el que se está trabajando. Estos parámetros serán distintos con cada formato condicional que se implemente."],

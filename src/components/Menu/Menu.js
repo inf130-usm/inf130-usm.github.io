@@ -97,13 +97,13 @@ const Menu = () => {
                         <a href="/unidad1/formulas" className={url.includes("formulas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Fórmulas</a>
                         <a href="/unidad1/referencias" className={url.includes("referencias") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Referencias</a>
                         <a href="/unidad1/funciones" className={url.includes("funciones") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Funciones</a>
-                        <a href="/unidad1/busqueda" className={url.includes("busqueda") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Funciones de Búsqueda</a>
+                        <a href="/unidad1/busqueda" className={url.includes("busqueda") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Funciones de búsqueda</a>
                         <a href="/unidad1/formato-condicional" className={url.includes("condicional") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Formato condicional</a>
                         <a href="/unidad1/validacion-datos" className={url.includes("validacion") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Validación de datos</a>
-                        <a href="/unidad1/formato-tabla" className={url.includes("formato-tabla") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Formato Tabla</a>
+                        <a href="/unidad1/formato-tabla" className={url.includes("formato-tabla") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Formato tabla</a>
                         <a href="/unidad1/filtros" className={url.includes("filtros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Filtros</a>
-                        <a href="/unidad1/tablas-dinamicas" className={url.includes("tablas-dinamicas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Tablas Dinámicas</a>
-                        <a href="/unidad1/grabacion-macros" className={url.includes("grabacion-macros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Grabación de Macros</a>
+                        <a href="/unidad1/tablas-dinamicas" className={url.includes("tablas-dinamicas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Tablas dinámicas</a>
+                        <a href="/unidad1/grabacion-macros" className={url.includes("grabacion-macros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Grabación de macros</a>
                         <a href="/unidad1/ejercicios" className={url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub"}>Ejercicios</a>
                     </AccordionDetails>
                 </Accordion>

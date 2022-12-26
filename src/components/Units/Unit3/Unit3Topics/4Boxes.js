@@ -77,6 +77,10 @@ const Boxes = () => {
                                     </TableCell>
                                     <TableCell component="th" scope="row">
                                         {Content["p4"][2][2]}
+                                        <a href={Content["p4"][2][4]} target="_blank" rel="noreferrer">
+                                            {Content["p4"][2][3]}
+                                        </a>
+                                        {Content["p4"][2][5]}
                                     </TableCell>
                                 </TableRow>
                                 <TableRow>

@@ -1,9 +1,9 @@
 {
     "p0": "Estructura While",
-    "p1": ["Las estructuras condicionales no sirven para todos los casos. En la situación del inicio de sesión de una plataforma el usuario debe ingresar su contraseña, para verificar si ésta es correcta podría utilizarse una estructura If, pero si el usuario se equivoca debemos pedir la contraseña nuevamente, ¿Y si se equivoca nuevamente? ¿Cuántas veces se debe repetir el ingreso de contraseña? Existen las estructuras repetitivas conocidas como ","While",", para casos ciclicos y repetitivos, tal como el ejemplo anterior donde se calculaba el estado final de varios estudiantes."],
-    "p2": ["Su comportamiento es similar a la estructura If: dada una cierta condición lógica, la evalúa y si es verdadera ejecuta las instrucciones dentro de la estructura. Lo distintivo del ciclo While es que al terminar de ejecutar las instrucciones, evalúa nuevamente la condición lógica y si ésta continúa siendo verdadera, vuelve a ejecutar las instrucciones y así una y otra vez. Se llamará ","iteración"," a cada una de las ejecuciones o pasadas de las instrucciones realizadas por el ciclo."],
+    "p1": ["Las estructuras condicionales no sirven para todos los casos. Por ejemplo, en el inicio de sesión de una plataforma, el usuario debe ingresar su contraseña. Para verificar si ésta es correcta, podría utilizarse una estructura If. Pero si el usuario se equivoca, debemos pedir la contraseña nuevamente, ¿Y si se equivoca nuevamente? ¿Cuántas veces se debe repetir el ingreso de contraseña? Para este tipo de casos existen las estructuras repetitivas, como el ciclo ","While",", donde se requiere la ejecución de pasos de forma cíclica y repetitiva."],
+    "p2": ["Su comportamiento es similar a la estructura If: evalúa una condición lógica dada; si es verdadera, ejecuta las instrucciones dentro de la estructura. Lo distintivo del ciclo While es que al terminar de ejecutar las instrucciones, evalúa nuevamente la condición lógica, y si ésta sigue siendo verdadera, vuelve a ejecutar las instrucciones, y así una y otra vez. Se llamará ","iteración"," a cada una de las ejecuciones o pasadas de las instrucciones realizadas por el ciclo."],
     "p3": "Existen tres sintaxis posible para la estructura While, las dos primeras presentadas a continuación son equivalentes.",
-    "p4": "Estas estructuras evaluan la condición y luego intentan ejecutar las instrucciones internas, por lo que es posible que en algunos casos las instrucciones nunca vayan a ejecutarse.",
+    "p4": "Estas estructuras evalúan la condición y luego intentan ejecutar las instrucciones internas, por lo que es posible que en algunos casos las instrucciones nunca vayan a ejecutarse.",
     "p5": "Una representación gráfica puede ser:",
     "p6": "La tercera sintaxis es la siguiente:",
     "p7": "En este caso en primer lugar se ejecutan las instrucciones dentro de la estructura y luego se evalúa la condición que podría resultar en la repetición de la ejecución o no. Por lo tanto, con esta estructura las instrucciones se ejecutan al menos una vez, al contrario de las estructuras anteriores.",
@@ -11,7 +11,7 @@
     "p9": "En la comparación de la condición lógica debe haber al menos una variable.",
     "p10": "Entre las instrucciones de la estructura, debe modificarse al menos una de las variables de la condición lógica, para así evitar un ciclo infinito",
     "p11": "Si lo que se está evaluando en la condición lógica nunca es modificado, la condición nunca tendrá la oportunidad de ser falsa, por lo que el ciclo While nunca se detendría.",
-    "p12": "De este modo, se puede ver el siguiente ejemplo, como se utiliza un ciclo While para escribir el número correspondiente a su fila en las primeras 10 celdas de la columna A.",
-    "p13": ["Como se puede observar se estableció la variable ","fila"," en la condición y como última instrucción del ciclo se incrementa el valor de la variable ","fila"," en 1. Llegando así, luego de la décima iteración (vuelta), al final del ciclo While."],
-    "p14": "Un ejemplo más elaborado sería realizar el ejemplo del tópico anterior con un while, para que todos los estados se calculen al ejecutar solo una vez la macro."
+    "p12": "En el siguiente ejemplo se muestra cómo utilizar un ciclo While para escribir el número correspondiente a su fila en las primeras 10 celdas de la columna A.",
+    "p13": ["Nótese que se estableció la variable ","fila"," en la condición, y que la última instrucción del ciclo se encarga de incrementar su valor en 1. De esta forma, el ciclo While se detendrá en su décima iteración."],
+    "p14": "Un ejemplo más elaborado sería realizar el ejemplo del tópico anterior con un While, para que todos los estados se calculen ejecutando la macro solo una vez."
 }

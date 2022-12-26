@@ -1,5 +1,5 @@
 {
-    "p0": "Conceptos Básicos",
+    "p0": "Conceptos básicos",
     "p1": "Al abrir un nuevo archivo de Excel, se despliega en pantalla la siguiente vista, mostrando la base del archivo. En la sección superior se podrá elegir si es que se desea crear un nuevo archivo (conocido como Libro) en blanco, o a partir de una plantilla predefinida. La sección inferior da la opción de abrir un archivo recientemente usado.",
     "p2": ["La primera opción ","Libro en blanco"," nos creará un libro de Excel vacío, donde se podrá trabajar desde cero. A continuación se explicará el entorno de trabajo de un libro, especificando las secciones y elementos."],
     "p3": "Entorno de Excel",

@@ -82,7 +82,7 @@ const EjReferencias = () => {
             </div>
             <div className='unit-content'>
                 <p>
-                    1) Considerando la formula ingresada en la celda D2, al seleccionar y arrastrar hacia las celdas inferiores ocurre un error como se ve en la imagen. ¿Por qué ocurre esto?
+                    1) Considerando la fórmula ingresada en la celda D2, al seleccionar y arrastrar hacia las celdas inferiores ocurre un error como se ve en la imagen. ¿Por qué ocurre esto?
                 </p>
                 <div className='unit-exercise'>
                     <form onSubmit={handleSubmit1} className="unit-exercise-answers">
@@ -93,8 +93,8 @@ const EjReferencias = () => {
                                 value={Answer1}
                                 onChange={handleRadioChange1}
                             >
-                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="No se utilizó referencias relativas." />
-                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="No se utilizó referencias absolutas." />
+                            <FormControlLabel value="A" control={<Radio />} className="unit-excercise-answer" label="No se utilizaron referencias relativas." />
+                            <FormControlLabel value="B" control={<Radio />} className="unit-excercise-answer" label="No se utilizaron referencias absolutas." />
                             <FormControlLabel value="C" control={<Radio />} className="unit-excercise-answer" label="No se puede utilizar seleccionar y arrastrar con formulas creadas." />
                             <FormControlLabel value="D" control={<Radio />} className="unit-excercise-answer" label="Las celdas inferiores no tienen el formato moneda asignado." />
                             </RadioGroup>

@@ -85,8 +85,6 @@ const EstructuraRepetitiva = () => {
                     {Content["p13"][0]}
                     <i>{Content["p13"][1]}</i>
                     {Content["p13"][2]}
-                    <i>{Content["p13"][3]}</i>
-                    {Content["p13"][4]}
                 </p>
                 <p> 
                     {Content["p14"]}
