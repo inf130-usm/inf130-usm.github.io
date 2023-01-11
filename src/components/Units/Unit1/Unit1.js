@@ -12,7 +12,7 @@ import Filtros from './Unit1Topics/9Filtros';
 import TablasDinamicas from './Unit1Topics/10TablasDinamicas';
 import GrabacionMacros from './Unit1Topics/11GrabacionMacros';
 import Ejercicios from './Unit1Exercises/Ejercicios';
-import Page404 from '../../../page404';
+import Page404 from '../../page404';
 import '../units.css';
 
 const Unit1 = () => {

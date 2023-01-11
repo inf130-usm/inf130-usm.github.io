@@ -81,3 +81,19 @@
 .not-visible{
     display: none;
 }
+
+@media only screen and (max-width: 600px){
+    .header-title-container{
+        padding: 0;
+        font-size: 0.75rem;
+    }
+
+    .log-button-container{
+        margin-right: 0;
+    }
+
+    .log-button{
+        font-size: 12px !important;
+        text-transform: capitalize !important;
+    }
+}

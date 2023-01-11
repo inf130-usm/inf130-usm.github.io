@@ -1,24 +1,39 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../Units/units.css';
 
+const theme = createTheme({
+    palette: {
+      white: {
+        main: '#FFFFFF'
+      },
+    },
+  });
+
 const Login = () => {
+
     return (
-        <div className='login-container flex-vertical space-evenly'>
-            <div className='login-content'>
-                <div className="login-input flex space-between">
-                    <label>Correo Institucional</label>
-                    <input></input>
-                </div>
-                <div className="login-input flex space-between">
-                    <label>Contraseña</label>
-                    <input type="password"></input>
-                </div>
-                <div className="right-align">
-                    <Button variant="contained" color="success" size="small" className='login-button'>
-                        Iniciar Sesión
+        <div className='log-button-container'>
+            <div className='visible'>
+            <Button
+                className='log-button'
+                variant="contained"
+                color="success"
+                size="small">
+                    Iniciar Sesión
+            </Button>
+            </div>
+            <div className='not-visible'>
+                <ThemeProvider theme={theme}>
+                    <Button
+                        className='log-button'
+                        variant="contained"
+                        color="error"
+                        size="small">
+                            Cerrar Sesión
                     </Button>
-                </div>
+                </ThemeProvider>
             </div>
         </div>
     );

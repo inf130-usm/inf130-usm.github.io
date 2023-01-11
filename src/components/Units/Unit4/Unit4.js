@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Teoria from './Unit4Topics/1Teoría';
 import Ejercicios from './Unit4Exercises/Ejercicios';
-import Page404 from '../../../page404';
+import Page404 from '../../page404';
 import '../units.css';
 
 const Unit4 = () => {

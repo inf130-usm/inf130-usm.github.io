@@ -23,6 +23,13 @@
     width: 20%;
 }
 
+.menu-linea{
+    flex: 1;
+    height: '1px';
+    margin-right: '5px';
+    background-color: 'black';
+}
+
 .menu-list-title{
     font-weight: bold;
 }
@@ -54,4 +61,22 @@
 
 .not-visible{
     display: none;
+}
+
+.menu-cel{
+    display: none;
+}
+
+.css-ancrnh-MuiButtonBase-root-MuiIconButton-root{
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 600px){
+    .menu-cel{
+        display: flex;
+    }
+
+    .menu{
+        display: none;
+    }
 }

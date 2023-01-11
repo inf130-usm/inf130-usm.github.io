@@ -1,20 +1,13 @@
 import React from 'react';
-import Button from '@mui/material/Button';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Login from '../Login/Login';
+import MenuBar from '../Menu/MenuBar';
 import './headerfooter.css';
-
-const theme = createTheme({
-  palette: {
-    white: {
-      main: '#FFFFFF'
-    },
-  },
-});
 
 const Header = () => {
     return (
         <div className='header'>
             <div className='header-container'>
+                <MenuBar position="header"/>
                 <div className='header-title'>
                     <a href='/' className='header-logo-container'>
                         <svg xmlns="http://www.w3.org/2000/svg" className='header-logo' viewBox="0 0 640 512">
@@ -33,28 +26,7 @@ const Header = () => {
                         <span>INF-130 Programación y tratamiento de datos para la gestión</span>
                     </div>
                 </div>
-                <div className='log-button-container'>
-                    <div className='not-visible'>
-                    <Button
-                        className='log-button'
-                        variant="contained"
-                        color="success"
-                        size="small">
-                            Iniciar Sesión
-                    </Button>
-                    </div>
-                    <div className='not-visible'>
-                        <ThemeProvider theme={theme}>
-                            <Button
-                                className='log-button'
-                                variant="contained"
-                                color="error"
-                                size="small">
-                                    Cerrar Sesión
-                            </Button>
-                        </ThemeProvider>
-                    </div>
-                </div>
+                <Login/>
             </div>
         </div>
     );

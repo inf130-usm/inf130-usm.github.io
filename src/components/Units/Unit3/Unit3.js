@@ -7,7 +7,7 @@ import Boxes from './Unit3Topics/4Boxes';
 import If from './Unit3Topics/5If';
 import While from './Unit3Topics/6While';
 import Ejercicios from './Unit3Exercises/Ejercicios';
-import Page404 from '../../../page404';
+import Page404 from '../../page404';
 import '../units.css';
 
 const Unit3 = () => {

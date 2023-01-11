@@ -1,18 +1,18 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Menu from '../Menu/Menu';
+import MenuBar from '../Menu/MenuBar';
 import Home from '../Units/Home';
 import Unit1 from '../Units/Unit1/Unit1';
 import Unit3 from '../Units/Unit3/Unit3';
 import Unit4 from '../Units/Unit4/Unit4';
 import Unit5 from '../Units/Unit5/Unit5';
-import Page404 from '../../page404';
+import Page404 from '../page404';
 import "./body.css";
 
 const Body = () => {
     return (
         <div className='body'>
-            <Menu/>
+            <MenuBar position="body"/>
             <div className='contents'>
                 <Routes>
                     <Route exact path="/" element={<Home/>} />
