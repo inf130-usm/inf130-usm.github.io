@@ -233,10 +233,10 @@ text{
 
 @media only screen and (max-width: 600px){
     .video-responsive iframe {
-        left: 15%;
+        left: 10%;
         top: 0;
         height: 100%;
-        width: 70%;
+        width: 80%;
         position: absolute;
     }
 }
