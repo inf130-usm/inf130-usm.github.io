@@ -15,7 +15,7 @@ const Login = () => {
 
     return (
         <div className='log-button-container'>
-            <div className='visible'>
+            <div className='visible' style={{"visibility":"hidden"}}>
             <Button
                 className='log-button'
                 variant="contained"
