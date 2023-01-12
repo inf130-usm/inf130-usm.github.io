@@ -161,7 +161,6 @@
     color: white;
 }
 
-
 /*YOUTUBE*/
 .video-responsive {
     overflow: hidden;
@@ -189,3 +188,56 @@
     color: green;
     font-size:x-large;
 }
+
+.home-title-cel{
+    display: none;
+}
+
+text{
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1200px){
+    .home-title-cel{
+        display:grid;
+    }
+
+    .home-title-pc{
+        display: none;
+    }
+
+    .unit-title-image{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .unit-title{
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+    }
+
+    .unit-image .unit-image2 .unit-image3 .unit-image4{
+        width: 100%;
+    }
+
+    .unit-table{
+        margin-left: 0;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .video-responsive iframe {
+        left: 15%;
+        top: 0;
+        height: 100%;
+        width: 70%;
+        position: absolute;
+    }
+}
+

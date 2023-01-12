@@ -7,11 +7,17 @@ import Content from '../../ContentJSON/Home.json';
 const Home = () => {
     return (
         <div className='unit'>
-            <div className='flex space-between'>
+            <div className='home-title-pc flex space-between'>
                 <label className='unit-title'>
                 INF130 - Programación
                 </label>  
                 <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+            </div>
+            <div className='home-title-cel'>
+                <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                <label className='unit-title'>
+                INF130 - Programación
+                </label>  
             </div>
             <div className='unit-content'>
                 <p><b>{Content["p0"]}</b> <Emoji symbol="👋" label="waving hand"/></p>
