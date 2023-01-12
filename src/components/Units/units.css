@@ -218,7 +218,7 @@ text{
         margin-top: 0.5rem;
     }
 
-    .unit-image .unit-image2 .unit-image3 .unit-image4{
+    .unit-image, .unit-image2, .unit-image3, .unit-image4{
         width: 100%;
     }
 

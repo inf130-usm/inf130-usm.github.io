@@ -18,9 +18,13 @@
     justify-content: space-between;
 }
 
-.header-title{
+.header-title-pc{
     display: flex;
     align-items:center;
+}
+
+.header-title-cel{
+    display: none;
 }
 
 .header-logo-container{
@@ -82,7 +86,29 @@
     display: none;
 }
 
+.header-title-cel-sub{
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
 @media only screen and (max-width: 1200px){
+
+    .header-title-pc{
+        display: none;
+    }
+    .header-title-cel{
+        display: grid;
+        align-items:center;
+    }
+
+    .header-logo-container{
+        margin: 0;
+        margin-right: .2rem;
+        padding: 0;
+    }
+
     .header-title-container{
         padding: 0;
         font-size: 0.75rem;
