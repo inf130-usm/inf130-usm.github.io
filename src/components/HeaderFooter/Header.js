@@ -42,11 +42,13 @@ const Header = () => {
                             </svg>
                         </a>
                     </div>
-                    <div className='header-title-container'>
-                        <span>INF-130</span>
-                    </div>
-                    <div className='header-title-container'>
-                        <span>Programación y tratamiento de datos para la gestión</span>
+                    <div>
+                        <div className='header-title-container'>
+                            <span>INF-130</span>
+                        </div>
+                        <div className='header-title-container'>
+                            <span>Programación y tratamiento de datos para la gestión</span>
+                        </div>
                     </div>
                 </div>
                 <Login/>
