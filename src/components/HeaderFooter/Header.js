@@ -41,9 +41,9 @@ const Header = () => {
                                 </path>
                             </svg>
                         </a>
-                        <div className='header-title-container'>
-                            <span>INF-130</span>
-                        </div>
+                    </div>
+                    <div className='header-title-container'>
+                        <span>INF-130</span>
                     </div>
                     <div className='header-title-container'>
                         <span>Programación y tratamiento de datos para la gestión</span>
