@@ -188,6 +188,9 @@
     color: green;
     font-size:x-large;
 }
+.home-title-pc{
+    align-items: center;
+}
 
 .home-title-cel{
     display: none;

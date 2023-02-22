@@ -6,7 +6,6 @@
     background-color: hsla(231, 48%, 48%, 1);
     color: hsla(0, 0%, 100%, 1);
     box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
-    font-family: "Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
 }
 
 .header-container{
@@ -91,6 +90,26 @@
     margin: auto;
     align-items: center;
 
+}
+
+.header-space{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    margin-right: 3.5rem;
+}
+
+.logo-dyslexia{
+    height: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
 }
 
 @media only screen and (max-width: 1200px){

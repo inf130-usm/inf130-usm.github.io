@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/HeaderFooter/Header';
 import Body from './components/Body/Body';
 import Footer from './components/HeaderFooter/Footer';
@@ -7,15 +7,20 @@ const TRACKING_ID = "UA-238751221-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  const [dyslexia, setDyslexia] = useState(JSON.parse(window.localStorage.getItem('dyslexia')));
+
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
+  useEffect(() => {
+    localStorage.setItem('dyslexia', dyslexia);
+}, [dyslexia]);
   return (
-    <>
-      <Header/>
+    <div className={ (dyslexia ? "font-dyslexic" : "font-segoe") + " " +"hi"}>
+      <Header dys={dyslexia} setDys={setDyslexia}/>
       <Body/>
       <Footer/>
-    </>
+    </div>
   );
 }
 
