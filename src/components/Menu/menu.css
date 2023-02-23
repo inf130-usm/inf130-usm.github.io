@@ -40,7 +40,14 @@
     margin-top: .625em !important;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: black;
+}
+
+.black{
+    color: black !important; 
+}
+
+.white{
+    color: white !important;
 }
 
 .menu-list-item-sub{

@@ -18,3 +18,8 @@ body {
 .font-segoe{
   font-family: "Segoe UI";
 }
+
+.night-mode{
+  background-color: black;
+  color: white;
+}

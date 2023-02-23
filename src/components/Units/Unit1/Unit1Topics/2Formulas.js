@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -8,9 +8,12 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 import Content from '../../../../ContentJSON/U1/2Formulas.json';
 
 const Formulas = () => {
+    const night = useContext(ModeContext);
+
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
         [`&.${tableCellClasses.head}`]: {
           backgroundColor: '#4051B5',
@@ -35,7 +38,7 @@ const Formulas = () => {
                     <TableContainer component={Paper} elevation={4}>
                         <Table size="small" aria-label="simple table">
                             <TableHead>
-                            <TableRow>
+                            <TableRow >
                                 <StyledTableCell>{Content["p2"][0][0]}</StyledTableCell>
                                 <StyledTableCell>{Content["p2"][0][1]}</StyledTableCell>
                             </TableRow>

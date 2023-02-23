@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import MenuBar from '../Menu/MenuBar';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
+import { IconContext } from "react-icons";
 import Switch from '@mui/material/Switch';
+import { ModeContext } from '../../App';
+import { FontContext } from '../../App';
 import './headerfooter.css';
 
 const Header = (props) => {
+
+    const night = useContext(ModeContext); 
+    const dys = useContext(FontContext);
+
+    const handleNight = () => {
+        props.setNight(!night);
+    }
+
     const handleDyslexia = () => {
-        props.setDys(!props.dys);
+        props.setDys(!dys);
     }
 
     return (
@@ -32,9 +43,23 @@ const Header = (props) => {
                             <span>INF-130 Programación y tratamiento de datos para la gestión</span>
                         </div>
                     </div>
-                    <div className='flex align-center'>
-                        <span>Dislexia</span>
-                        <Switch label="OpenDyslexic" checked={props.dys} onChange={handleDyslexia} color="default"/>
+                    <div className='flex'>
+                        <div className='flex align-center'>
+                            {night ? 
+                            <IconContext.Provider value={{ className: 'bulb-icon' }}>
+                                <BsLightbulbOff/>
+                            </IconContext.Provider>
+                            :
+                            <IconContext.Provider value={{ className: 'bulb-icon' }}>
+                                <BsLightbulb/>
+                            </IconContext.Provider>
+                            }
+                            <Switch checked={night} onChange={handleNight} color="default"/>
+                        </div>
+                        <div className='flex align-center'>
+                            <span>Dislexia</span>
+                            <Switch checked={dys} onChange={handleDyslexia} color="default"/>
+                        </div>
                     </div>
                 </div>
                 <div className='header-title-cel'>
