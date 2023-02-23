@@ -35,7 +35,7 @@ const Boxes = () => {
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>
                     </IconContext.Provider> 
-                    &nbsp;Descargar archivo
+                    <label className='right-align excel-text'>&nbsp;Descargar archivo</label>
                 </a>
             </div>
             <div className='unit-content'>

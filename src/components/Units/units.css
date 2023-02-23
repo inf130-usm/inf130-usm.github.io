@@ -226,7 +226,7 @@ text{
     }
 
     .unit-image, .unit-image2, .unit-image3, .unit-image4{
-        width: 75%;
+        width: 90%;
     }
 
     .unit-table{
@@ -248,3 +248,8 @@ text{
     }
 }
 
+@media only screen and (max-width: 303px){
+    .excel-text{
+        width: min-content;
+    }
+}
