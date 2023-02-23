@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -10,6 +10,7 @@ import Paper from '@mui/material/Paper';
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 import Content from '../../../../ContentJSON/U1/4Funciones.json';
 import YoutubeLink from "../../../YouTubeLink";
 
@@ -21,13 +22,15 @@ const Funciones = () => {
         },
     }));
 
+    const night = useContext(ModeContext);
+
     return (
         <div id='u1-funciones'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U1-Funciones.xlsx' className="download-file" download>
+                <a href='/excel-files/U1-Funciones.xlsx' className={ night ? "download-file color-white" : "download-file"} download>
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>
                     </IconContext.Provider> 
@@ -74,7 +77,7 @@ const Funciones = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p7"][0][0]}</StyledTableCell>
@@ -177,7 +180,7 @@ const Funciones = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p10"][0][0]}</StyledTableCell>
@@ -270,7 +273,7 @@ const Funciones = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p13"][0][0]}</StyledTableCell>
@@ -325,7 +328,7 @@ const Funciones = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p16"][0][0]}</StyledTableCell>

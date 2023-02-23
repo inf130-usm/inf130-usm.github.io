@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -8,6 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 import Content from '../../../../ContentJSON/U1/5FuncionesBusqueda.json';
 import YoutubeLink from "../../../YouTubeLink";
 import { RiFileExcel2Fill } from "react-icons/ri";
@@ -20,6 +21,8 @@ const Funciones = () => {
           color: theme.palette.common.white,
         },
     }));
+    
+    const night = useContext(ModeContext);
 
     return (
         <div id='u1-funciones'>
@@ -27,8 +30,7 @@ const Funciones = () => {
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U1-FuncionesBusqueda.xlsx' className="download-file" download>
-                    
+                <a href='/excel-files/U1-FuncionesBusqueda.xlsx' className={ night ? "download-file color-white" : "download-file"} download>
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>
                     </IconContext.Provider> 
@@ -41,7 +43,7 @@ const Funciones = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p2"][0][0]}</StyledTableCell>

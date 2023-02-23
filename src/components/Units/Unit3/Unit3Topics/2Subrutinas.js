@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { ModeContext } from '../../../../App';
 import Content from '../../../../ContentJSON/U3/2Subrutinas.json';
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
@@ -6,13 +7,15 @@ import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
 
 const Subrutinas = () => {
+    const night = useContext(ModeContext);
+
     return (
         <div id='u3-subrutinas'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U3-Subrutinas.xlsm' className="download-file" download>
+                <a href='/excel-files/U3-Subrutinas.xlsm' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>

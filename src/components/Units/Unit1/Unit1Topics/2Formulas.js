@@ -36,7 +36,7 @@ const Formulas = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow >
                                 <StyledTableCell>{Content["p2"][0][0]}</StyledTableCell>
@@ -141,7 +141,7 @@ const Formulas = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p4"][0][0]}</StyledTableCell>

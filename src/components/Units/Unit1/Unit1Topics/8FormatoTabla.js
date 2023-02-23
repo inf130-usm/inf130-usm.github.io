@@ -1,18 +1,22 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 import Content from '../../../../ContentJSON/U1/8FormatoTabla.json';
 import YoutubeLink from "../../../YouTubeLink";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 
 const FormatoTabla = () => {
+
+    const night = useContext(ModeContext);
+
     return (
         <div id='u1-formatotabla'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U1-FormatoTabla.xlsx' className="download-file" download>
+                <a href='/excel-files/U1-FormatoTabla.xlsx' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>

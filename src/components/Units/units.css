@@ -200,6 +200,10 @@ text{
     word-wrap: break-word;
 }
 
+.color-white{
+    color: white;
+}
+
 @media only screen and (max-width: 1200px){
     .home-title-cel{
         display:grid;

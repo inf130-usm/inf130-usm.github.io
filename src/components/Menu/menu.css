@@ -78,6 +78,10 @@
     margin-right: 0 !important;
 }
 
+.MuiList-root{
+    background-color: #f2f2f2 !important;
+}
+
 @media only screen and (max-width: 1200px){
     .menu-cel{
         display: flex;

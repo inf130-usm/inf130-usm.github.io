@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Content from '../../../../ContentJSON/U3/6While.json';
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 
 const EstructuraRepetitiva = () => {
+    const night = useContext(ModeContext);
+
     return (
         <div id='u3-Estructurarepetitiva'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U3-While.xlsm' className="download-file" download>
+                <a href='/excel-files/U3-While.xlsm' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>

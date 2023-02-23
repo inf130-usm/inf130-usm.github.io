@@ -60,7 +60,7 @@ const ConceptosBasicos = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p5"][0][0]}</StyledTableCell>
@@ -157,7 +157,7 @@ const ConceptosBasicos = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p9"][0][0]}</StyledTableCell>
@@ -203,7 +203,7 @@ const ConceptosBasicos = () => {
                 </div>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p10"][0][0]}</StyledTableCell>
@@ -250,7 +250,7 @@ const ConceptosBasicos = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p13"][0][0]}</StyledTableCell>

@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../../units.css';
 import Content from '../../../../ContentJSON/U5/2Controles.json';
 import YoutubeLink from "../../../YouTubeLink";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
+import { ModeContext } from '../../../../App';
 
 const Controles = () => {
+    const night = useContext(ModeContext);
     return (
         <div id='u5-teoria'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U5-Controles.xlsx' className="download-file" download>
+                <a href='/excel-files/U5-Controles.xlsx' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>

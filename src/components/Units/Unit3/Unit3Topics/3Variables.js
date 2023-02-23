@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { styled } from '@mui/material/styles';
 import Content from '../../../../ContentJSON/U3/3Variables.json';
 import { RiFileExcel2Fill } from "react-icons/ri";
@@ -12,6 +12,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 
 const Variables = () => {
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -21,13 +22,15 @@ const Variables = () => {
         },
       }));
 
+      const night = useContext(ModeContext);
+
     return (
         <div id='u3-Variables'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U3-Variables.xlsm' className="download-file" download>
+                <a href='/excel-files/U3-Variables.xlsm' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>
@@ -49,7 +52,7 @@ const Variables = () => {
                 </p>
                 <div className='unit-table'>
                     <TableContainer component={Paper} elevation={4}>
-                        <Table size="small" aria-label="simple table">
+                        <Table size="small" aria-label="simple table" style={{'backgroundColor':"#f2f2f2"}}>
                             <TableHead>
                             <TableRow>
                                 <StyledTableCell>{Content["p4"][0][0]}</StyledTableCell>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState, createContext } from 'react';
-import ReactDOM from "react-dom/client";
 import Header from './components/HeaderFooter/Header';
 import Body from './components/Body/Body';
 import Footer from './components/HeaderFooter/Footer';

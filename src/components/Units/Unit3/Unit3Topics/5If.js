@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Content from '../../../../ContentJSON/U3/5If.json';
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 import YoutubeLink from "../../../YouTubeLink";
 import '../../units.css';
+import { ModeContext } from '../../../../App';
 
 const EstructuraCondicional = () => {
+    const night = useContext(ModeContext);
+
     return (
         <div id='u3-Estructuracondicional'>
             <div className='unit-subtitle flex space-between'>
                 <label className='unit-subtitle-text'>
                     {Content["p0"]}
                 </label>
-                <a href='/excel-files/U3-If.xlsm' className="download-file" download>
+                <a href='/excel-files/U3-If.xlsm' className={ night ? "download-file color-white" : "download-file"} download>
                     
                     <IconContext.Provider value={{ className: 'excel-icon' }}>
                         <RiFileExcel2Fill/>
