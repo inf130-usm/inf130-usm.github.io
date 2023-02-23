@@ -248,7 +248,7 @@ text{
     }
 }
 
-@media only screen and (max-width: 303px){
+@media only screen and (max-width: 350px){
     .excel-text{
         width: min-content;
     }
