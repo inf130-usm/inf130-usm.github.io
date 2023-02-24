@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import MenuBar from '../Menu/MenuBar';
 import IconButton from '@mui/material/IconButton';
-import SettingsIcon from '@mui/icons-material/Settings';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import { FaUniversalAccess } from "react-icons/fa";
 import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import Switch from '@mui/material/Switch';
@@ -75,7 +75,7 @@ const Header = (props) => {
                             sx={{ mr: 2 }}
                             className='menubutton'
                         >
-                            <SettingsIcon
+                            <FaUniversalAccess
                                 aria-controls={open ? 'basic-menu' : undefined}
                                 aria-haspopup="true"
                                 aria-expanded={open ? 'true' : undefined}
