@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Emoji from '../Emoji';
 //import Login from '../Login/Login.js';
 import './units.css';
+import { ModeContext } from '../../App';
 import Content from '../../ContentJSON/Home.json';
 
 const Home = () => {
+    const night = useContext(ModeContext);
     return (
         <div className='unit'>
             <div className='home-title-pc flex space-between'>
                 <label className='unit-title'>
                 INF130 - Programación
-                </label>  
-                <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                </label>
+                {night ?
+                    <img src={"./images/Logo-DI-Night.jpg"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                    :
+                    <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                }
             </div>
             <div className='home-title-cel'>
-                <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                {night ?
+                    <img src={"./images/Logo-DI-Night.jpg"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                    :
+                    <img src={"./images/Logo-DI.png"} className='unit-title-image' alt="Logo Departamento de Informática"/>
+                }
                 <label className='unit-title'>
                 INF130 - Programación
                 </label>  
