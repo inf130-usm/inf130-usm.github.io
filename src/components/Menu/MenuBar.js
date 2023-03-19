@@ -156,7 +156,7 @@ const MenuBar = (props) => {
                                 <a href="/unidad1/filtros" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("filtros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Filtros</a>
                                 <a href="/unidad1/tablas-dinamicas" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("tablas-dinamicas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Tablas dinámicas</a>
                                 <a href="/unidad1/grabacion-macros" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("grabacion-macros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Grabación de macros</a>
-                                <a href="/unidad1/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                                {/*<a href="/unidad1/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                             </AccordionDetails>
                         </Accordion>
                     </MenuItem>
@@ -176,7 +176,7 @@ const MenuBar = (props) => {
                                 <a href="/unidad3/boxes" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("boxes") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>InputBox y MsgBox</a>
                                 <a href="/unidad3/if" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("if") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Estructura condicional</a>
                                 <a href="/unidad3/while" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("while") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Estructura repetitiva</a>
-                                <a href="/unidad3/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad3/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                                {/*<a href="/unidad3/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad3/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                             </AccordionDetails>
                         </Accordion>
                     </MenuItem>
@@ -191,7 +191,7 @@ const MenuBar = (props) => {
                             </AccordionSummary>
                             <AccordionDetails>
                                 <a href="/unidad4/teoria" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad4/teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Teoría</a>
-                                <a href="/unidad4/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad4/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                                {/*<a href="/unidad4/ejercicios" className={(dys ? "font-dyslexic" : "font-segoe") + " black " + (url.includes("unidad4/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                             </AccordionDetails>
                         </Accordion>
                     </MenuItem>
@@ -246,7 +246,7 @@ const MenuBar = (props) => {
                             <a href="/unidad1/filtros" className={(night ? "white" : "black") + " " + (url.includes("filtros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Filtros</a>
                             <a href="/unidad1/tablas-dinamicas" className={(night ? "white" : "black") + " " + (url.includes("tablas-dinamicas") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Tablas dinámicas</a>
                             <a href="/unidad1/grabacion-macros" className={(night ? "white" : "black") + " " + (url.includes("grabacion-macros") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Grabación de macros</a>
-                            <a href="/unidad1/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                            {/*<a href="/unidad1/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad1/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion expanded={showU3} onChange={handleChange('showU3')} style={{"backgroundColor":"transparent"}}>
@@ -264,7 +264,7 @@ const MenuBar = (props) => {
                             <a href="/unidad3/boxes" className={(night ? "white" : "black") + " " + (url.includes("boxes") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>InputBox y MsgBox</a>
                             <a href="/unidad3/if" className={(night ? "white" : "black") + " " + (url.includes("if") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Estructura condicional</a>
                             <a href="/unidad3/while" className={(night ? "white" : "black") + " " + (url.includes("while") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Estructura repetitiva</a>
-                            <a href="/unidad3/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad3/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                            {/*<a href="/unidad3/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad3/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion expanded={showU4} onChange={handleChange('showU4')} style={{"backgroundColor":"transparent"}}>
@@ -277,7 +277,7 @@ const MenuBar = (props) => {
                         </AccordionSummary>
                         <AccordionDetails>
                             <a href="/unidad4/teoria" className={(night ? "white" : "black") + " " + (url.includes("unidad4/teoria") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Teoría</a>
-                            <a href="/unidad4/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad4/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>
+                            {/*<a href="/unidad4/ejercicios" className={(night ? "white" : "black") + " " + (url.includes("unidad4/ejercicios") ? "menu-list-item menu-list-item-sub bold" : "menu-list-item menu-list-item-sub")}>Ejercicios</a>*/}
                         </AccordionDetails>
                     </Accordion>
                     <Accordion expanded={showU5} onChange={handleChange('showU5')} style={{"backgroundColor":"transparent"}}>
