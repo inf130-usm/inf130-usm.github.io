@@ -8,20 +8,14 @@ import { BsLightbulb, BsLightbulbOff } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import Switch from '@mui/material/Switch';
 import { ModeContext } from '../../App';
-import { FontContext } from '../../App';
 import './headerfooter.css';
 
 const Header = (props) => {
 
-    const night = useContext(ModeContext); 
-    const dys = useContext(FontContext);
+    const night = useContext(ModeContext);
 
     const handleNight = () => {
         props.setNight(!night);
-    }
-
-    const handleDyslexia = () => {
-        props.setDys(!dys);
     }
 
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -33,6 +27,7 @@ const Header = (props) => {
     function handleClose (){
         setAnchorEl(null);
     }
+
 
 
 
@@ -105,10 +100,6 @@ const Header = (props) => {
                                 }
                                 <Switch checked={night} onChange={handleNight} color="default"/>
                             </MenuItem>
-                            <MenuItem className='flex justify-end'>
-                                <span className={ dys ? "font-dyslexic" : "font-segoe"}>Dislexia</span>
-                                <Switch checked={dys} onChange={handleDyslexia} color="default"/>
-                            </MenuItem>
                         </Menu>
                     </div>
                 </div>
@@ -143,10 +134,6 @@ const Header = (props) => {
                             </IconContext.Provider>
                             }
                             <Switch checked={night} onChange={handleNight} color="default"/>
-                        </div>
-                        <div className='flex align-center'>
-                            <span>Dislexia</span>
-                            <Switch checked={dys} onChange={handleDyslexia} color="default"/>
                         </div>
                     </div>
                 </div>

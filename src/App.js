@@ -10,27 +10,21 @@ export const ModeContext = createContext();
 export const FontContext = createContext();
 
 function App() {
-  const [dyslexia, setDyslexia] = useState(JSON.parse(window.localStorage.getItem('dyslexia')));
   const [night, setNight] = useState(JSON.parse(window.localStorage.getItem('night')));
 
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   useEffect(() => {
-    localStorage.setItem('dyslexia', dyslexia);
-  }, [dyslexia]);
-  useEffect(() => {
     localStorage.setItem('night', night);
   }, [night]);
   return (
     <ModeContext.Provider value={night}>
-      <FontContext.Provider value={dyslexia}>
-        <div className={ (dyslexia ? "font-dyslexic" : "font-segoe") + " " + (night ? "night-mode" : "day-mode")}>
-          <Header setDys={setDyslexia} setNight={setNight}/>
-          <Body/>
-          <Footer/>
-        </div>
-      </FontContext.Provider>
+      <div className={night ? "night-mode" : "day-mode"}>
+        <Header setNight={setNight}/>
+        <Body/>
+        <Footer/>
+      </div>
     </ModeContext.Provider>
   );
 }
